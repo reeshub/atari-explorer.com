@@ -1,0 +1,514 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" alt="Your watching AEX" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885">
+      <a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-VG.gif" alt="AEX - Video Game Consoles" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><img border="0" src="menu-icons/vgs-on.gif" width="182" height="28"><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="computers.html"><img border="0" src="menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="menu-icons/pcs-on.gif" width="176" height="28"></a><a onmouseover="document['fpAnimswapImgFP9'].imgRolln=document['fpAnimswapImgFP9'].src;document['fpAnimswapImgFP9'].src=document['fpAnimswapImgFP9'].lowsrc;" onmouseout="document['fpAnimswapImgFP9'].src=document['fpAnimswapImgFP9'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP9" name="fpAnimswapImgFP9" dynamicanimation="fpAnimswapImgFP9" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="182" height="22"></td>
+              <td align="left" width="638" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="videogames.html" style="text-decoration: none">Video 
+              Games - Main Menu</a></font></td>
+              <td align="left" width="638" rowspan="21" valign="top" height="1049">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" size="2">Video Games</font> ::
+                <font face="Arial" size="2" color="#008000">Jaguar</font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber2" height="94">
+                    <tr>
+                      <td height="1" valign="bottom">
+                      <p align="center">
+                      <img border="0" src="images/tv-top.gif" align="bottom" alt="Jaguar TV" width="104" height="11"></td>
+                    </tr>
+                    <tr>
+                      <td height="49">
+                      <p align="center">
+                      <img border="0" src="images/tv-left.gif" alt="Jaguar TV" width="23" height="49"><img border="0" src="images/JagTV-3.gif" loop="infinite" loopdelay="20" alt="Jaguar TV" width="60" height="49"><img border="0" src="images/tv-right.gif" alt="Jaguar TV" width="21" height="49"></td>
+                    </tr>
+                    <tr>
+                      <td height="74">
+                      <p align="center">
+                      <img border="0" src="images/tv-bottom.gif" alt="Jaguar TV" width="104" height="74"></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" src="images/Jag-64-bit.gif" width="293" height="104"></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">It was the worlds first 
+        64-Bit gaming console.&nbsp; It promised a quantum-leap in gaming 
+        performance, and the world couldn't wait to get hold of one.&nbsp; Atari 
+        was back with its first new console since the Atari 7800 which had been 
+        released in 1986, could the company really take back the market it gave 
+        birth too?</font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">Jaguar was officially 
+        launched in New York and San Francisco December 1993 - 27,000 units 
+        moved in under 4 weeks.&nbsp; It was the start Atari had hoped for.&nbsp; 
+        Over 150 developers had pledged support for the new Atari console and 
+        IBM couldn't make enough Jaguar's to meet demand.&nbsp; Although systems 
+        were selling, Atari had to step-up software development, the Jaguar 
+        would be useless to the consumer unless there was software to support 
+        it.</font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <font face="Arial" color="#808080" size="2">&nbsp;
+        <img border="0" src="images/Jag-Show1.gif" width="246" height="171"></font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">Sales were slow and by the Summer of 1995, Atari 
+        had sold over 100,000 units in the U.S. and over 30,000 in Europe and 
+        the rest of the world.&nbsp; 
+        But software releases were also slow, and many titles simply weren't good 
+        enough, they may have looked pretty, but gameplay was sadly lacking.&nbsp; A 
+        number of &quot;killer apps&quot; were produced, such as Tempest 2000 and Alien 
+        Vs. Predator - but where were all the other games that Atari had 
+        promised?&nbsp; What happened to the 150 software developers who had 
+        pledged support?</font></p>
+        <div align="center">
+          <center>
+          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber4">
+            <tr>
+              <td>&nbsp;</td>
+              <td>
+              <p align="center"><a href="jaguar-catalog1.html">
+              <img border="0" src="images/Jag-Cat-Icon.gif" width="119" height="162"></a></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>
+              <p align="center"><font face="Arial" color="#808080" size="1">
+              (Limited print run Jaguar catalog by Atari UK)</font></td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+          </center>
+        </div>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">Before
+        launch, Atari was shipping custom TT systems and development kits - PC
+        development kits had been delayed, and this in turn delayed the
+        development companies, who refused TT systems!&nbsp; A Jaguar
+        Development system cost ~UK£5,000.00 (with TT030).</font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" src="images/Jag-Ad-2.gif" width="277" height="177"></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">When the Jaguar was 
+        released, it's only competition was ageing systems such as the original 
+        8-bit Nintendo, the Super Nintendo (very successful 16-bit console), the 
+        Mega Drive II from Sega (which was at the end of it's shelf life) and 
+        the new, but expensive 3DO system.&nbsp; Other machines, such as the 
+        Neo-Geo (SNK) and Turbo-Duo (NEC) were more or less Japanese only 
+        systems.</font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+              <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" src="images/Jag-Japan1.gif" width="263" height="179"></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">In December 1994, Atari announced that the 
+        Jaguar would be sold&nbsp; through all 25 TOYS &quot;R&quot; US Inc. stores in 
+        Japan plus other outlets selected by its distributor and sales 
+        representative, MUMIN CORP.&nbsp; Bundled with the excellent &quot;Alien Vs. 
+        Predator&quot; game, the system had localised manuals and instructions. This 
+        was a difficult territory for any western console to penetrate, and the 
+        Jaguar would ultimately sell in very small quantities.&nbsp; Then again, 
+        how is the mighty Microsoft fairing out in Japan with X-Box these days?</font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+              <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">Atari
+        had the head start which they felt would leap frog the on-coming
+        competition from Sega and Sony (Nintendo were another 2 years away from
+        launching their N64), unfortunately, 1994 was a year
+        wasted.&nbsp; Software was late; Atari pushed developers to launch
+        software, but the development time was the problem.&nbsp; Atari didn't
+        take development time into consideration with their new machine,
+        programmers were still getting to grips with the console, and Atari's
+        programming libraries were thin on the ground.&nbsp; By this time, Sony
+        had also delivered it's development systems, which in comparison to
+        Atari, were extremely comprehensive and came with the strong developer 
+        support.&nbsp; Soon, as sales began to slow, developers moved
+        resources away from the Jaguar and onto Sega and Sony systems, which
+        were selling much better.&nbsp; Here lay Atari's big problem - software,
+        and the lack of it.</font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <a href="special-jagcost.html">
+        <img border="0" src="images/jagsw-icon.gif" width="178" height="124"></a></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">1995/96
+        - Although the Jaguar-CD unit was delivered (late), the gamers had
+        already been won over by Sega and Sony.&nbsp; Atari began talking about the
+        Jaguar-Duo (AKA Combo) and Jaguar II system, confusing and possibly eroding their
+        already small market.&nbsp; Atari kept fighting, shouting on the
+        roof-tops about the Jaguars &quot;64-bit&quot; architecture, cutting the
+        price point to $99.99, and even using the QVC home-shopping channel to
+        sell excess stock.&nbsp; Atari had cancelled its last outstanding 
+        contract with Comptronix for new Jaguar units by mid 1995 (IBM's 
+        contract was cancelled at the end of 1994).&nbsp; By the end of 1995, 
+        Atari had over $10 Million worth of unsold stock.</font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">The
+        Jaguar was (and still is) a fine piece of hardware, especially for the
+        price point, something Atari were well known for.&nbsp; But Jaguar was
+        the nail in the coffin for Atari Corp.&nbsp; Atari did try another
+        escape route to avoid total disaster, with the inception of Atari
+        Interactive, a business unit devoted to promoting Atari's back-catalogue
+        of famous software titles on the PC platform. &nbsp; Unfortunately, this
+        too was shelved after Tempest2000 launched in the stores, yet another
+        bad decision from management. Obviously Activision, Hasbro and 
+        Infogrames think it's still a good idea (although the execution of some 
+        of these products has been poor), and we still wait to see if the Atari 
+        brand will ever rise from the ashes.</font></p>
+                      <div align="center">
+                        <center>
+                        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber3">
+                          <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                            <p align="center">
+                            <a onClick="window.open('Hasbro-PR.htm','src','scrollbars=yes,width=630,height=500,left=50,screenX=40,top=50,screenY=40')" href="jaguar.html">
+                            <img border="0" src="images/Hasbro-PR-Icon.gif" width="119" height="162"></td>
+                            <td>&nbsp;</td>
+                          </tr>
+                        </table>
+                        </center>
+        </div>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">Hasbro (which purchased the leftovers of 
+        Atari in 1998) released the platform into the public domain in 1999.&nbsp; 
+        This means that anybody can develop and sell software for the Jaguar 
+        without obtaining any official licensing from the copyright/property 
+        holder. </font></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+        &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+        <p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a style="text-decoration: none" href="pong.html">The 
+              Pong family</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22"><font face="Arial" color="#808080" size="2">
+              &nbsp;<a href="touch-me.html" style="text-decoration: none">Touch Me</a> </font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" size="2" color="#808080"><a href="2600.html" style="text-decoration: none">2600 
+              VCS</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" size="2" color="#808080"><a href="5200.html" style="text-decoration: none">5200 
+              Super System</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="21">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="21">&nbsp;<font face="Arial" size="2" color="#808080"><a href="7800.html" style="text-decoration: none">7800 
+              Pro System</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="xegs.html" style="text-decoration: none">XEGS</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="lynx.html" style="text-decoration: none">Lynx</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#008000" size="2">&nbsp;Jaguar</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;</font><font face="Arial" size="2"><a href="arcade.html" style="text-decoration: none">Arcade</a></font></td>
+            </tr>
+            <tr>
+              <td width="118" align="left" height="1" colspan="2">
+              <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              &nbsp;<font color="#9A05EB" face="Arial" size="2">Topic sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" size="2"><a style="text-decoration: none" href="jaguar-panther.html">Atari 
+              Panther</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="jaguar-cd.html" style="text-decoration: none">Jaguar 
+              CD</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="jaguar-vr.html" style="text-decoration: none">Virtual 
+              Reality System</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              &nbsp;<font face="Arial" color="#808080" size="2"><a style="text-decoration: none" href="jaguar-duo.html">Jaguar 
+              Duo</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="jaguar-2.html" style="text-decoration: none">Jaguar 2</a> </font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="jaguar-accs.html" style="text-decoration: none">Accessories</a>&nbsp;</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="jagware.html" style="text-decoration: none">JagWare</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1"></td>
+              <td align="left" width="182" height="1">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

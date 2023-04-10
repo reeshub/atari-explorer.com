@@ -1,0 +1,362 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Lynx 1 and 2 Specifications</title>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><img border="0" src="../images/Lynx-Spec-Title.gif" width="387" height="50"></p>
+<div align="center">
+  <center>
+  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#FFFFFF" width="450" id="AutoNumber1">
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><b><font face="Arial">&nbsp;Component:</font></b></td>
+      <td width="312" bgcolor="#176691"><b>
+      <font face="Arial" color="#FFFFFF">&nbsp;Description:</font></b></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;</font><p>
+      <font face="Arial" size="2">&nbsp;Main Processors:</font></td>
+      <td width="312" bgcolor="#176691">
+      <font face="Arial" size="2" color="#FFFFFF">&nbsp;</font><p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">&quot;Mikey&quot; and &quot;Suzy&quot; - 16-Bit 
+      Custom CMOS running at 16Mhz</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">
+      <p align="left"><font face="Arial" size="2">&nbsp;&quot;Mikey&quot;:</font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">MOS 65C02 processor running at 
+      up to 4MHz</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10"><font face="Arial" size="2" color="#FFFFFF">
+      8-bit CPU, 16-bit address space</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font color="#176691">&nbsp;<i><font size="2" face="Arial">Sound 
+      System:</font></i></font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10"><font face="Arial" size="2" color="#FFFFFF">4 
+      channel sound, 8-bit DAC for each channel</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10"><font face="Arial" size="2" color="#FFFFFF">
+      Stereo with panning (mono for original Lynx)</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><i>
+      <font size="2" face="Arial" color="#176691">&nbsp;Video for LCD:</font></i></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10"><font face="Arial" size="2" color="#FFFFFF">
+      Video DMA driver for LCD display</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10"><font face="Arial" size="2" color="#FFFFFF">
+      4096 colour (12-bit) palette</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10"><font face="Arial" size="2" color="#FFFFFF">16 
+      simultaneous colours (4 bits) from palette per scanline</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><i>
+      <font size="2" face="Arial" color="#176691">&nbsp;Misc. Functions:</font></i></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10"><font size="2" color="#FFFFFF">
+      <font face="Arial">System timers</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10"><font size="2" color="#FFFFFF">
+      <font face="Arial">Interrupt controller</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10"><font size="2" color="#FFFFFF">
+      <font face="Arial">UART (for ComLynx) - 300.5K to 62.5K baud</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font face="Arial" size="2" color="#FFFFFF">512 bytes of bootstrap ROM and 
+      game-card loading ROM</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;&quot;Suzy&quot;:</font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Graphics engine and math 
+      co-processor</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;<i><font size="2" face="Arial" color="#176691">Graphics 
+      Engine:</font></i></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font face="Arial" size="2" color="#FFFFFF">Blitter unit (bit-map block 
+      transfer) </font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Hardware drawing support</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Unlimited number of 
+      high-speed sprites with collision detection</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Hardware high-speed 
+      sprite scaling, distortion, and tilting effects</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Hardware decoding of 
+      compressed sprite data</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Hardware clipping and 
+      multi-directional scrolling</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Variable frame rate (up 
+      to 75 frames/second)</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">160 x 102 standard 
+      resolution (16,320 addressable pixels)</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Artificially high 
+      resolution of 480 x 102 </font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;<font face="Arial" size="2" color="#176691"><i>Math 
+      co-processor:</i></font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Hardware 16-bit multiply 
+      and divide (32-bit answer)</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Parallel processing of 
+      single multiply or divide instruction</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#89BFE8">
+      <p style="margin-left: 10; margin-right: 6">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Onboard 
+      Memory:</font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font face="Arial" size="2" color="#FFFFFF">64K (half a megabit) of 120ns 
+      DRAM</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;LCD:</font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">3.25&quot; x 1.88&quot; approx</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Buttons:</font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font face="Arial" size="2" color="#FFFFFF">1 X directional (joypad) 
+      controller (8-Way)</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font face="Arial" size="2" color="#FFFFFF">2 X 2 (4) fire buttons (A and 
+      B)</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font face="Arial" size="2" color="#FFFFFF">2 X option buttons (OPTION 1 
+      and OPTION 2)</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Pause button</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Power on button</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Power off button</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font face="Arial" size="2" color="#FFFFFF">Backlight on/off button (Lynx 
+      2 only)</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Controls:</font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font face="Arial" size="2" color="#FFFFFF">Volume wheel</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font face="Arial" size="2" color="#FFFFFF">Brightness wheel</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Other:</font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font face="Arial" size="2" color="#FFFFFF">Power on LED (Red) - (Lynx 2 
+      only)</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Ports:</font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Headphones - mini-DIN 
+      3.5mm stereo (Lynx 2) mono on the Lynx 1</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">ComLynx (multiple unit 
+      communications)</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Power (9V DC, 1 A)</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Game card slot</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">Battery compartment (6 X 
+      AA size)</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Speaker:</font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">2 inch internal</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Dimensions:</font></td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font size="2" color="#FFFFFF"><font face="Arial">10.75&quot; x 4.25&quot; x 1.5&quot;&nbsp; 
+      - Lynx 1</font></font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      <p style="margin-left: 10; margin-right: 6">
+      <font face="Arial" size="2" color="#FFFFFF">9.25&quot; x 4.25&quot; x 2&quot; - Lynx 2</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691">
+      &nbsp;</td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,591 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080" language="Javascript1.2">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="../menu-icons/brand.gif" alt="Your watching AEX" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885">
+      <a name="top"></a>
+      <img border="0" src="../menu-icons/AEX-Header-VG.gif" alt="AEX - Video Game Consoles" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="../index.html">
+      <img border="0" src="../menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="../menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="../information.html"><img border="0" src="../menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="../menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="../history/history.html"><img border="0" src="../menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="../menu-icons/history-on.gif" width="106" height="28"></a><img border="0" src="../menu-icons/vgs-on.gif" width="182" height="28"><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="../computers.html"><img border="0" src="../menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="../menu-icons/pcs-on.gif" width="176" height="28"></a><a onmouseover="document['fpAnimswapImgFP9'].imgRolln=document['fpAnimswapImgFP9'].src;document['fpAnimswapImgFP9'].src=document['fpAnimswapImgFP9'].lowsrc;" onmouseout="document['fpAnimswapImgFP9'].src=document['fpAnimswapImgFP9'].imgRolln" href="../articles.html"><img border="0" src="../menu-icons/articles-off.gif" id="fpAnimswapImgFP9" name="fpAnimswapImgFP9" dynamicanimation="fpAnimswapImgFP9" lowsrc="../menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="182" height="22"></td>
+              <td align="left" width="638" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="../menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="../videogames.html" style="text-decoration: none">Video 
+              Games - Main Menu</a></font></td>
+              <td align="left" width="638" rowspan="22" valign="top" height="1049">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" size="2">Video Games</font> ::
+                <font face="Arial" size="2" color="#008000">Jaguar :: </font>
+                <font face="Arial" size="2" color="#800080">The &quot;official&quot; 
+				ending...</font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber2" height="94">
+                    <tr>
+                      <td height="1" valign="bottom">
+                      <p align="center">
+                      <img border="0" src="../images/jagendheader.gif" width="292" height="264"></td>
+                    </tr>
+                    <tr>
+                      <td height="49">
+                      <p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">The following information is 
+						from SEC (Securities and Exchange Commission) filings 
+						during the time when Atari was officially &quot;merging&quot; with 
+						JTS the hard-disk drive manufacturer in 1996.&nbsp;&nbsp; 
+						Atari gives a rare insight into its sales figures and 
+						internal operations through these official documents and 
+						we can conclude how many Jaguars were manufactured by 
+						Atari approximately.</font><p align="center" style="margin-left: 4px; margin-right: 4px">
+              <img border="0" src="../menu-icons/menu-break.gif" width="199" height="17"><p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <i><font face="Arial" size="2">The following factors 
+						should be considered carefully in evaluating the 
+						proposals to be voted on at the Atari Special Meeting 
+						and the JTS Special Meeting. For periods following the 
+						Merger, references to the products, business, results of 
+						operations or financial condition of JTS should be 
+						considered to refer to JTS and Atari, unless the context 
+						otherwise requires.&nbsp; </font></i>
+						<p align="center" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">RISK FACTORS RELATED TO THE 
+						BUSINESS OF ATARI&nbsp;</font><p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2"><b>Significant Operating 
+						Losses</b>. Disappointing Sales of Jaguar Products. 
+						Atari has incurred significant operating losses for the 
+						past five fiscal years. Most recently, Atari incurred an 
+						operating loss of $53.7 million for fiscal 1995 and 
+						$24.0 million for fiscal 1994. Over the past several 
+						years, Atari has undergone significant change. In 1992 
+						and 1993, Atari significantly downsized its operations, 
+						decided to exit the computer products business and 
+						focused its efforts on its video game business.&nbsp; While 
+						restructuring, Atari developed its 64-bit Jaguar 
+						interactive multimedia entertainment system, which was 
+						introduced in the fourth quarter of 1993. For 1995 and 
+						1994, net sales of Jaguar and related software and 
+						accessories were $9.9 million and $29.3 million, 
+						respectively, and were substantially below Atari's 
+						expectations. Atari attributes the poor performance of 
+						Jaguar products to a number of factors including:<b> </b>
+						</font>
+						<p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2"><b>(i)</b> extensive delays in 
+						development of software for Jaguar which resulted in 
+						reduced orders due to consumer concern as to when titles 
+						for the platform would be released and how many titles 
+						would ultimately be available, and&nbsp;<br>
+						<b>(ii)</b> the introduction of competing products by 
+						Sega Enterprises, Ltd. (&quot;Sega&quot;) and Sony Corporation 
+						(&quot;Sony&quot;) in May 1995 and September 1995, respectively. 
+						Due to disappointing sales and competitive pricing 
+						pressures, Atari reduced the suggested retail price of 
+						the Jaguar console from its original price of $249.99 to 
+						its current price of $99.99.&nbsp;</font><p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">As a result of Jaguar price 
+						reductions, the substantial curtailment of sales and 
+						marketing activities for the Jaguar and the substantial 
+						curtailment of efforts by Atari and independent software 
+						developers to develop additional software titles for the 
+						Jaguar, Atari expects sales of Jaguar and related 
+						products to decline substantially in 1996 and 
+						thereafter.&nbsp;</font><p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">The failure of Jaguar to 
+						achieve commercial acceptance has had a severe financial 
+						impact on Atari. In this regard, Atari reported a net 
+						loss of $49.6 million for 1995 compared to net income of 
+						$9.4 million in 1994, and Atari's net revenues declined 
+						from $38.7 million in 1994 to $14.6 million in 
+						1995.&nbsp;&nbsp;&nbsp;Accelerated amortization and write-offs of 
+						software development costs in the amount of $16.6 
+						million and inventory write-downs of $12.6 million 
+						contributed&nbsp;significantly to the 1995 loss. The net loss 
+						for the first quarter of 1996 was $800,000 compared to a 
+						net loss of $4.4 million for the first quarter of 1995 
+						and Atari's net revenues declined from $4.9 million for 
+						the first quarter of 1995 to $1.3 million for the 
+						comparable period in 1996.&nbsp;</font><p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">The net loss in the first 
+						quarter of 1996 was impacted by the $6.3 million gain 
+						from sale of marketable securities offset by a $5.0 
+						million inventory write-down in the quarter. In response 
+						to these losses, the number of employees at Atari was 
+						reduced from 101 at December 31, 1994 to 73 at December 
+						31, 1995 and to 31 at March 31, 1996. In addition to 
+						reductions in the Atari workforce, this downsizing 
+						resulted in significant curtailment of research and 
+						development and sales and marketing activities for 
+						Jaguar and related products.&nbsp;Accordingly, Atari has 
+						decided to focus its efforts on selling its inventory of 
+						Jaguar and related products and to emphasize its 
+						existing licensing and development&nbsp;activities related to 
+						multimedia entertainment software for various platforms.<br>
+						<br>
+						<b>Risk of Additional Inventory Write-Downs</b>. From 
+						the introduction of Jaguar in late 1993 through May 
+						1996, Atari sold approximately 135,000 units of Jaguar.</font><p align="center" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">
+						<img border="0" src="../images/jagquote1.gif" width="217" height="145"></font><p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">As of December 31, 1995, Atari 
+						had approximately 100,000 units of Jaguar in inventory 
+						and the value of Jaguar inventory and related software 
+						was approximately $9.9 million. Due to disappointing 
+						sales of Jaguar and increased competition from products 
+						introduced by Sega and Sony, Atari reduced the&nbsp;suggested 
+						retail price of Jaguar to $99.99 and recorded an 
+						inventory write-down of $12.6 million in 1995.&nbsp;
+						</font>
+						<p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">Despite the introduction of 
+						four additional game titles in the first quarter of 
+						1996, sales of Jaguar and related software have remained 
+						disappointing due to uncertainty about Atari's 
+						commitment to the Jaguar platform, increased price 
+						competition and pending competitive product 
+						introductions. As a result of continued disappointing 
+						sales, management revised&nbsp;estimates and wrote-down 
+						inventory by an additional $5.0 million in the first 
+						quarter of 1996. As of the end of May 1996, Atari had 
+						approximately 90,000 units of Jaguar in inventory.&nbsp;
+						</font>
+						<p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">Volume sales of Jaguar and 
+						related software in 1996 have consisted primarily of a 
+						large order from a new European customer. Atari is also 
+						pursuing wholesale sales channels in the U.S. as well as 
+						licensing opportunities. There can be no assurance that 
+						Atari's substantial unsold inventory of Jaguar and 
+						related software can be sold at current or reduced 
+						prices, if at all. In addition, any further decrease in 
+						the value of such inventory could result in additional 
+						inventory write-downs by Atari.&nbsp;&nbsp; </font>
+						<p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2"><b>Risk of Potential 
+						Liabilities</b>. In connection with the restructuring of 
+						Atari's business in 1992 and 1993 and Atari's decision 
+						in late 1995 to significantly downsize its Jaguar 
+						operations, Atari has terminated and plans to terminate 
+						numerous contracts and business relationships, including 
+						several related to software development activities. 
+						Although Atari does not regard any of such contracts or 
+						business relationships as material, the termination of 
+						contracts and relationships has, from time to time, 
+						resulted in litigation, diverting management and 
+						financial resources. There can be no assurance that the 
+						parties to such contracts will not commence or threaten 
+						to commence litigation related to such contracts. Any 
+						such litigation or threatened litigation would further 
+						divert management and financial resources and could have 
+						a material adverse effect on Atari's business, operating 
+						results and financial condition.&nbsp; </font>
+						<p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">In addition, Atari holds 
+						several properties for sale, some of which are currently 
+						being leased. The ownership and use of such properties 
+						subjects Atari&nbsp;to numerous risks, including risks of 
+						environmental and personal injury liabilities. Although 
+						Atari is attempting to sell certain of such properties, 
+						such sales are not expected to eliminate all the risks 
+						associated with Atari's ownership of such properties, 
+						including potential environmental liabilities and 
+						ongoing indemnification and other contractual 
+						obligations. At present, Atari has no such 
+						indemnification obligations and is not aware of any such 
+						environmental liability.&nbsp; </font>
+						<p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2"><b>Intellectual Property</b>. 
+						Atari has exclusive use of its &quot;Atari&quot; name and &quot;Fuji&quot; 
+						logo in all areas other than coin-operated arcade video 
+						game use. Atari also has a portfolio of other 
+						intellectual properties including patents, trademarks, 
+						and copyrights associated with its video game and 
+						computer businesses. Atari believes its patents, 
+						trademarks and other intellectual&nbsp;property are important 
+						assets.&nbsp; </font>
+						<p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">As of May 31, 1996, Atari held 
+						over 150 patents in the United States and other 
+						jurisdictions which expire from 1996 to 2010 and had 
+						applications pending for three additional patents. There 
+						can be no assurance that any of these patent rights will 
+						be upheld in the future or that Atari will be able to 
+						preserve any of its other intellectual property rights. 
+						Atari has in the past received communications from third 
+						parties asserting rights to certain of its intellectual 
+						property.&nbsp; </font>
+						<p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2">Atari has also been involved 
+						in several major lawsuits regarding its intellectual 
+						property, including a suit with Nintendo of America, 
+						Inc. and its affiliates (&quot;Nintendo.&quot;) which was settled 
+						in March 1994 and a suit with Sega which was settled in 
+						September 1994. In the event any third party were to 
+						make a valid claim with respect to Atari's intellectual 
+						property and a license were not available on 
+						commercially reasonable terms, Atari's&nbsp;business, 
+						financial condition and results of operations would be 
+						materially and adversely affected. Litigation, which has 
+						in the past resulted and could in the future result in 
+						substantial costs and diversion of resources, may also 
+						be necessary to enforce Atari's patents or other 
+						intellectual property rights or to defend against third 
+						party infringement claims. The occurrence of litigation 
+						relating to patent infringement or other intellectual 
+						property matters, regardless of the outcome, could have 
+						a material adverse effect on Atari's business, financial 
+						condition and results of operations.&nbsp; </font>
+						<p align="justify" style="margin-left: 4px; margin-right: 4px">
+                      <font face="Arial" size="2"><b>Competition</b>. The video 
+						game business is intensely competitive. Since its 
+						introduction in late 1993, the Jaguar, Atari's principal 
+						product, has failed to achieve broad market acceptance. 
+						Atari does not expect that the Jaguar, even at its 
+						substantially reduced price, will ever become a broadly 
+						accepted video game console, or that Jaguar technology 
+						will be broadly adopted by software title developers. 
+						The video game industry is also characterized by 
+						unpredictable and rapid shifts in the popularity of 
+						certain platforms, by severe price&nbsp;competition, and by 
+						frequent new technology and product introductions.&nbsp;In 
+						this regard, numerous companies have introduced or have 
+						developed and are expected to introduce video game 
+						consoles that are or may become competitive with Jaguar. 
+						In addition, an increasing number of entertainment 
+						titles are being developed for or ported to the PC 
+						platform. Most of Atari's competitors have greater 
+						experience and expertise in 3D graphics and multimedia 
+						technology and have substantially greater engineering, 
+						marketing and financial resources than Atari.</font></td>
+                    </tr>
+                    <tr>
+                      <td height="49">
+                      <p align="center">
+                <a href="#top"><img border="0" src="../menu-icons/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a style="text-decoration: none" href="../standalone/pong.html">The 
+              Pong family</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22"><font face="Arial" color="#808080" size="2">
+              &nbsp;<a href="../standalone/touch-me.html" style="text-decoration: none">Touch Me</a> </font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" size="2" color="#808080"><a href="../consoles/2600.html" style="text-decoration: none">2600 
+              VCS</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" size="2" color="#808080"><a href="../consoles/5200.html" style="text-decoration: none">5200 
+              Super System</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="21">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="21">&nbsp;<font face="Arial" size="2" color="#808080"><a href="../consoles/7800.html" style="text-decoration: none">7800 
+              Pro System</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="../8bit/xegs.html" style="text-decoration: none">XEGS</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="../lynx/lynx.html" style="text-decoration: none">Lynx</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#008000" size="2">&nbsp;Jaguar</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;</font><font face="Arial" size="2"><a href="../arcade/arcade.html" style="text-decoration: none">Arcade</a></font></td>
+            </tr>
+            <tr>
+              <td width="118" align="left" height="1" colspan="2">
+              <img border="0" src="../menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              &nbsp;<font color="#9A05EB" face="Arial" size="2">Topic sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" size="2"><a style="text-decoration: none" href="jaguar-panther.html">Atari 
+              Panther</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="jaguar-cd.html" style="text-decoration: none">Jaguar 
+              CD</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="jaguar-vr.html" style="text-decoration: none">Virtual 
+              Reality System</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              &nbsp;<font face="Arial" color="#808080" size="2"><a style="text-decoration: none" href="jaguar-duo.html">Jaguar 
+              Duo</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="jaguar-2.html" style="text-decoration: none">Jaguar 2</a> </font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="jaguar-accs.html" style="text-decoration: none">Accessories</a>&nbsp;</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="jagware.html" style="text-decoration: none">JagWare</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font color="#008000">&nbsp;</font><font face="Arial" color="#008000" size="2">The 
+				&quot;official&quot; ending...</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1"></td>
+              <td align="left" width="182" height="1">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,325 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-ie">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Specifications</title>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p align="center"><img border="0" src="images/ATW-Spec-Title.gif" width="387" height="50"></p>
+<div align="center">
+  <center>
+  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#FFFFFF" width="450" id="AutoNumber1">
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><b><font face="Arial">&nbsp;Component:</font></b></td>
+      <td width="312" bgcolor="#176691" colspan="5"><b>
+      <font face="Arial" color="#FFFFFF">&nbsp;Description:</font></b></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;<p><font face="Arial" size="2">&nbsp;System 
+      Processors:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">&nbsp;</p>
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">T-800 (20Mhz)and 68000 (8Mhz) 
+      connected via a Transputer link</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Graphics 
+      Processor:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">&quot;Blossom&quot; Video CPU</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" color="#FFFFFF" size="1">32 x 32 Pixel &quot;mask&quot;</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" color="#FFFFFF" size="1">16 bit wide functions for 
+      source and destination</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" color="#FFFFFF" size="1">4 linear comparisons for each 
+      pixel per cycle</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" color="#FFFFFF" size="1">A Square area can fill 120 
+      megapixels p/s</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" color="#FFFFFF" size="1">A Line can be drawn at up to 
+      32 megapixels p/s</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" color="#FFFFFF" size="1">A Trapezoid can be drawn at up 
+      to 32 megapixels p/s</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" color="#FFFFFF" size="1">X-Windows compatible</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;System 
+      Memory:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">T-800/20 host processor has 
+      4MB's of dynamic RAM (120ns) expandable to 16MB's.&nbsp; The 68000 has 
+      512Kb, expandable to 1MB</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Video 
+      Memory:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">1Mb of fast dual-port dynamic 
+      RAM (100ns) with ports connected to the main bus and the video bus</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;I/O:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">Controlled by the 68000, which 
+      runs independently of the T-800 host processor</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Monitors:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">NEC Multisync Plus/XL, Philips 
+      M1964 and Hitachi 4616 (D-BB-3)</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;I/O 
+      Ports:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">RS-232</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">DMA</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">Parallel</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">Midi in/out</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">SCSI</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">Mouse/Joystick</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Standard 
+      Storage:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">40MB SCSI hard Drive</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Optional 
+      Peripherals:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">Atari SLM-804 Laser Printer</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">Atari CDAR-504 CD-ROM Drive</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">Atari Megafile Hard Disk 
+      Drives</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Expansion 
+      Slots:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">The T-800 has Four (4) 
+      expansion slots and the 68000 has One (1)</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Processor 
+      Expansion:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">An additional 16 T-800 
+      expansion cards can be added internally with Transputer Farm Cards.&nbsp; 
+      An unlimited number can be added externally.</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Video 
+      Resolutions:</font></td>
+      <td width="63" bgcolor="#89BFE8" align="center">
+      <p style="margin-left: 10; margin-right: 10"><font face="Arial" size="2">
+      mode</font></td>
+      <td width="63" bgcolor="#89BFE8" align="center">
+      <font face="Arial" size="2">resolution</font></td>
+      <td width="62" bgcolor="#89BFE8" align="center">
+      <font face="Arial" size="2">&nbsp;bits p/p</font></td>
+      <td width="62" bgcolor="#89BFE8" align="center">
+      <font face="Arial" size="2">colours</font></td>
+      <td width="62" bgcolor="#89BFE8" align="center">
+      <font face="Arial" size="2">palette</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="63" bgcolor="#176691" align="center">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">0</font></td>
+      <td width="63" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">1280x960</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">4</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">16</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">4096</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="63" bgcolor="#176691" align="center">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">1</font></td>
+      <td width="63" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">1024x768</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">8</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">256</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">16 million</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="63" bgcolor="#176691" align="center">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">2</font></td>
+      <td width="63" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">640x480</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">8</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">256</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">16 million</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="63" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">3</font></td>
+      <td width="63" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">512x480</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">32</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">True Col.</font></td>
+      <td width="62" bgcolor="#176691" align="center">
+      <font face="Arial" size="2" color="#FFFFFF">True Col.</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Benchmarks:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">Whetstone/S: 3774</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">Drystone/S: 6572</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;OS:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">Helios</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8"><font face="Arial" size="2">&nbsp;Graphics 
+      Standard:</font></td>
+      <td width="312" bgcolor="#176691" colspan="5">
+      <p style="margin-left: 10; margin-right: 10">
+      <font face="Arial" size="2" color="#FFFFFF">X-Windows</font></td>
+    </tr>
+    <tr>
+      <td width="138" bgcolor="#89BFE8">&nbsp;</td>
+      <td width="312" bgcolor="#176691" colspan="5">&nbsp;</td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

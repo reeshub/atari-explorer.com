@@ -1,0 +1,478 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-Articles.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="computers.html"><img border="0" src="menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="menu-icons/pcs-on.gif" width="176" height="28"></a><img border="0" src="menu-icons/articles-on.gif" width="118" height="28"></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="181" height="22"></td>
+              <td align="left" width="639" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="181" height="22" valign="top">&nbsp;<font face="Arial" size="2"><a href="articles.html" style="text-decoration: none">Articles 
+              - Main Menu</a></font></td>
+              <td align="left" width="639" rowspan="5" valign="top" height="276">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial">Bob Gleadow - Former MD of Atari (UK) Ltd.</font></p>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="images/Bob-Gleadow.gif" width="173" height="160"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font size="2" face="Arial">In 
+                      the last year (1990) Atari has never been far from the headlines 
+                      with a series of major releases and controversial 
+                      problems. Bob Gleadow, Atari UK's managing director, is 
+                      the driving force behind the British end of the company, 
+                      and Colin Campbell (New Computer Express) went to meet 
+                      him...<br>
+                      <br>
+                      Atari's ST, while far from the autumn of its years, has 
+                      reached the safety of middle age. It is neither state of 
+                      the art, nor outdated junk - but it has passed its prime 
+                      as an admired piece of hardware. With characteristic savvy 
+                      its maker and guardian has performed the necessary 
+                      transition with common sense. That is, to position the 
+                      machine not as a bright new thing for the computer 
+                      literate, but as a no-nonsense entry level option for the 
+                      masses that have yet to fully comprehend that there's more 
+                      to computing than bytes, floppies and Pacman.<br>
+                      <br>
+                      Atari would rather be selling computers than positioning 
+                      them in some grand scheme.&nbsp; But position it it must 
+                      in order to introduce the five year-old ST to what 
+                      continues to be the most important person in home 
+                      computing - the first-time buyer.<br>
+                      <br>
+                      <b>:: TOP MAN ::</b><br>
+                      <br>
+                      Bob Gleadow, for the past three years Atari UK's top man, 
+                      is fronting the operation.&nbsp; He's not just the 
+                      managing director of Britain's sales operation, but more 
+                      significantly, a touchstone for the decision makers in 
+                      Sunnyvale, California.&nbsp; With the UK so important to 
+                      Atari Corp, his performance is vital.<br>
+                      <br>
+                      His ruffled hair and amiable manner belie a wolf-like 
+                      approach to business that incorporates aggression with a 
+                      subtlety that opposite numbers lack. Like most businessmen 
+                      he says &quot;we like to think we can afford to be nice&quot;, but 
+                      he'd rather like to think he can thrash his competitors if 
+                      he has to.<br>
+                      <br>
+                      He is most certainly faster at making decisions than his 
+                      adversaries, but this can have an unpleasant effect. 
+                      Buyers of the STE - shipped-in at short notice last 
+                      December to cope with yet another Christmas shortage - 
+                      will testify to this.<br>
+                      <br>
+                      It was Gleadow who picked up the telephone and dragged the 
+                      computers into Britain when seasonal demand and a dock 
+                      strike threatened to mangle up sales plans. And, despite 
+                      predictable compatibility problems, he'd probably do the 
+                      same again. But his immediate concern does not centre on 
+                      supplying demand - more with generating it. Bargain 
+                      hunters may be Pleased to learn that this will be achieved 
+                      through the ST Discovery Pack.<br>
+                      <br>
+                      Bundles are bundles are bundles, and they are usually 
+                      cobbled together with a degree of sales cynicism. Atari is 
+                      no less guilty of that than any other company, but this 
+                      time there appears to be a genuine attempt to give people 
+                      what they really want: a good computer, a guiding hand, 
+                      and some freebies to boot.<br>
+                      <br>
+                      &quot;What we want to do this year is position the 520ST as a 
+                      first-time buyer's machine with a £299 price point. We're 
+                      trying to separate out the first-time buyer and the 
+                      second-time buyer - one with an attractive £299 package, 
+                      and the other at £499 where we'll actually look to sell 
+                      the 1040.&quot;<br>
+                      <br>
+                      This may smack of marketing mumbo-jumbo, but therein sits 
+                      the future of one of Europe's most popular home computers. 
+                      Gleadow is no longer content to fight it out with the 
+                      Amiga - he's now after those people who would normally be 
+                      wondering whether an Amstrad CPC would be better than a 
+                      Spectrum or Commodore 64 etc.<br>
+                      <br>
+                      &quot;It's a better deal. When you buy an 8-bit computer you 
+                      still have to look at a disk drive and other extras. With 
+                      the 520 you're getting a superior machine with a 1Mb disk 
+                      drive and access to a wide range of software packages.&quot;<br>
+                      <br>
+                      <b>:: POINT TAKEN ::</b><br>
+                      <br>
+                      He has a point. Buy a tape-driven CPC and you're looking 
+                      at £299. Buy one with a disk drive and that's £399. The 
+                      Spectrum isn't much better. A Plus 3 will cost £100 less 
+                      than the ST - but it's largely based on a computer 
+                      introduced almost 10 years ago.<br>
+                      <br>
+                      It has to be noted that the ST has been selling for £299 
+                      for ages. But people don't simply want a piece of 
+                      hardware, they want a fully-fledged computing option, 
+                      hence the new emphasis. The 520 ST is no longer in a 
+                      head-to-head battle with the Amiga. It's an alternative to 
+                      the 8-bits. At least that's the theory.<br>
+                      <br>
+                      <b>:: GLEADOW ON THE STE ::</b><br>
+                      <br>
+                      &quot;We released the STE prematurely. We brought in 20,000 
+                      last December and they all sold through. The justification 
+                      for our doing that was that there was a dock strike at 
+                      Folkestone Harbour and we had to fly them in,&quot; says 
+                      Gleadow.&nbsp; This isn't exactly saying 'sorry we did 
+                      wrong', but it is something of a departure from the 
+                      arrogant attitude displayed when the STE compatibility 
+                      fiasco was in full swing.<br>
+                      <br>
+                      Then, when leading ST software packages were not running 
+                      on the upgrade, Atari was adamant that it could not be 
+                      held responsible for the follies of over ambitious 
+                      programmers who saw fit to break the rules on earlier 
+                      models. Nevertheless, these follies are well known to all 
+                      in computing and really should have been added to the 
+                      formula.<br>
+                      <br>
+                      Gleadow explains: &quot;we all know that programmers take short 
+                      cuts. The problem was that they were violating Atari 
+                      guidelines. The problem with the Atari guidelines is that 
+                      you could go round them with one version of a product with 
+                      no problem. But of course when Atari comes to do the next 
+                      version it takes those guidelines as the Bible and sticks 
+                      to them. That's how we guarantee compatibility.&quot;&nbsp; 
+                      Except of course, in the event, real-world compatibility 
+                      could not be guaranteed.<br>
+                      <br>
+                      Whatever, the wails of &quot;I should have bought an Amiga 
+                      after all' from disgruntled buyers have floated away. 
+                      Software publishers are failing into line, and with the 
+                      STE now priced at £100 more than the STFM; Atari is saying 
+                      that those 20,000 buyers can count themselves pretty 
+                      lucky.<br>
+                      <br>
+                      The STE is a 'serious' computer'.&nbsp; &quot;You can upgrade 
+                      it to almost anything you want. 4Mb packs are already 
+                      available from third-party dealers, proving that there is 
+                      a market demand for the serious user.&quot;&nbsp; The STE costs 
+                      serious money. Atari is deliberately steering prospective 
+                      purchasers toward the £499 option with extra goodies. One 
+                      suspects the basic £399 model will not be one of Atari's 
+                      big sellers this year.<br>
+                      <br>
+                      But is the STE an 'Amiga beater'?&nbsp; &quot;I never said it 
+                      was,&quot; he replies. &quot;It's an improvement on the existing 
+                      machine.&quot;<br>
+                      <br>
+                      <b>:: GLEADOW ON BUSINESS ::</b><br>
+                      <br>
+                      &quot;Over the last two or three years Atari has become a 
+                      mufti-product manufacturer. By the end of this year you'll 
+                      see Atari being successful in consoles, with the Lynx, in 
+                      business machines and there will be the beginnings of a 
+                      workstation presence. So as we have evolved over the last 
+                      three years we have had to change our style.&quot;<br>
+                      <br>
+                      With such a broad range of gadgets and computers within 
+                      his remit, it's no wonder Gleadow is looking to &quot;be in the 
+                      background&quot;. When he started at Atari, life was a good 
+                      deal simpler. But now he's controlling everything from 
+                      games software in the ARC division, through old consoles, 
+                      the new ST console (still pencilled in for the autumn), 
+                      Lynx hand-held, Portfolio pocket PC, and all the ST's, as 
+                      well as the forthcoming TT, a line up of PCs and the top 
+                      end ATW Transputer Workstation.<br>
+                      <br>
+                      With that kind of job spec its no wonder he has to leave 
+                      the nitty gritty to employees. But how much of what we see 
+                      is dreamt up by the boss? &quot;A degree of that does happen 
+                      but before we do anything we get a group of people 
+                      together and have what I call a 'bullshit session' &quot;.&nbsp; 
+                      &quot;We look at what we're putting together, what we're asking 
+                      people to buy, and we throw ideas at each other.&nbsp; 
+                      &quot;Ultimately though, I have the casting vote.&quot;<br>
+                      <br>
+                      The best thing about being the boss of a hardware 
+                      operation is, he says, the salary, but pay cheques tend to 
+                      demand a lot of graft. &quot;I think so. When I come in every 
+                      morning I think I'm going to be leaving at six o'clock, 
+                      but the hours tend to drag on.&quot;<br>
+                      <br>
+                      He considers his greatest success at Atari to be the 
+                      firm's current standing. But what of his biggest regret? 
+                      Surprisingly it's in that area where the ST has really 
+                      proved its worth as a serious tool - desktop publishing. 
+                      Gleadow says he should have moved faster two years ago 
+                      when DTP was still more of a buzzword than a reality. &quot;We 
+                      should have recognised the capabilities of the ST in DTP 
+                      early on.&quot;<br>
+                      <br>
+                      Gleadow views it as a real alternative to the Apple Mac 
+                      rather than being the poor imitation some have suggested 
+                      (including the market in general). But he sees the TT as 
+                      &quot;my second chance to get into DTP and graphics&quot;.<br>
+                      <br>
+                      <b>:: GLEADOW ON THE COMPETITION ::</b><br>
+                      <br>
+                      Much is made of the rivalry between Commodore and the firm 
+                      it spawned - Atari. Behind the scenes you can just imagine 
+                      Gleadow grinning every time Commodore (or indeed Amstrad) 
+                      fumbles the ball.<br>
+                      <br>
+                      And of course Mr Franklin (Commodore) and Mr Sugar 
+                      (Amstrad) will also have a good chuckle when Atari trips 
+                      over its own ambitions. Such is the nature of intense 
+                      competition - but you'll never get any of them to admit 
+                      it. &quot;It never crosses my mind. Every step we take is to 
+                      look at what we think is good for us in the market. We're 
+                      not interested in what everyone else is doing because we 
+                      don't have their logic.&quot; A little dig there. Gleadow then 
+                      goes on to claim that Commodore is obsessed with Atari.<br>
+                      <br>
+                      And Amstrad? &quot;The minute Atari starts looking at what 
+                      Amstrad is doing and we follow that, we immediately 
+                      relegate ourselves to being behind Amstrad, because we're 
+                      looking at what he does. Instead we are looking at what we 
+                      can do that is good for us.&quot;<br>
+                      <br>
+                      &quot;If you're in a car race and you start to follow someone, 
+                      or you look in the mirror and see what everyone else is 
+                      doing, then it starts to distract you from driving as fast 
+                      as you can.&nbsp; We're into driving as fast as we can&quot;.&nbsp; 
+                      But surely you can't ignore your competitors? &quot;There's 
+                      nothing they can do which specifically influences anything 
+                      we do. It might cause us not to do something. For 
+                      instance, if we were planning a headline and then Amstrad 
+                      went out and did it before us, then we would scrap it, 
+                      that kind of thing.&quot;<br>
+                      <br>
+                      <b>:: GLEADOW ON CD ::</b><br>
+                      <br>
+                      Given that Atari introduced a CD-ROM device three years 
+                      ago, it may come as a surprise that Gleadow does not share 
+                      the enthusiasm expressed by much of the market.<br>
+                      <br>
+                      When will we see Atari introduce an all-in-one CD ST 
+                      device akin to the much-publicised Amiga machine? After 
+                      all, isn't CD where it's all happening?&nbsp; 'Is Compact 
+                      Disc happening?&quot; You're looking at a man who has had 
+                      Compact Disc players (CDAR-504) in his warehouse for 18 
+                      months now. Where is the software commitment? Show me a CD 
+                      standard. Is it CD-i?<br>
+                      <br>
+                      &quot;Look at the MSX. That had a Laserdisc, which gave you the 
+                      best graphics I've seen. It was true video with a computer 
+                      image superimposed. Outside of Japan it didn't do very 
+                      well...&quot;<br>
+                      <br>
+                      He turns on the notion of CD/computer combos. &quot;They're 
+                      going to cost £600 or £700. How big is the market 
+                      opportunity at that price range? We think computer buyers 
+                      should become CD buyers. Its better to offer computer 
+                      buyers the CD as an extra rather than offering a 
+                      highly-priced integrated system.&quot;<br>
+                      <br>
+                      <b>:: GLEADOW ON THE PRESS ::</b><br>
+                      <br>
+                      While Commodore and Amstrad generally like to wait for 
+                      things to happen before announcing them, Atari is 
+                      constantly toying with the press - hinting, leaking, 
+                      suggesting and otherwise making implications. It sometimes 
+                      moves into the realms of absurdity, although for those 
+                      with a vested interest in information (like magazine news 
+                      editors) it's all rather jolly.<br>
+                      <br>
+                      Uniquely, Atari isn't so much concerned with the public's 
+                      perception of it as a company, rather with the perception 
+                      of each individual project.&nbsp; This has the effect of 
+                      providing magazine readers with lots of juicy titbits from 
+                      &quot;highly placed sources&quot; as well as supplying Atari's 
+                      formidable PR machine with cheap market research.&nbsp; 
+                      Doesn't this take, well, a certain degree of manipulation 
+                      of the press? Gleadow is suitably shocked at such a 
+                      suggestion. &quot;I wish we could manipulate the press,&quot; he 
+                      jests.&nbsp; And he is jesting.<br>
+                      <br>
+                      <i>17 March 1990 - New Computer Express</i></font></td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center">
+                      &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="21">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">&nbsp;<font face="Arial" size="2" color="#008000">Bob 
+              Gleadow</font></td>
+            </tr>
+            <tr>
+              <td width="117" align="left" height="22" colspan="2">
+              <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              </td>
+              <td align="left" width="181" height="1">
+              &nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td>
+            </tr>
+            </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

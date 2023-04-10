@@ -1,0 +1,611 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-Tramiels.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="computers.html"><img border="0" src="menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="menu-icons/pcs-on.gif" width="176" height="28"></a><img border="0" src="menu-icons/articles-on.gif" width="118" height="28"></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="181" height="22"></td>
+              <td align="left" width="639" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="181" height="22" valign="top">&nbsp;<font face="Arial" size="2"><a href="articles.html" style="text-decoration: none">Articles 
+              - Main Menu</a></font></td>
+              <td align="left" width="639" rowspan="5" valign="top" height="276">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial">The Tramiels - What did they ever do for 
+                Atari?</font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+        <p align="center">
+        <img border="0" GALLERYIMG="no" src="images/atari-joke2.gif" width="257" height="203"></p>
+        <p align="center" style="margin-left: 10; margin-right: 10">
+        <i>
+        <font face="Arial" size="2">&nbsp;&quot;Business is war - I don't 
+        believe in compromising. I believe in winning.&quot; Jack Tramiel</font></i></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Many people are critical of the Tramiel 
+        family.&nbsp; They blame the family for the downfall of the company and 
+        don't have many positive things to say about them in general.&nbsp; Why 
+        have they been treated this way by so many?&nbsp; Is there any truth to 
+        these suggestions of incompetence or greed?&nbsp; I want to share with 
+        you a basic insight into the Tramiel business ethic, some of the main 
+        areas of concern that many believe didn't help the company and in 
+        closing, end with my personal feelings.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">To understand the Tramiel business 
+        philosophy is the simple part.&nbsp; Jack Tramiel in particular had a 
+        war like attitude to doing business, and he was very open about this.&nbsp; 
+        He had a black and white approach to his business model; sell more to 
+        the customer at a price he/she is prepared to pay.&nbsp; Listening to 
+        interviews and reading articles about Jack Tramiel you quickly build up 
+        a picture of a man who has steadfastly stuck to his business principles 
+        for his entire career.&nbsp; He is not a man that would easily change 
+        his plans once he had decided upon his chosen path, and more 
+        importantly, this shows a belief in himself that many other mortals 
+        would find difficult to muster.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">It is this, near stubborn quality, that has 
+        enabled Jack Tramiel to be a successful business man, and some of this 
+        can also be attributed to the, how should we say, errors of judgement he 
+        has perhaps been responsible for, either directly or indirectly, at 
+        Atari Corp.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Jack Tramiel was responsible for one of the 
+        most prestigious computer companies of the late 70's and 80's, and that 
+        company was Commodore Business Machines.&nbsp; It is through his reign 
+        at CBM, we can see some of the traits he brought to bare on Atari which 
+        he took over in 1984.&nbsp; For example, After the acquisition of MOS 
+        Technologies in 1976, he couldn't believe the amount of R&amp;D expenditure, 
+        which was supporting over 200 separate projects.&nbsp; He quickly set 
+        about slashing these budgets and cancelling almost all non-essential 
+        projects, streamlining his new subsidiary to concentrate on chip 
+        production for his calculator range and his new venture, building a 
+        micro-computer.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="center">
+        <img border="0" src="images/CBM-MOS-Sign.gif" width="221" height="102"></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Jack was responsible for taking the chance 
+        to diversify CBM into the world of micro-computers.&nbsp; It was a 
+        gamble that soon paid off, with the launch of the PET (Personal 
+        Electronic Transactor) at the end of 1976.&nbsp; By 1984, CBM's sales 
+        were close to a Billion Dollars.&nbsp; Jack Tramiel would soon leave the 
+        company he had worked so hard to build, after a boardroom battle, which 
+        to this day is still somewhat of a mystery.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Jack must have been in a solemn mood after 
+        this crossing of swords within the inner sanctum of CBM, after all, 
+        this was a company of his own design, and now it had been taken from 
+        him.&nbsp; Still, this is where we see the true grit of the man.&nbsp; 
+        He planned a return, and decided to bide his time while he looked for a 
+        vehicle for his next project.&nbsp; Jack founded a company called TTL 
+        (Tramiel Technology Ltd) which would be a holding company for his next 
+        acquisition.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Now, Atari at this time (1984) was the thorn 
+        in the side of Warner Communications Inc.&nbsp; It was bleeding its 
+        parent company dry, and Warner needed to dump the company quickly.&nbsp; 
+        1984 was a self-made meltdown of the once buoyant video games market 
+        which had started in 1972 with the inception of the worlds first 
+        commercially successful video arcade game, PONG.&nbsp; The video games 
+        crash was partly Atari's fault, and retailers and customers alike, had 
+        been overwhelmed by too many systems and too many games, many of which 
+        were expensive and poorly made.&nbsp; The market had been flooded, and 
+        product was sitting on the shelves with no homes to go to.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Jack Tramiel realised that although video 
+        games were going through a rough patch, the market for micro-computers 
+        was still in its infancy, and growing far quicker than most other 
+        industry sectors.&nbsp; Jack knew he wanted to compete with his former 
+        company, but he needed not only a product to ship to the market, but a 
+        recognisable brand name to launch it, otherwise he would need to spend 
+        additional money and time building brand awareness.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Its almost of Hollywood proportions, but 
+        Jack Tramiel would buy Atari, CBM's former competitor, and begin 
+        building a rival to challenge the very company he founded.&nbsp; Not 
+        only would Jack initiate a purchase agreement with Warner 
+        Communications, that today, would seem farcical, but he would launch a 
+        new computer to the market within Six months of his takeover.&nbsp; The 
+        basis of Jacks purchase of Atari, was a promissory note and a number of 
+        purchase obligations.&nbsp; Remember, Warner were desperate to offload 
+        Atari, and this played into the hands of any smart investor willing to 
+        take a long term risk.&nbsp; Warner even provided additional loans to 
+        the new Atari Corporation amounting to $25 Million.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Looking more closely at this purchase &quot;deal&quot;, 
+        it took nearly 2 years for an evaluation of the assets to be determined, 
+        so a true value could be negotiated between the two parties (although 
+        Warner would receive&nbsp; accrued interest on the final purchase price 
+        at 17% during this period).&nbsp; It is also interesting to note that 
+        the official price released in June 1984 for the purchase was $240 
+        Million, the final figure was much closer to about $95 Million, which 
+        was mostly paid for through the sale of Atari stock to Warner, and a 
+        once off payment of $36 Million for certain assets and loans in late 
+        1986.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Whatever your personal feelings of the 
+        Tramiels, the purchase of Atari was a culmination of some smart work, 
+        and it also gave Warner a quick and clean way to get the debt ridden 
+        company off its books.&nbsp; Warner even paid some of the outstanding 
+        and substantial&nbsp; Atari debts itself, this included huge inventories 
+        passed onto the new Atari Corporation, estimated to be in the region of 
+        over $250 Million, which is why to this day, you can still buy new boxed 
+        Atari software with the WCI logo on it... </font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Jack Tramiel took over only the domestic 
+        side of Atari Inc, leaving certain properties such as the Arcade 
+        Division, and the new Advanced Telephones Systems Division with Warner.&nbsp; 
+        The Tramiels' began straight away by clearing the decks - Atari was a 
+        monster of a company under Warner Communications, it employed over 
+        10,000 people, had over 100 physical properties worldwide, including 80 
+        offices and facilities in Sunnyvale, California alone.&nbsp; In order to 
+        make the new Atari anything other than a viable proposition, serious 
+        cuts in personnel and assets had to be made.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">By the end of 1985, ~1,600 employees were 
+        now working for Atari, and it was shipping a new computer system called 
+        the Atari 520ST.&nbsp; In order for Jack Tramiel to physically ship a 
+        new computer system to end users within 12 months of his takeover, many 
+        painful and not so painful decisions had to be made.&nbsp; This is not 
+        incompetence, nor is this greed.&nbsp; It clearly showed how to turn a 
+        loss-making behemoth into a streamlined and&nbsp; cleverly operated 
+        business, and showed the market just how serious the new Atari was, 
+        which paved the way for Atari to re-launch itself to the market and 
+        raise additional money for expansion.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">After selling nearly all of its Warner 
+        manufactured stock, and re-launching a new line of 8-bit computers (or 
+        at least cost-effective versions of the older Warner-made computers), 
+        Atari had raised enough money to survive until the end of 1985.&nbsp; 
+        Through the stock option plan in 1986, Atari would have a healthier 
+        balance sheet, and was also obliged to carry out its plans to its new 
+        shareholders.&nbsp; These plans included new ST computers, new 8-Bit 
+        systems and additional products based on new technologies, which Atari 
+        promised to provide to the market at the lowest possible prices.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">In the Tramiels favour, depending on your 
+        point of view, Atari was saved in 1984.&nbsp; It wasn't the ideal 
+        solution, many good people lost their jobs, and many exciting projects 
+        within Atari had to be shelved, but this was the price that had to be 
+        paid (bluntly speaking from a purely business perspective).&nbsp; 
+        Of course, Warner could have done a lot of things differently and you 
+        could assume that if the right choices had been taken earlier, perhaps 
+        Atari could have survived?</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Credit where credit is due.&nbsp; Atari was 
+        still in business, and within 2 years made a profit of $44 Million.&nbsp; 
+        In the face of severe market competition, the Tramiels had to sell 
+        enormous amounts of Warner's inventory, as much as 95% of Atari Corps 
+        early sales are attributed to this.&nbsp; By the end of 1985, Atari had 
+        a new range of products, the market was excited and end users were very 
+        happy with their new machines.&nbsp; So, where did all the animosity 
+        come from, what happened to taint the Tramiels with the ultimate 
+        downfall of Atari?</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="center">
+        <u><font face="Arial" size="2">What were the main areas of concern?</font></u></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">1) - Lack of defined development strategy for 
+        the ST line of computers</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">2) - Late products and vapourware 
+        announcements</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">3) - Minimal product advertising</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">4) - Senior management attrition</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">5) - Product positioning, support and 
+        distribution</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">6) - Performance in the video games market</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">The Atari ST was an advanced, feature rich 
+        personal computer when it was launched.&nbsp; It had been received with 
+        critical acclaim, and initial sales were strong, enabling Atari Corp to 
+        prove itself to the market place and end users.&nbsp; It changed the 
+        perception of the Atari brand, and critically, was launched ahead of the 
+        more expensive Commodore Amiga, and at a better price/performance point 
+        in comparison to the Apple Macintosh and IBM compatibles.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Atari had surprised all the pundits, and it 
+        was the best possible start for the new Atari Corp.&nbsp; But this 
+        market leading position did not last long.&nbsp; The ST architecture 
+        didn't change until late 1989, 4 years after its launch, and although OS 
+        and cosmetic changes took place, the product did not evolve quickly 
+        enough.&nbsp; This would not have been such an issue if the new ST 
+        (launched as the STE - E for Enhanced) had been a significant 
+        advancement of the existing platform, but it was not the case.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <i><font face="Arial" size="2">We should point out however, that the 
+        computer market at this time wasn't as we now it today.&nbsp; Today's PC 
+        runs from a Microsoft (or to a lesser extent, Linux) platform, and 
+        manufacturers design PC's through industrial standards and third-party 
+        &quot;add-on&quot; product lines.&nbsp; Those of you who have been fortunate 
+        enough to experience the personal computer market of the 80's and early 
+        90's will be split into two camps; those who enjoyed having a broader 
+        range of platforms to choose from, and in turn, could experience 
+        different system/software capabilities from a choice of suppliers and 
+        the other camp who preferred the standardisation in both hardware and 
+        software platforms.&nbsp; Today, its basically a choice between a PC 
+        &quot;box&quot; or an Apple &quot;box&quot;.&nbsp; Its also true to say that some people are 
+        just plain critical no matter what the choice!</font></i></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <i><font face="Arial" size="2">You could also be of the opinion that 
+        Intel, Microsoft and the OEM's have stunted competition, technological 
+        advancement and more importantly, consumer choice.&nbsp; After all, the 
+        PC isn't radically different to the ST, Amiga or Apple platforms of old, 
+        and is overly complicated in its design, especially to new users.&nbsp; 
+        It was much easier to use an ST for the first time, and was less 
+        intimidating in its approach, compared to today's PC.</font></i></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">During the launch of any new product, new platforms 
+        need time to get a foothold, and the ST and its competitors systems 
+        also needed time to mature in their respective markets.&nbsp; 
+        Unfortunately, the ST could &quot;possibly&quot; have been one of today's 
+        &quot;standard&quot; platforms if it wasn't for the lack of development and 
+        marketing.&nbsp; The STE should have been a lot more, instead it was a 
+        computer system that cosmetically looked the same, and 
+        technically, lacked any enhancements that played so well to the market 
+        during its maiden launch in 1985.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Of course, a lot of this is purely 
+        speculation.&nbsp; But the facts are that the ST should have been 
+        continually advanced through a strategic development roadmap.&nbsp; We 
+        do know that Atari R&amp;D was working on 32-Bit computers as early as 1986, 
+        and that development was taking pace, but unfortunately these developments 
+        were too little, too late.&nbsp; The ST was aging fast, and the PC 
+        market was advancing in leaps and bounds.&nbsp; Atari had limited 
+        budgets compared to the much larger PC multinationals, and it was 
+        carrying a proprietary platform on its own.&nbsp; Atari tried launching 
+        PC's as well and Commodore became a leading PC supplier in the late 
+        80's, in fact, only Apple stuck to its guns and continued stubbornly 
+        along its proprietary path (although, Apple survived!).</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Atari did have success with the ST, that 
+        cannot be denied. Europe in particular became the cash cow, and Germany 
+        became Atari's single biggest market.&nbsp; But the PC manufacturers 
+        marched on, as prices continued to fall and big business' wanted to 
+        standardise their IT systems.&nbsp; The Multi-tasking PC was the 
+        computer of choice for most companies by the end of the 80's, and this was also helped 
+        along by Intel and Microsoft.&nbsp; As early as 1990, Atari must have seen the 
+        dark clouds forming over its comparatively small market share, and its 
+        ability to take on the &quot;big boys&quot; wasn't even financially viable, never 
+        mind technologically.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">If Atari had carried its fight from the 
+        launch of the ST, and concentrated on a more aggressive long-term 
+        strategy, perhaps it could have carved an Apple-like niche in the 
+        market.&nbsp; What pains end-users of the ST the most, is knowing that 
+        the platform was viable from day one, and it had a strong presence in many areas, 
+        specifically as a home computer, as a cost effective DTP platform and 
+        especially in the music industry where it held an enviable position as 
+        the music computer of choice.&nbsp; We can only ask one question of 
+        Atari, &quot;did they actually know this too&quot;?</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">It didn't help that Atari shouted about new 
+        products months, sometimes years before their launch.&nbsp; The TT030 
+        for example, which was launched in Germany in 1989, could have been the 
+        platform to take the DTP market by storm, it could have been the Unix 
+        platform of choice.&nbsp; But again, it was delayed even after its 
+        &quot;official&quot; launch, and although it had limited success in Europe, Atari 
+        let down its domestic market once more by failing to pass its computer 
+        products in a timely fashion through FCC certification.&nbsp; The TT030 
+        is just one product that &quot;could have been&quot; for Atari, and it wasn't the 
+        last.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Another problem, and probably the most 
+        talked about, was Atari's failure to market its products in such a way 
+        as to actually promote interest in them.&nbsp; That's not to say Atari 
+        didn't market its products, it was the way it was done.&nbsp; Jack 
+        Tramiel in particular wasn't a friend of the marketing department, he 
+        was of the old school of business, and felt that his products sold 
+        themselves because of the price and performance they offered to the 
+        consumer.&nbsp; He wasn't alone with this philosophy, Ken Olsen of 
+        Digital Equipment (another high-tech brand now part of history) didn't 
+        recognise advertising as a forum to promote his products or to increase 
+        sales, in fact, Digital's marketing departments were hidden away within 
+        the company until the mid-eighties before pressure was brought to bare 
+        by other board members.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">The ST was purchased by consumers who either 
+        had an older Atari computer, or through the influence of the independent 
+        computer magazines and journals.&nbsp; Outside of this arena, many 
+        potential consumers just didn't know of the machines existence, and were 
+        unaware of its power and price.&nbsp; When Atari did advertise, it was 
+        usually sporadic and through the wrong media.&nbsp; It didn't help that 
+        the economic climate was poor compared to today, but even taking 
+        consumer spending into account, Atari could have spent more dollars to 
+        ensure a potentially higher return.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="center">
+        <img border="0" src="images/Federated-logo.gif" width="210" height="46"></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Support and distribution was a constant 
+        struggle for Atari.&nbsp; It is fair to say that these are common 
+        challenges for any company, but it was Atari's domestic market that 
+        would be most challenged in this respect.&nbsp; Atari tried in vain to 
+        &quot;buy&quot; market presence through the controversial purchase in 1987 of the 
+        &quot;Federated Stores&quot; chain, only to sell it off again in 1990.&nbsp; While 
+        most Atari computer shipments from their Taiwan facility were directed 
+        to the hungry shores of Europe, Atari distributors in the U.S. could 
+        only hope that Atari HQ in Sunnyvale would soon wake-up and take their 
+        own domestic market seriously, otherwise the already dwindling dealer 
+        network would be reduced to a handful of specialist stores.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Atari was a family run company.&nbsp; The 
+        Tramiel's held more than 45% of the stock, and this would become a 
+        serious issue for senior management when it came to&nbsp; decision 
+        making and department autonomy.&nbsp; The attrition rate of senior 
+        management at Atari was legendary, it would have been easier for Jack 
+        Tramiel to install a revolving door in each of his senior managers 
+        offices.&nbsp; It was that bad.&nbsp; There is a saying; &quot;You live by 
+        the sword, you die by the sword&quot;, (you've probably heard this if you've 
+        ever worked in sales!), but that was a physical fact of life if you 
+        tried to impose, or dictate a strategy or plan that the Tramiels were 
+        opposed to.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">This constant shake-up within Atari also had 
+        a negative effect outside of the company.&nbsp; Morale is critical to 
+        the well-being of a company, and when those all too familiar e-mails 
+        contain the words &quot;has left to pursue a new career and we all wish 
+        he/she well for the future&quot; begin to become a regular occurrence, it 
+        isn't helpful to the staff, the company image, and ultimately the 
+        confidence of the consumer and the wider market place.&nbsp; There were 
+        many famous names that had walked through the corridors of power in 
+        Sunnyvale, some of these figures had ultimately been seen as the 
+        saviours of&nbsp; Atari's future, and they were extremely well received 
+        by the user groups and developers still hoping the tide would change for 
+        the company.&nbsp; But even those high profile names such as Elie Kenan and 
+        Tedd Hoff failed to change the mindsets of the Tramiel family.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Perhaps the most heart-breaking aspect to 
+        the Tramiel rap-sheet is the wasted opportunity that was their 
+        possession of 
+        the  Atari brand itself.&nbsp; In essence, the famous Fuji icon was best 
+        known for gaming, and this was one market that the Tramiels could never 
+        understand.&nbsp; Jack Tramiel had made his position clear in 1984, 
+        that he wasn't interested in gaming products, and that Atari was a 
+        computer company.&nbsp; Atari had a perfectly good product in 1984 with 
+        the Warner/GCC designed 7800 Pro System, but this was left on the shelf 
+        until 1986, after Nintendo of Japan began to make inroads with its new 
+        Nintendo Entertainment System.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">It is true that Atari Corp. had enough on 
+        its plate trying to become a successful computer company, but it seems 
+        that it continued to respond to Nintendo and Sega with knee-jerk 
+        reactions.&nbsp; Atari wasted a golden opportunity with the 7800, and 
+        repeated this with the Lynx and to some extent, the Jaguar.&nbsp; The 
+        same &quot;old&quot; problems that plagued the computer division seemed to affect 
+        any assault on the gaming world.&nbsp; The handheld Lynx was a coup for 
+        Atari, but one has to ask why it was delayed for some 2 years, 
+        apparently it was ready to go in 1987!&nbsp; Nintendo launched an 
+        inferior product technically in the Game Boy, and it soon dominated the 
+        gaming world, yet the superior Lynx slowly faded into obscurity helped 
+        along by its parent company... Atari.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">The 64-Bit Atari Jaguar, the last hope for 
+        the company, had a great start.&nbsp; It can not be denied that the 
+        system was powerful, and the press and public alike, couldn't wait to 
+        get their hands on one.&nbsp; The machine was late to market, and the 
+        games were taking time to develop, but during 1994, it still seemed 
+        possible that the Jaguar would do it for Atari.&nbsp; There was even 
+        talk that the now defunct computer division might be resurrected with a 
+        system based on Jaguar technology, the share price was active again, and 
+        Atari was back in the lime-light, somewhere it had not been for quite a 
+        while.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">By the end of 1995, as projects such as the 
+        VR Helmet and the online gaming modem were cancelled, new games  only trickled out of the Atari warehouse and stores began putting 
+        bargain price tags on the Jaguar console, it was clear to see something was wrong.&nbsp; 
+        Sony was wooing the market with Playstation, and Atari was looking for 
+        an exit.&nbsp; It had tried to win back the helicon days that defined 
+        the launch and success of the 2600, but sadly it didn't work out.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">So, there you have it.&nbsp; A brief summary 
+        of the Tramiel era.&nbsp; For every little thing they may have done 
+        wrong, they also did some good things too.&nbsp; I'm still thankful when 
+        I boot up my Jaguar to play Tempest 2000, and my friends still can't 
+        believe that the Lynx is so good, especially knowing it was launched in 
+        1989!&nbsp; My ST still works, and has never caused me any problems, and 
+        its nice to turn it on now and again, just for the nostalgia value.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">In closing, I can only assume those that &quot;got on&quot; with 
+        Jack Tramiel in particular, liked his personal style, he was straight 
+        talking and didn't waste time making decisions.&nbsp; Sam Tramiel was a 
+        lot more relaxed, compared to his father, and those who have met and 
+        worked with him provide testimony to this.&nbsp; I wouldn't say that any 
+        of the Tramiel family were selfish in the running of Atari, they did 
+        deliver good products with affordable price tags, and although its easy 
+        now to criticise what are historical facts, you must still admire what 
+        they successfully achieved and ultimately what they &quot;tried&quot; to achieve.&nbsp; 
+        Commodore left the stage long before Atari, as did many other companies 
+        that shared the cut-throat world of consumer electronics both as 
+        partners and competitors to each other.&nbsp; </font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">So, what did the Tramiels ever do for Atari?&nbsp; 
+        They gave us another 12 years of Atari branded products, and we can all 
+        be grateful for that.</font></p>
+        <p style="margin-left: 10; margin-right: 10; padding-left: 1px" align="center">
+        <font face="Arial" size="1">Copyright 2002 KM/AEX - Do not reprint 
+        without permission.</font></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+        &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+        <p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;</font><font face="Arial" size="2" color="#008000">The Tramiels</font></td>
+            </tr>
+            <tr>
+              <td width="117" align="left" height="22" colspan="2">
+              <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              </td>
+              <td align="left" width="181" height="1">
+              &nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td>
+            </tr>
+            </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

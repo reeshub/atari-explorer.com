@@ -1,0 +1,296 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><img border="0" src="menu-icons/AEX-Header-Main.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><img border="0" src="menu-icons/history-on.gif" width="106" height="28"><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP4'].imgRolln=document['fpAnimswapImgFP4'].src;document['fpAnimswapImgFP4'].src=document['fpAnimswapImgFP4'].lowsrc;" onmouseout="document['fpAnimswapImgFP4'].src=document['fpAnimswapImgFP4'].imgRolln" href="computers.html"><img border="0" src="menu-icons/pcs-off.gif" id="fpAnimswapImgFP4" name="fpAnimswapImgFP4" dynamicanimation="fpAnimswapImgFP4" lowsrc="menu-icons/pcs-on.gif" width="176" height="28"></a><a onmouseover="document['fpAnimswapImgFP5'].imgRolln=document['fpAnimswapImgFP5'].src;document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].lowsrc;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="19" align="left" height="22"></td>
+              <td align="left" width="183" height="22"></td>
+              <td align="left" width="554" height="22"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="history.html" style="text-decoration: none">Atari
+                History - Main Menu</a></font></td>
+              <td align="left" width="554" rowspan="16" valign="top" height="556">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial"><font size="2" color="#808080">Atari History 
+                :: </font><font size="2" color="#008000">Chapter 3 - Launch of 
+                the VCS</font></font></p>
+                <div align="center">
+                  <table border="0" cellpadding="0" cellspacing="0" width="450">
+                    <tr>
+                      <td><p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font color="#808080" size="2"><font face="Arial">The 
+                      new machine launched in October 1977 was called the VCS 
+                      (Video Computer System).&nbsp; It had 9 titles at launch.&nbsp; 
+                      The VCS was a huge success, consumers queued up at stores 
+                      that Christmas of 1977 to purchase the machine - the 
+                      advertisements were everywhere, and it was working.&nbsp; 
+                      But as Atari started to boom, embryonic cracks started to 
+                      appear in the management team - a new regime was slowly 
+                      being introduced which, new to the old-guard, included 
+                      clock-cards and dress codes.&nbsp; The original spirit of 
+                      the company was changing, and this upset a lot of the 
+                      original employees.&nbsp; This type of change is normal, 
+                      especially when you work for one of the fastest growing 
+                      companies in the world - but the direction of Atari was 
+                      changing course as well.</font></font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font color="#808080" size="2"><font face="Arial">From 1979, home video games were becoming
+        more and more popular.  12 new cartridges were released for the VCS, and more
+        importantly - the first arcade conversion was available for the home market - The Japanese
+        company &quot;Taito&quot; had launched &quot;Space Invaders&quot; and Atari quickly bought
+        the rights.&nbsp; The VCS was now being purchased for the sole purpose to play Space
+        Invaders - Atari quickly saw the potential of porting arcade games to it's system.&nbsp;
+        Atari's arcade division was under threat from companies such as Taito, Balley and Williams
+        - but fighting back, Atari had a string of arcade hits, such as Asteroids and Battle Zone
+        (1980).</font></font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font color="#808080" size="2"><font face="Arial">As
+        a new decade began, the gaming enthusiast saw such titles as Missile Command and Pac-Man
+        released - these software titles ensured massive sales for the company - by 1982, Atari
+        was a $2 billion multi-national with over 10,000 employees world-wide.&nbsp; Atari was
+        still under attack, most notably on the video game side by CBS Electronics, with it's
+        ColecoVision system.&nbsp; Not only was it able to play Atari software with it's add-on
+        module, but it had games that you couldn't get for the VCS. &nbsp;
+        </font></font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font color="#808080" size="2"><font face="Arial">Atari redesigned it's 
+        VCS (which had also seen cosmetic changes over the years) and released 
+        the VCS 2600.&nbsp; The 2600 was smaller and cheaper to manufacture.&nbsp; 
+        It was about this time Warner must have been regretting one thing (among 
+        others) - Atari VCS developers we're everywhere - launching more and 
+        more titles onto the market, and most of them were not even worthy of 
+        being burnt onto an ROM.&nbsp; This loading on the market of such trashy 
+        titles began to tu</font></font><font face="Arial" size="2" color="#808080">rn 
+        loyal users away, also the ColecoVision and Intellivision thrust into 
+        it's traditional turf had been hurting Atari.</font></p>
+                        </td>
+                    </tr>
+                    </table>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" size="2" color="#008000"><a href="history1.html" style="text-decoration: none">1972 
+              - the birth of Atari</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#008000" size="2">&nbsp;<a href="history2.html" style="text-decoration: none">The
+                world goes Pong crazy</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2">Launch
+                of the VCS</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="history4.html" style="text-decoration: none">Atari
+                grows up</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="21">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="21">&nbsp;<font face="Arial" color="#808080" size="2"><a href="history5.html" style="text-decoration: none">Just
+                before the crash...</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="history6.html" style="text-decoration: none">1984
+                - The crash</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="history7.html" style="text-decoration: none">The
+                new Atari Corporation</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="history8.html" style="text-decoration: none">Computer
+                wars</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="history9.html" style="text-decoration: none">Playing
+                the game</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2">Survival
+                of the fittest</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="history11.html" style="text-decoration: none">Let's
+                play games again</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="history12.html" style="text-decoration: none">1996 
+              - Game over</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="22" colspan="2">
+                <p align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" size="2"><a style="text-decoration: none" target="_blank" href="http://talk.atari-explorer.com">Go 
+              to the forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1"></td>
+              <td align="left" width="183" height="1">&nbsp;
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

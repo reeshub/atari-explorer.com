@@ -1,0 +1,347 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><img border="0" src="menu-icons/AEX-Header-VG.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><img border="0" src="menu-icons/vgs-on.gif" width="182" height="28"><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="computers.html"><img border="0" src="menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="menu-icons/pcs-on.gif" width="176" height="28"></a><a onmouseover="document['fpAnimswapImgFP9'].imgRolln=document['fpAnimswapImgFP9'].src;document['fpAnimswapImgFP9'].src=document['fpAnimswapImgFP9'].lowsrc;" onmouseout="document['fpAnimswapImgFP9'].src=document['fpAnimswapImgFP9'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP9" name="fpAnimswapImgFP9" dynamicanimation="fpAnimswapImgFP9" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="182" height="22"></td>
+              <td align="left" width="638" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="videogames.html" style="text-decoration: none">Video 
+              Games - Main Menu</a></font></td>
+              <td align="left" width="638" rowspan="18" valign="top" height="522">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" size="2">Video Games :: <font color="#008000">
+                7800 Pro System</font></font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+    <img border="0" GALLERYIMG="no" src="images/7800-Intro-Graphic.gif" width="320" height="206"></p>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+    <font face="Arial" size="2" color="#0279D4">
+    <a style="text-decoration: none" href="videogames.html">Atari needed to
+    </a></font>
+    <font face="Arial" size="2">
+    make amends after the 5200.&nbsp; Times were changing in the industry, and 
+    some companies were already feeling the pinch, including Atari Inc.&nbsp; 
+    The next video game console which would replace the 5200 had to have all the 
+    right ingredients, it had to ignite the consumers demand once again.&nbsp; 
+    Taking no chances, Atari hired third-party marketing companies to canvas 
+    games players everywhere, while the 5200 was still plodding along in the 
+    stores, Atari were busy in 1983 plotting a come-back machine which 
+    &quot;everybody&quot; would want.</font></p>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+    <font face="Arial" size="2">In co-operation with GCC (General Computer 
+    Corporation, now GCC Printers), Atari pushed for a new video game system, 
+    with the emphasis on putting all the wrongs of the 5200 right, first time.&nbsp; 
+    The 3600 as it was originally referred, was so important to Atari, that 
+    development took precedence over the new 1400XL and 1450XLD computers.</font></p>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+    <font face="Arial" size="2">To ensure the machine made it to market as 
+    quickly as possible, the physical design of the machine was based on an 
+    older product called the 2800 VCS.&nbsp; This was the Japanese/OEM version 
+    of the 2600 unit, and it had a much more rounded design than the 5200's, 
+    large, straight angled approach.&nbsp; The new 7800 video game system was 
+    beginning to take shape, the new graphics processor (&quot;Maria&quot;) was in testing 
+    by late 1983, and 2600 compatibility was ensured from the beginning with the 
+    addition of the original VCS &quot;TIA&quot; silicon on the motherboard.</font></p>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+    <font face="Arial" size="2">Atari wanted a smaller, more refined video 
+    console, with better controllers and no ugly adapters for 2600 
+    compatibility.&nbsp; The valuable feedback from focus groups and dealers was 
+    carefully taken into consideration, the new 7800 would be fully expandable, 
+    and planned peripherals included a computer keyboard, Laser-Disc add-on,&nbsp; 
+    a high-score cartridge and new improved joysticks.</font></p>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+    <font face="Arial" size="2">With the specification of the new machine being 
+    made available to the press early in 1984, video game magazines were 
+    especially praising the new wonder machine from Atari, in fact, there was a 
+    growing anticipation from the public about the immanent arrival of the 
+    latest Atari console.</font></p>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+    <font face="Arial" size="2">But 1984 wasn't a good year for Atari inc.&nbsp; 
+    It was common knowledge that the company was loosing money, and Warner 
+    Communications Inc. was being pulled down with it, by the savage decline in 
+    video game sales.&nbsp; Warner management were talking to potential buyers, 
+    and although Philips (the Dutch electronics giant) were supposedly one of 
+    the closest bidders, it was Jack Tramiel, founder of Commodore Inc., that 
+    would end up with the company.</font></p>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+    <font face="Arial" size="2">The 7800 was not even on the agenda with the new 
+    Atari management, in fact, video games were possibly the last things on 
+    their mind.&nbsp; The 7800, 2600Jnr (a revised 2600 in smaller packaging), 
+    and all current computer projects were axed - in fact, almost all Warner 
+    projects were shelved when the Tramiels took over the company in July 1984.</font></p>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+    <font face="Arial" size="2">The 7800 would languish in a mothballed state 
+    for almost 2 years, until it became clear to the Tramiels that videogames 
+    were selling again, and the Japanese companies were beginning to sow up the 
+    U.S. and global video game markets.&nbsp; Perhaps cynically, the 7800 and 
+    2600Jnr were showcased in the 1986 shares prospectus from Atari Corp. - The 
+    Tramiels now pledged their support for video games, and to the markets 
+    surprise, Atari&nbsp; were back selling video consoles again.</font></p>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+    <img border="0" GALLERYIMG="no" src="images/7880-Euro1.gif" width="349" height="236"></p>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+    <font face="Arial" size="2">Although the 7800 had seen a very limited launch 
+    before the buyout, you could still purchase the 2600VCS (and to a lesser 
+    extent, the 5200) for some time after July 1984.&nbsp; Warner had 
+    manufactured vast amounts of 2600 hardware and software (you can still buy 
+    shrink-wrapped Warner 2600 titles today!) and it took some time before the 
+    Atari Corp. had sold it all.</font></p>
+    <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+    <font face="Arial" size="2">The 7800 sold well initially, and 1986/87 were 
+    its best years.&nbsp; But the technology was already dated when Atari Corp. 
+    launched the machine, and it was a half-hearted effort in the long-run.&nbsp; 
+    Estimates of approx. $500,000 were made on the total global 7800 marketing 
+    budget, this, in comparison to the spend for new systems from Sega and 
+    Nintendo ensured the 7800 was at best, a well kept secret.&nbsp; The last 
+    units of the 7800 were manufactured in 1990/91.</font></p>
+                      </td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22"><font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2"><a href="pong.html" style="text-decoration: none">The 
+              Pong family</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22"><font face="Arial" color="#808080" size="2">
+              &nbsp;<a href="touch-me.html" style="text-decoration: none">Touch Me</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" size="2" color="#008000"><a href="2600.html" style="text-decoration: none">2600 
+              VCS</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" size="2" color="#808080"><a style="text-decoration: none" href="5200.html">5200 
+              Super System</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="21">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="21">&nbsp;<font color="#008000" face="Arial" size="2">7800 
+              Pro System</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="xegs.html" style="text-decoration: none">XEGS</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="lynx.html" style="text-decoration: none">Lynx</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" size="2" color="#808080"><a href="jaguar.html" style="text-decoration: none">Jaguar</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="arcade.html" style="text-decoration: none">Arcade</a></font></td>
+            </tr>
+            <tr>
+              <td width="118" align="left" height="1" colspan="2">
+              <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font color="#9A05EB" face="Arial" size="2">Topic 
+              sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon-offline.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <p><font face="Arial" size="2" color="#808080">&nbsp;Design 
+              variations</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="7800-peripherals.html" style="text-decoration: none">Peripherals</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon-offline.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="1">
+              <font size="2" color="#808080"><font face="Arial">&nbsp;Software 
+              highlights</font></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/info-icon-offline.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;7800 info-byte</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1"></td>
+              <td align="left" width="182" height="1">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

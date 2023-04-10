@@ -1,0 +1,541 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885">
+      <a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-emulation8-bit.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><img border="0" src="menu-icons/pcs-on.gif" width="176" height="28"><a onmouseover="document['fpAnimswapImgFP5'].imgRolln=document['fpAnimswapImgFP5'].src;document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].lowsrc;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="180" height="22"></td>
+              <td align="left" width="638" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="11" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="180" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="computers.html" style="text-decoration: none">Computers
+                - Main Menu</a></font></td>
+              <td align="left" width="638" rowspan="21" valign="top" height="64">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" size="2">Personal Computers :: 8-Bit 
+                Emulation ::<font color="#008000">
+                </font><font color="#9A05EB">Quick Start Guide</font></font></p>
+                <div align="center">
+                <center>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                <tr>
+                      <td height="75" width="450" valign="top">
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                <img border="0" GALLERYIMG="no" src="images/AWP-qs-title.gif" width="388" height="255"><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">This Quick Start guide is 
+                      aimed at the very beginner, and is designed to get your <i>
+                      Atari 800 Windows Plus Emulator</i> up and running 
+                      quickly.&nbsp; We recommend you read the included HELP 
+                      file further for more in depth information, and to get the 
+                      most from the program. </font><p align="center" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">
+                      <img border="0" GALLERYIMG="no" src="images/AWP-unzip.gif" width="288" height="105"></font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Lets go!&nbsp; Assuming you 
+                      have already downloaded the two most important files (the 
+                      emulator and the 8-Bit ROMs), you should create a new 
+                      directory on your hard drive using Windows Explorer.&nbsp; 
+                      This can be called anything you want, but a good idea is 
+                      to keep folder names appropriate and simple.&nbsp; Once 
+                      this is done, &quot;unzip&quot; the 2 downloaded files to the new 
+                      folder.&nbsp; If you haven't got a copy of WinZip, go 
+                      <a target="_blank" href="http://www.winzip.com">here</a>...</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <b>
+                      <font face="Arial" size="2" color="#FF0000">! Important </font></b>
+                      <font face="Arial" size="2">- Atari800Win+ requires 
+                      Direct-X 7.0 or higher to run at its best, please ensure 
+                      your OS has this driver installed.&nbsp; If in doubt, get 
+                      the latest version from the Microsoft website.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Once the files have been 
+                      extracted (un-zipped) to your new folder, you will see an 
+                      icon similar to the one above, it looks like an Atari 
+                      800XL computer.&nbsp; This is the .EXE file for 
+                      Atari800Win+.&nbsp; Double click on this icon to start the 
+                      program.</font><p align="center" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">
+                      <img border="0" GALLERYIMG="no" src="images/AWP-romimages2.gif" width="355" height="299"></font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">During the very first 
+                      installation, you will be asked a number of questions. The 
+                      first question asks you if you want shortcuts to the 
+                      emulator, the second question is to confirm the location 
+                      of your ROM files, and the last asks what file extensions 
+                      you want to associate with the emulator.&nbsp; The most 
+                      important question is the location of your Atari -Bit ROM 
+                      files.&nbsp; Just point the program to the appropriate 
+                      folder where each of the ROM files are contained (which 
+                      should be in the new folder you created and extracted the 
+                      files to).&nbsp; The ROM files are required for the 
+                      emulator to work properly.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">When the program asks you to 
+                      &quot;associate&quot; files for the emulator, select all.&nbsp; You 
+                      should be presented with a &quot;Finish&quot; button, press this, 
+                      and we can proceed.</font><p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/AWP-running.gif" width="349" height="323"><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">You should be presented with a 
+                      screen similar to the one above if installation was 
+                      successful.&nbsp; Don't worry if you think you screwed the 
+                      installation part up, because you can always do it again, 
+                      even after the program has loaded, by going to the HELP 
+                      option, and selecting the setup wizard.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Let's get accustomed 
+                      to the program interface, which has been made nice and 
+                      easy to use.&nbsp; You will learn more about the program 
+                      the more you use it, and the HELP file included is very 
+                      useful to get the most from Atari800WinPlus, especially 
+                      when trying out more complex operations.&nbsp; But for 
+                      now, we'll get to grips with the basic operation, and the 
+                      most common options we will use are FILE and ATARI.&nbsp; 
+                      When you get more familiar with the program, 
+                      Atari800WinPlus has &quot;state indicators&quot; which will allow 
+                      you to change and set other features, but for now, ignore 
+                      them.</font><p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/AWP-indicators.gif" width="385" height="327"><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">So, we are ready to load our 
+                      first game!&nbsp; Pole Position was included in the 
+                      Emulator files you downloaded, so lets try that one!&nbsp; 
+                      The first thing we will do is ensure the machine type is 
+                      set-up correctly for Pole Position.&nbsp; When you load 
+                      future programs, you will need to change certain settings 
+                      if the program fails to load.&nbsp; This can be a process 
+                      of trial and error, but the most common errors concern the 
+                      machine type, memory size, or if you have selected options 
+                      such as fast disk access or different system speeds.</font><p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/AWP-machinetype.gif" width="349" height="322"><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">For Pole Position, we will set 
+                      the machine type to OS-B, which is the Atari ROM, 
+                      Operating System Rev. B, one of the most common.&nbsp; We 
+                      should also check the memory is set to 48K (Memory Size) 
+                      and the Video System is set to PAL (50Mhz), this would 
+                      only change if the game was a U.S. NTSC version at 60Mhz.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2"><b><font color="#FF0000">!
+                      </font></b>If you cannot see any machine options, you need 
+                      to confirm the ROM locations again, go to HELP, and select 
+                      the set-up wizard.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">As most of the program options 
+                      do not need changing at this point, we can continue and 
+                      load the actual game file.</font><p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/AWP-diskdrives.gif" width="348" height="321"><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Go to FILE, and select the 
+                      ATTACH DISK option.&nbsp; As you can see above, you are 
+                      presented with 8 disk drives, but we only need one for 
+                      Pole Position!&nbsp; Click on DRIVE 1.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/AWP-diskdrives2.gif" width="429" height="379"><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">A windows file box will open, 
+                      and you should go to the folder you created earlier, this 
+                      will contain your file for Pole Position.&nbsp; Open this 
+                      file.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">The game Pole Position is now 
+                      loaded into Disk Drive 1.&nbsp; Before we run the game, 
+                      we'll just check our INPUT options.&nbsp; You can use a 
+                      real joystick with the emulator, but to get playing 
+                      quickly, we'll use the PC keyboard for now.&nbsp; Go to 
+                      INPUT, and select JOYSTICKS.</font><p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/AWP-joyoptions.gif" width="398" height="350"><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">To use the PC keyboard, select 
+                      the option above in Row 1.&nbsp; We are now ready to run 
+                      Pole Position.&nbsp; The keys associated with the game 
+                      will be Right Control (FIRE BUTTON) and the Keypad as the 
+                      directional input.&nbsp; Click OK and proceed.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2"><b><font color="#FF0000">!
+                      </font></b>On the Atari 8-Bit computers there was 4 
+                      important buttons.&nbsp; START, SELECT, OPTION and RESET.&nbsp; 
+                      The same buttons apply to the emulator, F2 = Option F3 = 
+                      Select F4 = Start F5 = Reset (if a game doesn't reset, or 
+                      a new program fail to load, press SHIFT+F5 for a cold 
+                      reset).</font><p align="left" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">So, lets press RESET on the PC 
+                      keyboard (F5) and see what happens...</font><p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/AWP-poleposition.gif" width="348" height="320"><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">The program has loaded!&nbsp; 
+                      Some programs take a few seconds to load, and some take a 
+                      minute or two.&nbsp; When a program is loading you will 
+                      see a small green number flashing in the bottom right of 
+                      the emulator screen, this shows the loading progress just 
+                      like a real disk drive indicator light.&nbsp; Press START 
+                      to play (or SELECT and OPTION to change game settings).</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Atari800WinPlus is a fantastic 
+                      emulator, and with more practice you can play practically 
+                      every 8-Bit game released.&nbsp; The program has many 
+                      exciting options, such as full screen, sound and video 
+                      recorders, network play options and more...&nbsp; have 
+                      fun, and always read the manual ;-)</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2"><font color="#FF0000">Please 
+                      note:</font> AEX is not responsible for the use of this 
+                      program on your computer.&nbsp; Do not ask AEX or AHS to 
+                      provide programs for these emulators.&nbsp; Questions relating to the 
+                      emulator should be asked on the AHS Forums, or via the 
+                      Forums at
+                      <a target="_blank" href="http://www.atariage.com">www.atariage.com</a>.</font></td>
+                    </tr>
+                <tr>
+                <td>&nbsp;</td>
+                </tr>
+                </table>
+                </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></p>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="180" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="400-800.html" style="text-decoration: none">400/800</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="180" height="22"><font face="Arial" color="#808080" size="2">
+              &nbsp;</font><font face="Arial" color="#808080" size="2"><a href="XL.html" style="text-decoration: none">XL 
+              Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="XE.html" style="text-decoration: none">XE
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="ST.html" style="text-decoration: none">ST
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="21">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="21">
+              <font size="2" color="#008000" face="Arial">&nbsp;</font><font face="Arial" color="#808080" size="2"><a href="TT.html" style="text-decoration: none">TT030</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="transputer.html" style="text-decoration: none">Transputer
+                Workstation</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stacy.html" style="text-decoration: none">STacy</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stbook.html" style="text-decoration: none">ST
+                Book</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="falcon.html" style="text-decoration: none">Falcon030</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="portfolio.html" style="text-decoration: none">Portfolio</a>
+                </font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="PC.html" style="text-decoration: none">IBM
+                PC Compatibles</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="computer-prototypes.html" style="text-decoration: none">Prototypes</a></font></td>
+            </tr>
+            <tr>
+              <td width="118" align="left" height="22" colspan="2">
+                <p align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="8">
+              <img border="0" src="menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="180" height="22"><font color="#008000">&nbsp;</font><font color="#9A05EB" face="Arial" size="2">Topic 
+              sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="180" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2"><a href="emulation-8bit.html" style="text-decoration: none">Emulation</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/download-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="files/Atari800WinPLus31.zip" style="text-decoration: none">Atari 
+              800Win+ V3.1 (PC)</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/download-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">
+              <font face="Arial" size="2">&nbsp;</font><font face="Arial" color="#808080" size="2"><a href="files/AtariRoms.zip" style="text-decoration: none">8-Bit 
+              ROM files</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/link-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22"><font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" size="2"><a target="_blank" href="http://atariarea.histeria.pl/PLus/index_us.htm" style="text-decoration: none">Atari800WinPlus 
+              homepage</a></font></td>
+            </tr>
+            <tr>
+              <td width="20" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td width="123" align="left" height="22"><font face="Arial" color="#808080" size="2"><a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go 
+              to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="118" align="left" height="1" colspan="2">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,567 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-Articles.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="computers.html"><img border="0" src="menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="menu-icons/pcs-on.gif" width="176" height="28"></a><img border="0" src="menu-icons/articles-on.gif" width="118" height="28"></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="181" height="22"></td>
+              <td align="left" width="639" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="181" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="articles.html" style="text-decoration: none">Articles 
+              - Main Menu</a></font></td>
+              <td align="left" width="639" rowspan="14" valign="top" height="475">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial">News Clippings :: <font color="#008000">1986</font></font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+        <p style="margin-left: 10px; padding-left: 1px"><font color="#FF8000" FACE="Arial" size="1"><em>Published on 01/01/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">ATARI PLANS TO GREET NEW YEAR WITH OLD RETAIL STRATEGY </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">It's a new year time to ring out the old
+        and ring in the new, right? </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Maybe that's true for some people, but not
+        for Sunnyvale- based Atari Corp. and its chairman, Jack Tramiel. He seems ready to
+        resurrect a profitable old strategy from his days at Commodore International Ltd.</font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 01/09/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">ATARI UNVEILS COMPUTER </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Atari Corp. of Sunnyvale today announced a
+        personal computer with one megabyte of memory, or enough storage for roughly 500 typed
+        pages. It follows the company's $799 520ST computer that competed with limited success
+        against more established personal computers at Christmas. The new machine, the 1040ST,
+        will be priced at $999.95 with a monochrome monitor, and $1,199.95 with a 
+        colour monitor.
+        In an interview last week, Atari executive vice president Michael Katz said that the price
+        on the 520ST would be drop soon.</font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 01/11/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">ATARI PLAN GETS MIXED REVIEWS </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Some computer dealers expressed confusion
+        and anger here Friday over Atari Corp.'s decision to start selling the 520ST personal
+        computer at big discount stores. </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Henry Ehle, owner of Computer Works in
+        Phoenix, complained that Sunnyvale-based Atari's new computer, the 1040ST, isn't a good
+        replacement for the 520ST. Atari plans to sell the new 1040ST, a more powerful computer,
+        through computer dealers, while concentrating 520ST sales in major discount stores, such
+        as K mart and Service Merchandise.</font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 01/22/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">ATARI SUED FOR $55 MILLION</font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Atari Corp. of Sunnyvale has been sued for
+        $55.2 million by a Japanese printer maker that claims Atari reneged on a contract to buy
+        nearly 500,000 printers. The suit, filed in Santa Clara Count Superior Court, alleges that
+        Atari promised to buy 45,150 printers during the first three months of 1985, then buy
+        50,000 printers a month for the rest of the year. </font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 01/29/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">ATARI'S NEW SALES STRATEGY SPURS WALKOUT BY TOP EXEC </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">One of Atari Corp.'s top sales executives
+        has quit after only three months on the job, apparently angered by the Sunnyvale computer
+        maker's plans to shift its marketing focus to department stores and away from computer
+        dealers. </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Al Montross, who was vice president and
+        general manager of the company's domestic sales operation, abruptly decided to leave
+        during the recent Consumer Electronics Show in Las Vegas.</font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 02/09/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">FORGOTTEN ATARI USERS JUST WANT SOME RESPECT </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">As an Atari 800 user, Gary Gerber, a
+        Foster City microcomputer consultant, has suffered the scorn of IBM PC owners. But he's
+        stuck to his guns and explains here why he still loves his Atari. I have a confession to
+        make, and it won't be easy. I've slipped into a now-rare class of human, shunned and
+        ridiculed by my peers. But love me or hate me, I'm proud of it.</font></p>
+        <b><p style="margin-left: 10px; padding-left: 1px"></b><font color="#FF8000" FACE="Arial" size="1"><em>Published on 02/19/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">TANDON SUES ATARI INC. </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Tandon Corp. of Chatsworth has sued Atari
+        Inc. -- not to be confused with Atari Corp., the Sunnyvale computer manufacturer -- in
+        Santa Clara County Superior Court, claiming it is owed $645,000 for design work done on
+        Atari's never-released 1450 XLD computer. Atari Inc. represents some of the parts of Atari
+        that weren't sold to Jack Tramiel by Warner Communications Inc. of New York. Warner
+        officials couldn't be reached for comment. </font></p>
+        <font FACE="Arial" size="3"><p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">TWO FORMER ATARI EXECUTIVES GET TOGETHER TO SELL
+        COMPUTER
+        PRODUCTS
+        THROUGH NEW FIRM </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Al Montross, who left a general manager's
+        post at Atari Corp. earlier this year in a dispute with Atari Chairman Jack Tramiel over
+        his marketing plans, is now working for another ex-Atarian, James L. Copland.
+        </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Montross, 46, recently joined Copland's
+        fledging marketing organization, Mountain View-based Shanner International, as president
+        and chief executive of the 17-person company. Copland, a former marketing vice president
+        for Atari who had been president of Shanner, took the title of chairman.</font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 04/16/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">ATARI'S HIGH-TECH TELEPHONES ARRIVE -- AT LAST </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">BACK in 1982, when Atari was riding high
+        and expecting to climb even higher, the company started work on a new product line that
+        would be a complete departure from its usual business of videogames and home computers.
+        The project was code-named Falcon. </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">After Atari began tumbling, the company
+        spilled the beans on its plans: It was working on a line of high-tech telephones. The
+        division was given a name, AtariTel, but none of the products ever made it to market --
+        until now.</font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 04/20/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">MAY THE BEST LOW-END COMPUTER WIN
+        IN ATARI-COMMODORE BATTLE, ONLY ONE COMPANY MAY SURVIVE </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">To the great rivalries of all time -- Cal
+        vs. Stanford, Coke vs. Pepsi, &quot;Dallas&quot; vs. &quot;Dynasty&quot; -- add Commodore
+        and Atari. </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Both sides in this undeclared computer war
+        are locked in a struggle for supremacy in the low end of the personal computer market.
+        Some outsiders say only one will survive. </font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 04/22/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">WOZNIAK, BUSHNELL PLAN TO POOL COMPUTER TALENTS</font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Two of Silicon Valley's best-known
+        computer pioneers -- Steve Wozniak and Nolan Bushnell -- are talking about joining forces.
+        Wozniak, who co-founded Apple Computer Inc., and Bushnell, who founded Atari, have already
+        begun mapping plans to develop a computerized, educational toy.</font></p>
+        <b><p style="margin-left: 10px; padding-left: 1px"></b><font color="#FF8000" FACE="Arial" size="1"><em>Published on 04/24/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">WOZNIAK SAYS MERGER DEAL IS OFF </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">The merger between Silicon Valley pioneers
+        Steve Wozniak and Nolan Bushnell is off because &quot;I found out that all he wanted was
+        my money,&quot; Wozniak said Wednesday. &nbsp; But Bushnell -- the 43-year-old founder of
+        Atari and Pizza Time Theatre -- denied the charge and said &quot;what we really want to do
+        is work together.&quot;</font></p>
+        <b><p style="margin-left: 10px; padding-left: 1px"></b><font color="#FF8000" FACE="Arial" size="1"><em>Published on 05/01/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">'VISUAL' TELEPHONES WILL BE SOLD FOR $1,450</font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Luma Telecom Inc. of Santa Clara on
+        Wednesday introduced its long-awaited &quot;visual&quot; telephone, a unit that can
+        transmit and receive still pictures through the existing telephone network. The unit sells
+        for $1,450, and shipments to distributors will begin in 90 days, Luma officials said.</font></p>
+        <b><p style="margin-left: 10px; padding-left: 1px"></b><font color="#FF8000" FACE="Arial" size="1"><em>Published on 06/04/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">ATARI TO PAY EX-WORKERS WHO WERE LAID OFF<br>
+        LABOUR LAWYERS SAY AGREEMENT BREAKS NEW GROUND</font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">In a settlement that labour experts say
+        breaks new ground, Atari Inc. has agreed to pay 537 former employees who sued the company
+        after they were laid off without notice in 1983. </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">The settlement will cost Atari Inc. -- a
+        wholly owned, non- operating subsidiary of Warner Communications Inc. of New York -- legal
+        fees plus $600,860, or approximately $1,119 for each person represented by the suit. The
+        settlement was tentatively approved Tuesday by Santa Clara County Superior Court Judge
+        Peter Stone.</font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 07/03/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">2 TEENS SUE ATARI 
+        -
+        REDWOOD CITY BOYS' IDEA FOR VIDEO GAME
+        REJECTED BY COMPANY, THEN USED, SUIT ALLEGES </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Two Redwood City teen-agers have sued
+        Atari Games Corp. for $1 million in damages and any profits accrued by the company for a
+        video game called &quot;Paperboy.&quot; Mark Caesar, 14, and his 
+        long-time friend, Robin
+        Hallingstad, 16, allege in their suit that Atari rejected the boys' idea and then later
+        used it to produce a game.</font></p>
+        <b><p style="margin-left: 10px; padding-left: 1px"></b><font color="#FF8000" FACE="Arial" size="1"><em>Published on 07/13/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">NOW, MICROSOFT MEETS ATARI </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">MICROSOFT Corp. did the Apple Macintosh a
+        tremendous favour. And now perhaps the Seattle-area software company will give a similar
+        boost to the Atari ST. </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Last week, Atari Corp. of Sunnyvale and
+        Microsoft announced that Atari would market Microsoft Write, a word processor, for the
+        Atari ST. This means that Microsoft is committing some of its considerable resources to
+        support the ST, an $800 system that does many of the graphics tricks that the Macintosh
+        does.</font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 08/17/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">NEW VERSIONS OF ATARI ST ARE ON THE WAY,
+        TRAMIEL SAYS </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">In an interview in the first issue of
+        Compute!'s Atari ST, a magazine from ABC Publications that will be on newsstands Aug. 26,
+        Sam Tramiel, president of the Atari Corp., Sunnyvale, says his company will introduce both
+        2-megabyte and 4-megabyte versions of the ST computer by the end of the year.
+        </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">The ST's now come in half- and
+        full-megabyte versions. The company has no plans, he said, to design ways for current ST
+        owners to upgrade their machines. </font></p>
+        <font FACE="Arial" size="1"><p style="margin-left: 10px; padding-left: 1px"></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 09/19/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">ATARI PLANS $50 MILLION STOCK OFFERING </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Atari Corp., which in a previous life was
+        one of Silicon Valley's biggest success stories and then one of its biggest flops,
+        Thursday disclosed plans to start a new life as a public company by selling more than $50
+        million worth of stock. </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">The Sunnyvale company was taken over by
+        personal computer industry pioneer Jack Tramiel when it lay in ruins in 1984. In a
+        prospectus filed Thursday, the company said that its sales of computers and video games is
+        now running at a $200 million- a-year clip.</font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 09/22/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">JACK TRAMIEL HAS NURSED ATARI BACK TO PROFITABILITY,
+        BUT ANALYSTS SAY IT'S STILL WEAK CONTENDER
+        IN PC ARENA -
+        HE HAS PLENTY LEFT TO PROVE</font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">At San Jose Computer, the Atari line of
+        personal computers is selling fast. &quot;I'm hard put to keep them in stock,&quot; said
+        Tony Colwell, the store's manager. But San Jose Computer is something of a renegade among
+        computer retailers, and its decision to stock and sell the Atari computers is in keeping
+        with its image.</font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 11/08/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">ATARI GOES PUBLIC IN $51 MILLION STOCK SALE</font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Atari Corp., the symbol of boom and bust
+        in Silicon Valley, became an independent, publicly held company for the first time in its
+        history Friday when it sold $50.6 million worth of stock on Wall Street.
+        </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">The company sold 4.5 million shares for
+        $11.25 each. That was slightly less than the scheduled price of $11.50 to $12.50 a share,
+        a sign of Wall Street's weakened demand for new issues. The stock rose in value during the
+        day, and closed at $12.50 a share.</font></p>
+        <font FACE="Arial" size="1"><b><p style="margin-left: 10px; padding-left: 1px"></b></font><font color="#FF8000" FACE="Arial" size="1"><em>Published on 12/11/86, SAN JOSE MERCURY NEWS</em></font><font FACE="Arial" size="3"></p>
+        <p style="margin-left: 10px; padding-left: 1px"></font><font color="#008000" FACE="Arial" size="3">ATARI'S NEW MACHINES BOOST SALES AND PROFITS </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">Atari Corp., reporting its first results
+        as a publicly held company, said sales of its ST personal computer and its redesigned
+        video game player boosted overall sales and earnings in the third quarter.
+        </font> </p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2">The Sunnyvale company, which sold its
+        first public stock in November, had net income of $9.1 million, or 41 cents a share, in
+        the three months ended Sept. 30. That compares with a loss of $2.5 million, or 11 cents a
+        share, in the same quarter a year earlier. </font>
+        <p style="margin-left: 10; margin-right:10" align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;</font><font face="Arial" size="2" color="#008000"><a href="articles-news-85.html" style="text-decoration: none">Headlines 
+              '85</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;<font face="Arial" size="2" color="#008000">Headlines '86</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="articles-news-87.html" style="text-decoration: none">Headlines '87</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;<font face="Arial" size="2" color="#808080">Headlines '88</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;Headlines '89</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;Headlines '90/91</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22"><font face="Arial" size="2" color="#808080">
+              &nbsp;Headlines '92/93</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;<font face="Arial" size="2" color="#808080">Headlines '94/95</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;Headlines '96</font></td>
+            </tr>
+            <tr>
+              <td width="18" align="left" height="1">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td width="99" align="left" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="articles-PR.html" style="text-decoration: none">Press Releases</a></font></td>
+            </tr>
+            <tr>
+              <td width="117" align="left" height="22" colspan="2">
+              <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              </td>
+              <td align="left" width="181" height="1">
+              &nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              </td>
+            </tr>
+            </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,427 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="../menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="../menu-icons/AEX-Header-Articles.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="../index.html">
+      <img border="0" src="../menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="../menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="../information.html"><img border="0" src="../menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="../menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="../history/history.html"><img border="0" src="../menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="../menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="../videogames.html"><img border="0" src="../menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="../menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="../computers.html"><img border="0" src="../menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="../menu-icons/pcs-on.gif" width="176" height="28"></a><img border="0" src="../menu-icons/articles-on.gif" width="118" height="28"></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="181" height="22"></td>
+              <td align="left" width="639" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="../menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="181" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="../articles.html" style="text-decoration: none">Articles 
+              - Main Menu</a></font></td>
+              <td align="left" width="639" rowspan="16" valign="top" height="838">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial"><font size="2">Atari Articles</font>
+                </font>:<font size="2" face="Arial">: Press Releases ::</font><font face="Arial" size="2" color="#008000"> 
+                Atari Interactive</font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+        <p style="margin-left: 10; margin-right: 10" align="center">
+        <font face="Arial">ATARI FORMS ATARI INTERACTIVE TO DEVELOP 
+        MULTI-PLATFORM GAMES</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">LAS VEGAS — Jan. 2, 1996 — Atari Corp., 
+        founder of America's video game industry, has broadened its business 
+        with the formation of Atari Interactive, a new division dedicated to the 
+        development and distribution of multi-platform interactive 
+        entertainment.</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">Ted Hoff, president, Atari USA, formally 
+        announced the company's new division this week.</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">&quot;With the formation of Atari Interactive, we 
+        are creating a new division to address the worldwide PC market,&quot; Hoff 
+        stated, adding, &quot;Atari Interactive will allow consumers to receive our 
+        entertainment products on a variety of formats, from existing platforms 
+        and consoles such as our own Jaguar system, to PC, Mac, the Internet and 
+        Web sites.&quot;</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">Over the past 25 years, Atari's creativity 
+        and vision have led to the development of exciting and successful games 
+        such as &quot;Tempest,&quot; &quot;Missile Command&quot; and &quot;Crystal Castles.&quot; Now, the 
+        company will continue its tradition of innovation, combined with its 
+        concern for meeting consumer needs, by developing entertaining, 
+        multi-platform software.</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">Atari Interactive software will feature 
+        Atari's classic arcade-style games updated to play on a number of gaming 
+        environments. Interactive software enthusiasts will be able to enjoy 
+        enhanced Atari classics such as &quot;Tempest 2000,&quot; &quot;Missile Command 3D&quot; and 
+        &quot;Return to Crystal Castles.&quot;</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">In addition, they can experience the robust, 
+        rich environments of Atari Interactive's new games, like the 
+        &quot;Interactive Rocky Horror Show&quot; and &quot;Virtual War.&quot; Atari Interactive's 
+        games will be available to preview through the Atari Web site on the 
+        Internet (address: http://www.atari.com).</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">Four CD-ROM titles under the Atari 
+        Interactive name will be available in the first quarter. These premier 
+        entertainment software titles are:</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">&quot;Tempest 2000&quot;: An American video game 
+        classic first developed by Atari in 1981 as an arcade game. The CD title 
+        features elaborate and enhanced 3-D graphics and animation, as well as a 
+        CD-quality techno-rave soundtrack. &quot;Highlander&quot;: A new action-adventure 
+        CD-ROM title that allows players to become Quentin MacLeod, the last 
+        immortal, known as &quot;The Highlander.&quot; As Quentin MacLeod, players 
+        encounter challenging and complex puzzles in their quest to defeat the 
+        evil Kortan.</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">&quot;Baldies&quot;: As rulers of a fictitious world 
+        populated by builders, workers, soldiers and scientists (who are bald, 
+        of course), players must determine how best to employ their resources to 
+        safeguard their world while at the same time eliminate the enemy. 
+        &quot;Baldies&quot; has network capability, which allows up to four players to 
+        enjoy the game at once, delivering four times the fun!</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">&quot;FlipOut!&quot;: Players maneuver their way 
+        through 14 different areas of The Cheese Planet while trying to solve 
+        increasingly difficult puzzles (levels range from Normal to Psychotic). 
+        Whether they are in Mt. Rushmore or the Sphorkle Diner, players need to 
+        keep an eye out for mischievous aliens who'll trip them up just for the 
+        fun of it.</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">The introduction of these games is only the 
+        beginning for Atari Interactive.</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">Additional titles currently under 
+        development will be available throughout 1996.</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">In discussing Atari Interactive's games, 
+        Hoff explained: &quot;The introductory titles by Atari Interactive are 
+        designed to appeal to long-time fans of classic arcade games who want a 
+        different, or perhaps new medium in which to play those games, as well 
+        as novice players eager to test-drive this entertainment form on their 
+        PC.</font></p>
+        <p style="margin-left: 10; margin-right: 10" align="justify">
+        <font size="2" face="Arial">&quot;By offering game enthusiasts more access 
+        options to superior products, we have enhanced their opportunity for 
+        convenient, exciting and challenging entertainment.&quot;</font></p>
+        <p align="center">
+              <img border="0" src="../menu-icons/menu-break.gif" width="199" height="17"></p>
+        <p style="margin-left: 10; margin-right:10" align="center"><font face="Arial" size="2"><b>Atari creates new
+        software division</b></font></p>
+        <p style="margin-left: 10; margin-right:10" align="center"><font SIZE="2" face="Arial">
+        Article - (San Jose Mercury News)</font></p>
+        <p style="margin-left: 10; margin-right:10" align="center"><font SIZE="2" face="Arial">SUNNYVALE,
+        Calif. (Jan 2, 1996 - 18:11 EST)</font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify"><font SIZE="2" face="Arial">Atari
+        Corp., moving to diversify beyond a floundering video-game system called
+        Jaguar, is starting a new business to deploy games for personal
+        computers. In launching the business under a new division called Atari
+        Interactive, the video-game pioneer said it will draw heavily on its
+        library of 1980s-vintage video games such as Asteroids and Pac-Man. </font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify"><font SIZE="2" face="Arial">Atari
+        said it will update those games with three dimensional graphics and
+        stereo sound to run on the latest generation of high-powered PCs. Atari
+        launched the U.S. video game industry in about 1980, but lost the market
+        to competitors such as Nintendo Co. and Sega Enterprises Ltd. &quot;We
+        have a 25-year library of video game titles and we want to put some of
+        those games on the PC,&quot; Ted Hoff, president of Atari's North
+        American operations, said in an interview.</font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify"><font SIZE="2" face="Arial">The
+        PC foray comes as Atari's advanced Jaguar player struggles against
+        competing players by Nintendo, Sega, Sony Corp. and 3DO Co. Hobbled by a
+        dearth of support from independent software developers, only about
+        200,000 of the Jaguars have been sold worldwide since the machine was
+        launched in 1993.</font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify"><font SIZE="2" face="Arial">By
+        contrast, analysts estimate Sony sold about 500,000 of its new
+        PlayStation machines since their launch in the United States last
+        September. A recent report by Gerard Klauer Mattison &amp; Co., a market
+        research firm in New York, concludes that &quot;Jaguar's prospects for
+        success are quite bleak.&quot; Hoff said Atari continues to stand by
+        Jaguar and added the player should benefit by a recent price cut to $99
+        from $149, as well as an expanded number of games to about 50 from four
+        at the machine's launch.</font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify"><font SIZE="2" face="Arial">By
+        the end of the first quarter, Hoff said about 16 more Jaguar games will
+        be out. Atari's real prospect for growth, Hoff added, is in producing
+        games for PCs, which now reside in more than 10 million U.S. homes.</font></p>
+        <p style="margin-left: 10; margin-right:10" align="justify"><font SIZE="2" face="Arial">Of
+        the first four PC games being released during the current quarter, Hoff
+        said one is a remake of the old Atari game Tempest. The other three,
+        Highlander, Baldies and FlipOut!, are new titles. A total of 17 PC games
+        will be shipped this year, Hoff said. Atari plans PC games soon based on
+        other of its old games, including Missile Command and Crystal Castles.
+        Updated versions of Asteroids, Pac Man and Centipede will be available
+        next year.</font></p>
+        <p style="margin-left: 10; margin-right:10" align="center">
+              <img border="0" src="../menu-icons/menu-break.gif" width="199" height="17"></p>
+        <p style="margin-left: 10; margin-right:10" align="justify">
+        <font face="Arial" size="2"><font color="#800080">AEX Note:</font> As 
+        part of the PR campaign for the new division, Atari Interactive promoted 
+        the PC Version of Tempest 2000 by offering a great playable demo on the 
+        front of various PC magazines, including Computer Shopper...</font></p>
+                      <div align="center">
+                        <center>
+                        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber2">
+                          <tr>
+                            <td>
+                            <p align="center"><a href="../files/AI-T2K-Demo.zip">
+                            <img border="0" src="../images/T2K-FD-DEMO.gif" width="137" height="141"></a></td>
+                          </tr>
+                          <tr>
+                            <td>
+                            <p align="center"><font size="2" face="Arial">Click 
+                            on the disk to download the demo (Zipped - 495Kb)<a name="T2K"></a></font></td>
+                          </tr>
+                          <tr>
+                            <td>
+                            &nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td>
+                            <p align="center">
+                <a href="#top"><img border="0" src="../images/top.gif" width="31" height="13"></a></td>
+                          </tr>
+                        </table>
+                        </center>
+                      </div>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;<font face="Arial" size="2" color="#008000">Atari 
+              Interactive</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;</td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;</td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;</td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;</td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;</td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;</td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;</td>
+            </tr>
+            <tr>
+              <td width="18" align="left" height="1">
+              <img border="0" src="../menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td width="99" align="left" height="22">
+              &nbsp;</td>
+            </tr>
+            <tr>
+              <td width="117" align="left" height="22" colspan="2">
+              <img border="0" src="../menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="181" height="22">
+              &nbsp;<font face="Arial" size="2"><a href="articles-PR.html" style="text-decoration: none">Press 
+              Releases - Main Menu</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/download-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="1">
+              &nbsp;<font face="Arial" size="2"><a href="#T2K" style="text-decoration: none">Demo 
+              of Tempest 2000 (PC)</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="1">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              </td>
+              <td align="left" width="181" height="1">
+              &nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td>
+            </tr>
+            </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

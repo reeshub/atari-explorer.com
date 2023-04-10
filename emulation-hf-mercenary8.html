@@ -1,0 +1,574 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-emulation.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><img border="0" src="menu-icons/pcs-on.gif" width="176" height="28"><a onmouseover="document['fpAnimswapImgFP5'].imgRolln=document['fpAnimswapImgFP5'].src;document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].lowsrc;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="19" align="left" height="22"></td>
+              <td align="left" width="183" height="22"></td>
+              <td align="left" width="554" height="22"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="11" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="computers.html" style="text-decoration: none">Computers
+                - Main Menu</a></font></td>
+              <td align="left" width="554" rowspan="24" valign="top" height="96">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" size="2">Personal Computers :: 8-Bit Range :: Emulation 
+                ::<font color="#9A05EB"> History Files</font></font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber12">
+                    <tr>
+                      <td>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      &nbsp;&nbsp;
+                      <img border="0" GALLERYIMG="no" src="images/mercenary-hf-title.gif" width="342" height="283"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">AEX has selected Mercenary 
+                      from Novagen software as its first History File candidate.&nbsp; 
+                      A game of pure genius by Paul Woakes, it not only exceeds 
+                      the boundaries of the typical adventure game, it breaks 
+                      them wide open.&nbsp; The programming prowess of Paul 
+                      Woakes is shown here in a stunning 3D world that in 1984 
+                      was revolutionary for a home computer game.</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Novagen released few titles in 
+                      its time as both developer and publisher, but over the 
+                      course of nine plus years, it became synonymous with 
+                      quality products and a game series called Mercenary...</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">In 1984, most home computer 
+                      games were conversions of arcade titles, or imitations of 
+                      the same titles with different names, very few games could 
+                      be said to be original.&nbsp; You had all the typical 
+                      genres, such as shoot 'em ups and platform games, but 
+                      nothing truly ground breaking.&nbsp; Some titles began to 
+                      break the mould, such as Elite from Acornsoft (BBC Micro) 
+                      and a few others, but when Novagen released Mercenary, it 
+                      was obvious right from the start that this was a new type 
+                      of computer game.</font></p>
+                      <div align="center">
+                      <center>
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber14">
+                      <tr>
+                      <td>&nbsp;</td>
+                      <td colspan="5">
+                      <p align="center"><font face="Arial" size="2"><b>:: </b>
+                      Mercenary memorabilia <b>::</b></font></td>
+                      <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                      <td>&nbsp;</td>
+                      <td>
+                      <p align="center">
+                            <a onClick="window.open('mercenary-ad1.htm','src','scrollbars=yes,width=586,height=500,left=50,screenX=40,top=50,screenY=40')" href="emulation-hf-mercenary16.html">
+                            <img border="0" src="images/mercenary-ad1-icon.gif" width="119" height="162"></td>
+                      <td>&nbsp;</td>
+                      <td>
+                      <p align="center">
+                            <a onClick="window.open('mercenary-preview.htm','src','scrollbars=yes,width=586,height=500,left=50,screenX=40,top=50,screenY=40')" href="emulation-hf-mercenary16.html">
+                            <img border="0" src="images/mercenary-preview-icon.gif" width="119" height="162"></td>
+                      <td>&nbsp;</td>
+                      <td>
+                      <p align="center">
+                      <a href="files/Central-City-Map.zip">
+                      <img border="0" src="images/mercenary-map-icon.gif" width="119" height="162"></a></td>
+                      <td>&nbsp;</td>
+                      </tr>
+                      </table>
+                      </center>
+                      </div>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Mercenary was unique for a 
+                      number of reasons.&nbsp; Not only did the game look 
+                      amazing, with a super fast vector world for you to explore 
+                      in complete freedom, it held your imagination totally, it 
+                      was in fact as if you were actually there.&nbsp; There was 
+                      no &quot;manual&quot; as such with the original game, just a basic 
+                      introduction and the usual loading and play instructions - 
+                      this was a game you had to figure out by yourself.&nbsp; 
+                      Well, you weren't totally alone, you had a companion with 
+                      you called &quot;Benson&quot;, a computer and navigation system 
+                      which had a very dry sense of humour!</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Upon loading the game you are 
+                      entering the Nova system, but unfortunately your 
+                      interstellar craft becomes unstable, and you crash land on 
+                      a green planet called &quot;Targ&quot;.&nbsp; Targ is home to the 
+                      &quot;Palyars&quot;, but the beleaguered inhabitants are in 
+                      continuous conflict with an alien race of robots called 
+                      the Mechanoids.&nbsp; Its from the surface of this planet 
+                      that your adventure starts, but its also up to you to take 
+                      the challenges that are offered.&nbsp; Targ has a has 
+                      beautiful &quot;central city&quot;, and once you have acquired some 
+                      sort of craft, you can freely explore the wonderful city 
+                      limits, it is advised not to walk around the city as this 
+                      may take you some time...</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/mercenaryboxes1.gif" width="350" height="230"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Your ultimate objective is to 
+                      find an interstellar spaceship to take you off the planet.&nbsp; 
+                      As the name suggests, you are a mercenary and depending on 
+                      the offers of work you may receive while on Targ, its up 
+                      to you to decide your own fate.&nbsp; You will discover 
+                      fascinating details on the surface, but you will also have 
+                      to make your way underground...&nbsp; The &quot;Colony Craft&quot; 
+                      which orbits Targ will also play a crucial role in your 
+                      escape.&nbsp; </font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Mercenary was released on all 
+                      major home computer formats, but it wasn't until the ST 
+                      arrived that Mercenary was truly appreciated.&nbsp; After 
+                      being amazed that your Atari 800 could actually display a 
+                      game of such complexity, it was to see it running on the 
+                      latest Atari computer that made heads turn.&nbsp; The 
+                      speed of the vector world had increased dramatically, and 
+                      the game was an even better experience, in fact, I'm sure 
+                      anybody who had completed the game on their 8-Bit computer 
+                      bought the ST version without any hesitation... I know I 
+                      did!</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Novagen released an expansion 
+                      pack for the original game called &quot;Mercenary - The Second 
+                      City&quot; in 1986.&nbsp; This would see you return to the 
+                      planet Targ's southern hemisphere, a much more bleak 
+                      geography to the lush green north of the planet, Targ's 
+                      second city is closer to the sun and daylight is a 
+                      constant red haze.&nbsp; In Mercenary One, you had an 
+                      unfortunate run-in (actually, several) with the</font><font face="Arial" size="2"> 
+                      Palyar Commander's brother-in-law, and during your 
+                      absence, has been promoted to the Prison Governor of the 
+                      Second City - so beware, he knows your in town!</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Damocles-ad1.gif" width="310" height="231"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">The Second City wasn't the 
+                      much anticipated Mercenary 2, that was still another 4 
+                      years away.&nbsp; The Second City was simply an &quot;add-on&quot; 
+                      that presented a new set of challenges and utilised the 
+                      original game engine.&nbsp; Not that there was anything 
+                      wrong with that, it turned out to be an excellent addition 
+                      to the original and easily twice as difficult as the first 
+                      game.</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">With great anticipation, and 
+                      many delayed launch dates, Damocles finally hit the stores 
+                      in</font><font face="Arial" size="2"> 1990.&nbsp; Arriving 
+                      in the Gamma system and landing on the planet Eris, you 
+                      find that the comet Damocles is due to collide with the 
+                      planet in a few hours time and you are the only one who 
+                      can (possibly) stop it..&nbsp; To say Damocles was a step 
+                      above the original would be an understatement, as the game 
+                      now sported a solid 3D world and a much larger game area.&nbsp; 
+                      Damocles reportedly took over 2 years to complete, as Paul 
+                      Woakes had taken a little break from programming the 
+                      original Mercenary for a while and during that time gave 
+                      us &quot;Encounter&quot; and &quot;Backlash&quot; for the ST, but the wait was 
+                      worth it.</font></p>
+                      <div align="center">
+                      <center>
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber15">
+                      <tr>
+                      <td>&nbsp;</td>
+                      <td colspan="5">
+                      <p align="center"><font face="Arial" size="2"><b>:: </b>
+                      Damocles Review <b>::</b></font></td>
+                      <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                      <td>&nbsp;</td>
+                      <td>
+                      <p align="center">
+                            <a onClick="window.open('damoclesr1.htm','src','scrollbars=yes,width=600,height=600,left=50,screenX=40,top=50,screenY=40')" href="emulation-hf-mercenary16.html">
+                            <img border="0" src="images/Damocles-rev1-icon.gif" width="119" height="162"></td>
+                      <td>&nbsp;</td>
+                      <td>
+                      <p align="center">
+                            <a onClick="window.open('damoclesr2.htm','src','scrollbars=yes,width=600,height=600,left=50,screenX=40,top=50,screenY=40')" href="emulation-hf-mercenary16.html">
+                            <img border="0" src="images/Damocles-rev2-icon.gif" width="119" height="162"></td>
+                      <td>&nbsp;</td>
+                      <td>
+                      <p align="center">
+                            <a onClick="window.open('damoclesr3.htm','src','scrollbars=yes,width=600,height=600,left=50,screenX=40,top=50,screenY=40')" href="emulation-hf-mercenary16.html">
+                            <img border="0" src="images/Damocles-rev3-icon.gif" width="119" height="162"></td>
+                      <td>&nbsp;</td>
+                      </tr>
+                      </table>
+                      </center>
+                      </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;<p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Damocles was everything and 
+                      more which had been hoped for in the most eagerly awaited 
+                      sequel to the original Mercenary game.&nbsp; To see 
+                      Damocles&nbsp; running on the humble Atari ST, you just 
+                      had to admire the skills of the programmer Paul Woakes, 
+                      because it just didn't seem possible to squeeze this much 
+                      out of the 8Mhz 68000 CPU.&nbsp; It was enough just to 
+                      watch the perfect geometry of the planets as they moved 
+                      across the night sky as to be amazed that you also had a 
+                      great game in front of you.&nbsp; Although the ST and 
+                      Amiga versions of Damocles were hailed as a masterpiece, 
+                      Damocles on the PC had the benefit of an even more 
+                      powerful platform, utilising VGA colour and textured 
+                      polygons, but a still unknown conflict between Novagen and 
+                      the publisher of the PC version, Psygnosis, meant the game 
+                      would never be released.&nbsp; It is rumoured that the PC 
+                      version was practically complete.</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Mer3Box.gif" width="198" height="249"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">The last and final instalment 
+                      of the Mercenary series was creatively named &quot;Mercenary 3&quot; 
+                      and it was launched in 1991.&nbsp; Mercenary 3 was a much 
+                      more ambitious game to its predecessor, it was much larger 
+                      and you could &quot;fly&quot; to many more locations and planets.&nbsp; 
+                      Some less enthusiastic players would be disappointed with 
+                      the game as it resembled Damocles too closely to be a 
+                      &quot;new&quot; game, and the additional features did seem to slow 
+                      the physical speed of the Damocles engine, which the 
+                      Mercenary 3 game was developed upon.&nbsp; Even so, for 
+                      the Mercenary purist, this follow-up was just as good as 
+                      Damocles, if not better, and the story line was more 
+                      advanced, with a political angle very much evident.</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">If any game series deserved a 
+                      remake to current or future PC or console platforms, 
+                      Mercenary is it.&nbsp; To imagine the possibilities 
+                      available to the game with today's technology is an 
+                      exciting prospect.&nbsp; Today, Paul Woakes is working at 
+                      Archer McLean's company Awesome Developments, and 
+                      according to Archer, Paul still has the rights to the 
+                      series and is very much considering a modern remake on a 
+                      much grander scale.&nbsp; We will just have to wait and 
+                      see if the dream becomes a reality for the restless 
+                      Mercenaries out there, waiting for their next mission...</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+        <font size="1" color="#808080" face="Arial">© 1997-2003  Atari Explorer - All trademarks acknowledged.</font></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                      &nbsp;</td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber13">
+                    <tr>
+                      <td>
+                      <p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="400-800.html" style="text-decoration: none">400/800</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">
+              &nbsp;</font><font face="Arial" color="#808080" size="2"><a href="XL.html" style="text-decoration: none">XL 
+              Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="XE.html" style="text-decoration: none">XE
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="ST.html" style="text-decoration: none">ST
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="21">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="21">
+              <font size="2" color="#008000" face="Arial">&nbsp;</font><font face="Arial" color="#808080" size="2"><a href="TT.html" style="text-decoration: none">TT030</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="transputer.html" style="text-decoration: none">Transputer
+                Workstation</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stacy.html" style="text-decoration: none">STacy</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stbook.html" style="text-decoration: none">ST
+                Book</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="falcon.html" style="text-decoration: none">Falcon030</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="portfolio.html" style="text-decoration: none">Portfolio</a>
+                </font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="PC.html" style="text-decoration: none">IBM
+                PC Compatibles</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="computer-prototypes.html" style="text-decoration: none">Prototypes</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="22" colspan="2">
+                <p align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="8">
+              <img border="0" src="menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22"><font color="#008000">&nbsp;</font><font color="#9A05EB" face="Arial" size="2">Topic 
+              sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" size="2"><a style="text-decoration: none" href="emulation-8bit.html">Emulation</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <img border="0" src="menu-icons/info-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;<font color="#008000">Mercenary Series</font></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <img border="0" src="menu-icons/link-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;<a target="_blank" style="text-decoration: none" href="http://www.geocities.com/paris/7150/merce.htm">The 
+              Mercenary Site</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <img border="0" src="menu-icons/link-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              &nbsp;<font face="Arial" size="2"><a target="_blank" href="http://www.geocities.com/paris/7150/mddclone.htm" style="text-decoration: none">MDD Clone</a> 
+              (PC Mercenary)</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <img border="0" src="menu-icons/blank-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              &nbsp;</td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <img border="0" src="menu-icons/blank-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              &nbsp;</td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <img border="0" src="menu-icons/blank-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              &nbsp;</td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go 
+              to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="3" colspan="2">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,465 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-Main.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><img border="0" src="menu-icons/history-on.gif" width="106" height="28"><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP4'].imgRolln=document['fpAnimswapImgFP4'].src;document['fpAnimswapImgFP4'].src=document['fpAnimswapImgFP4'].lowsrc;" onmouseout="document['fpAnimswapImgFP4'].src=document['fpAnimswapImgFP4'].imgRolln" href="computers.html"><img border="0" src="menu-icons/pcs-off.gif" id="fpAnimswapImgFP4" name="fpAnimswapImgFP4" dynamicanimation="fpAnimswapImgFP4" lowsrc="menu-icons/pcs-on.gif" width="176" height="28"></a><a onmouseover="document['fpAnimswapImgFP5'].imgRolln=document['fpAnimswapImgFP5'].src;document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].lowsrc;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="19" align="left" height="22"></td>
+              <td align="left" width="183" height="22"></td>
+              <td align="left" width="554" height="22"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="history.html" style="text-decoration: none">Atari
+                History - Main Menu</a></font></td>
+              <td align="left" width="554" rowspan="16" valign="top" height="200">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial"><font size="2" color="#808080">Atari History 
+                :: </font><font size="2" color="#008000">Chapter 12 - Game over</font></font></p>
+                <div align="center">
+                  <table border="0" cellpadding="0" cellspacing="0" width="450">
+                    <tr>
+                      <td><p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font size="2">
+                      <font color="#008000" face="Arial">1996</font><font color="#808080" face="Arial"> 
+                      - So what happened, the Jaguar was a good product wasn't 
+                      it?&nbsp; The company had sunk cash into advertising 
+                      right?&nbsp; You could argue that Atari did everything 
+                      right with the Jaguar, learning from past mistakes and 
+                      making a determined bid to put all of its resources behind 
+                      their product.&nbsp; This is no exaggeration, as Atari 
+                      killed every other product in development to ensure minds 
+                      were focused on the Jaguar product.</font></font></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="center">
+                      <img border="0" src="images/video-game-advisor.gif" width="176" height="219"></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font color="#808080" face="Arial" size="2">But Atari 
+                      hadn't foreseen the emergence of Sony into the gaming 
+                      arena, and even before Sony had launched their 
+                      &quot;Playstation&quot;, developers were being courted by the deep 
+                      pockets of the consumer giant.&nbsp; True, the Playstation 
+                      was still &quot;vapourware&quot; while the Jaguar was a real product 
+                      available to the consumer, but Sony had begun selling 
+                      their new machine long before it hit the shops.&nbsp; But 
+                      Playstation was only one factor that dogged Atari's 
+                      Jaguar, because Atari were trying compete against a wide 
+                      range of platforms from Sega, Nintendo and 3DO, and if 
+                      that wasn't enough it seemed that the jump from 16-Bit to 
+                      the 64-Bit Jaguar wasn't making life easy for the 
+                      developers who were trying to get to grips with the new 
+                      architecture.</font></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">This jump in performance meant 
+                      that the lead-time for new software was taking longer than 
+                      even Atari had anticipated, it was also costing the 
+                      developers more money, and the Jaguar needed good software 
+                      to survive.&nbsp; With over 100 developers signed up to 
+                      the Jaguar platform, it was expected that the Jaguar 
+                      couldn't fail with this type of industry support, but 
+                      while a few high profile developers took the plunge, the 
+                      majority held back and waited to see the sales figures.&nbsp; 
+                      Initially, the Jaguar sold like hot cakes, but rumours 
+                      about the new Nintendo 64, Sega Saturn and Sony 
+                      Playstation held potential buyers back from parting with 
+                      their money, and the developers in the meantime weren't 
+                      going to back the Atari horse, until they saw the other 
+                      runners.</font></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">Fate had worked against Atari, 
+                      if it had been a year earlier with the Jaguar, perhaps it 
+                      could have had that vital head start to aid software 
+                      development, and perhaps, Atari could have weathered the 
+                      storm and kept some of the developers on board with what 
+                      could have been a much larger installed user base.&nbsp; 
+                      Of course, what actually happened is Sony and Sega stole 
+                      the show, and the Jaguar was left on the shelves, for 
+                      those within the company, the writing for the system was 
+                      on the wall in 1995 because Atari couldn't compete on even 
+                      terms with the might of Sony and Sega.</font></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">This was the year Sam Tramiel 
+                      had a heart attack, and perhaps this unfortunate turn of 
+                      events was the final screw in the coffin for the Jaguar, 
+                      because Jack came back and took over the running of Atari 
+                      while his son 
+                      recuperated.&nbsp; Sam was passionate about the Jaguar, 
+                      and was major force behind the product, but the entire 
+                      project had taken its toll and Jack most probably and 
+                      sensibly had the health of his son on his mind.&nbsp; It 
+                      wouldn't have taken a rocket scientist to figure out that 
+                      no amount of money could have saved the Jaguar in 1995.</font></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">Atari had money in the bank, 
+                      approx $50 Million, most of this from investments made in 
+                      1994 when Atari had won $90 Million from Sega in an out of 
+                      court settlement, and Time Warner had invested $12.8 
+                      Million in the company.&nbsp; But in little less than a 
+                      year Atari had spent over $50 Million trying to support a 
+                      dying platform and Jack saw that the company's liquid 
+                      assets were dwindling fast.&nbsp; Another year of Jaguar 
+                      support, and Atari could be bankrupt, especially when the 
+                      Jaguar was failing to sell in any significant numbers.&nbsp; 
+                      Although Sam was back at work towards the end of 1995, 
+                      Jack had already began to downsize the Jaguar project.</font></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="center">
+                      <img border="0" src="images/ainter.gif" width="200" height="85"></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">With reports in the press 
+                      commonplace, Atari were obviously downsizing the company, 
+                      but to what end, nobody really knew.&nbsp; Some speculated 
+                      that Atari may just leave the game business and 
+                      concentrate on software, as the
+                      <a href="articles-PR-AI.html">Atari Interactive</a> brand 
+                      launched, it seemed a good move.&nbsp; Then, in 1996 as 
+                      more employees were fired, and internal software 
+                      development was axed, it seemed Atari may do what many 
+                      feared, and exit the business for good.&nbsp; Of course, 
+                      Atari was still trading on Wall Street, so those rumours 
+                      were laughed off officially by the company, but behind the 
+                      scenes, Atari were looking for the nearest exit.&nbsp; 
+                      When the rental agreement on the Atari HQ expired in March 
+                      1996, Atari moved to smaller offices with an even smaller 
+                      contingent of employees.</font></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="center">
+                      <img border="0" GALLERYIMG="no" src="images/atari-lastdays.gif" width="372" height="410"></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">Atari were looking to buy 
+                      themselves out of the video game business in some form or 
+                      other, and talks began with a number of companies.&nbsp; 
+                      Eventually, Atari merged with JTS, a start-up disk drive 
+                      manufacturer, with $50 Million of Atari money.&nbsp; 
+                      Support for Jaguar and continuation of the Atari brand was 
+                      assured to share holders - this never happened, and only 3 
+                      more titles trickled out of Atari, and all Jaguar stock 
+                      was liquidated.</font></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2"><b><font color="#FF0000">::
+                      </font></b>Key Dates <b><font color="#FF0000">::</font></b></font></p>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">On <font color="#008000">July 
+                      31, 1996</font>, Atari Corp. became a JTS subsidiary.&nbsp; 
+                      JTS Corp., with<br>
+                      headquarters in San Jose, Calif., was founded in 1994 to 
+                      design, manufacture and supply enhanced-capacity hard disk 
+                      drives for the notebook and desktop personal computer 
+                      markets.</font><br>
+                      <font face="Arial" size="2"><br>
+                      On <font color="#008000">February 23, 1998</font>, JTS 
+                      sold its Atari Division to HIACXI Corp., a wholly-owned 
+                      subsidiary of Hasbro Interactive, Inc., which is a 
+                      subsidiary of Hasbro, Inc., for $5 million in cash.<br>
+                      <br>
+                      JTS filed for Chapter 11 Bankruptcy Protection on
+                      <font color="#008000">December 11, 1998</font>, and then 
+                      converted it to Chapter 7 on <font color="#008000">
+                      February 28, 1999</font>.</font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font size="2" color="#808080" face="Arial">Hasbro Interactive began releasing many Atari branded
+        titles from the vast back catalogue of Atari games for the PC and Playstation, and 
+        in a gesture to the Atari Jaguar community, also released the Jaguar system into the public domain after much pressure from the loyal
+        Jaguar user base.&nbsp; 3rd party software development is now taking place since this
+        notice from Hasbro.</font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font size="2" color="#808080" face="Arial">Hasbro sold many of its 
+        property rights, including those of Atari to Infogrames, a French 
+        software development company on </font>
+        <font size="2" color="#008000" face="Arial">December 6th 2000</font><font size="2" color="#808080" face="Arial">.&nbsp; 
+        Was this really the end of the road for one of the most recognised 
+        brands in the world?</font></p>
+        <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">In <font color="#008000">2003</font>, 
+        Infogrames changed its trading name to &quot;Atari&quot; worldwide (as AEX 
+        predicted in 2001 when we broke the news!).&nbsp; The Atari &quot;Fuji&quot; logo 
+        still hasn't faded away into history, and with the Infogrames new 
+        identity, Atari is once more in the public eye... but unfortunately, 
+        only as a pale imitation of its former self...</font></p>
+                      <p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <font size="1" color="#808080" face="Arial">© 1997-2003 Atari Time 
+        Machine/Atari Explorer - All trademarks acknowledged.</font><p style="margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                    </table>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" size="2" color="#008000"><a href="history1.html" style="text-decoration: none">1972 
+              - the birth of Atari</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#008000" size="2">&nbsp;<a href="history2.html" style="text-decoration: none">The
+                world goes Pong crazy</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="history3.html" style="text-decoration: none">Launch
+                of the VCS</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="history4.html" style="text-decoration: none">Atari
+                grows up</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="21">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="21">&nbsp;<font face="Arial" color="#008000" size="2"><a href="history5.html" style="text-decoration: none">Just
+                before the crash...</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2"><a href="history6.html" style="text-decoration: none">1984
+                - The crash</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="history7.html" style="text-decoration: none">The
+                new Atari Corporation</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="history8.html" style="text-decoration: none">Computer
+                wars</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="history9.html" style="text-decoration: none">Playing
+                the game</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2">Survival
+                of the fittest</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="history11.html" style="text-decoration: none">Let's
+                play games again</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2">1996</font><font color="#008000">
+                - </font> <font face="Arial" color="#008000" size="2">Game over</font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="22" colspan="2">
+                <p align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" size="2"><a style="text-decoration: none" target="_blank" href="http://talk.atari-explorer.com">Go 
+              to the forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1"></td>
+              <td align="left" width="183" height="1">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

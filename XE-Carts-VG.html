@@ -1,0 +1,600 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-Comp.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><img border="0" src="menu-icons/vgs-on.gif" width="182" height="28"><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="computers.html"><img border="0" src="menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="menu-icons/pcs-on.gif" width="176" height="28"></a><a onmouseover="document['fpAnimswapImgFP9'].imgRolln=document['fpAnimswapImgFP9'].src;document['fpAnimswapImgFP9'].src=document['fpAnimswapImgFP9'].lowsrc;" onmouseout="document['fpAnimswapImgFP9'].src=document['fpAnimswapImgFP9'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP9" name="fpAnimswapImgFP9" dynamicanimation="fpAnimswapImgFP9" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="182" height="22"></td>
+              <td align="left" width="638" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="videogames.html" style="text-decoration: none">Video 
+              Games - Main Menu</a></font></td>
+              <td align="left" width="638" rowspan="15" valign="top" height="513">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial"><font size="2">Video Game Systems</font>
+                </font>:: <font color="#008000" face="Arial" size="2">XEGS</font></p>
+                <div align="center">
+                <center>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                <tr>
+                <td>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" src="images/XE-Title.gif" width="340" height="80"></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">The Atari XE Video Game 
+        System (XEGS) was released in 1987, and Atari supported the system with 
+        the release of new software cartridges. Attractively packaged in the 
+        blue tiled theme of the XEGS range, 29 new titles (with some old and 
+        repackaged) made it to the store shelves.</font></p>
+        <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber2">
+        <tr>
+        <td width="115">
+        <p align="center"><img border="0" src="images/Rarity-Key.gif" width="100" height="116"></td>
+        <td width="335" valign="top">
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" color="#808080" size="1">The &quot;rarity&quot; scale used is 
+        only a guide.&nbsp; For example, in some territories, titles would be 
+        more easily available than others.&nbsp; Rare or hard to find titles are 
+        generally regarded as such worldwide.&nbsp; Prototype titles, those that 
+        were partially or even fully made but not released, can be purchased by 
+        third party publishers such as B&amp;C Computervisions, but were never 
+        published or released officially.&nbsp; Never released titles may have 
+        been announced, or even partially produced, but again, never officially 
+        released and still unavailable.</font></td>
+        </tr>
+        <tr>
+        <td width="115">&nbsp;</td>
+        <td width="335">&nbsp;</td>
+        </tr>
+        </table>
+        </center>
+        </div>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">:: Officially Released 
+        Titles (Boxed for retail sale) ::</font></p>
+        <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber3">
+        <tr>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Ace0fAces.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Airball.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Archon.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Ballblazer.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/BarnyardBlaster.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Battlezone.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Bluemax.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Choplifter.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/CrimeBusters.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Crossbow.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/CrystalCastles.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/DarkChambers.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/DavidsMidnightMagic.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/DesertFalcon.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/DonkeyKong.gif" alt="Donkey Kong" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/FightNight.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/FoodFight.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/GATO.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Hardball.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/IntoEaglesNest.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Karateka.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/LodeRunner.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/MarioBros.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Necromancer.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/OneOnOne.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/StarRaiders.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/RescueOnFractulas.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/SummerGames.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        </tr>
+        <tr>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/Thunderfox.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/XECart-Blank.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/XECart-Blank.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        <td><img border="0" src="images/XECart-Blank.gif" width="96" height="132"></td>
+        <td>&nbsp;</td>
+        </tr>
+        </table>
+        </center>
+        </div>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">:: Officially Released 
+        Titles (For &quot;Pack-In&quot; only or Demonstration) ::</font></p>
+                      <div align="center">
+                      <center>
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber4">
+                      <tr>
+                      <td>&nbsp;</td>
+                      <td align="center">
+                      <img border="0" src="images/Bughunt.gif" width="96" height="132"></td>
+                      <td align="center">&nbsp;</td>
+                      <td align="center">&nbsp;</td>
+                      <td align="center">
+                      <img border="0" src="images/FlightSim2.gif" width="96" height="132"></td>
+                      <td align="center">&nbsp;</td>
+                      <td align="center">&nbsp;</td>
+                      <td align="center">
+                      <img border="0" src="images/XEDemoCart.gif" width="96" height="132"></td>
+                      <td align="center">&nbsp;</td>
+                      </tr>
+                      <tr>
+                      <td>&nbsp;</td>
+                      <td align="center">&nbsp;</td>
+                      <td align="center">&nbsp;</td>
+                      <td align="center">&nbsp;</td>
+                      <td align="center">&nbsp;</td>
+                      <td align="center">&nbsp;</td>
+                      <td align="center">&nbsp;</td>
+                      <td align="center">&nbsp;</td>
+                      <td align="center">&nbsp;</td>
+                      </tr>
+                      </table>
+                      </center>
+                </div>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">:: Prototype, Cancelled or 
+        Unreleased Titles ::</font></p>
+                      <div align="center">
+                      <center>
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber5">
+                      <tr>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/Commando.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/Deflector.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/IkariWarriors.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/Jinks.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/MatManiaChallenge.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/Skyfox.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/TowerToppler.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/Xenophobe.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/Xevious.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/BlankCart.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/BlankCart.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      <td><img border="0" src="images/BlankCart.gif" width="96" height="132"></td>
+                      <td>&nbsp;</td>
+                      </tr>
+                      </table>
+                      </center>
+                </div>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <font face="Arial" color="#808080" size="1">&nbsp;If you have any further 
+        information, missing images etc, please contact AEX.</font></p>
+                      </td>
+                </tr>
+                <tr>
+                <td>
+                <p align="center"><a href="#Top">
+                <img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                </tr>
+                </table>
+                </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22"><font face="Arial" color="#808080" size="2">&nbsp;</font><a href="pong.html" style="text-decoration: none"><font face="Arial" size="2">The 
+              Pong family</font></a></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22"><font face="Arial" color="#808080" size="2">
+              &nbsp;</font><font face="Arial" color="#008000" size="2"><a href="touch-me.html" style="text-decoration: none">Touch 
+              Me</a> </font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" size="2" color="#008000"><a href="2600.html" style="text-decoration: none">2600 
+              VCS</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" size="2" color="#008000"><a href="5200.html" style="text-decoration: none">5200 
+              Super System</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="21">&nbsp;<font face="Arial" size="2" color="#008000"><a href="7800.html" style="text-decoration: none">7800 
+              Pro System</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;</font><font face="Arial" size="2" color="#008000"><a href="xegs.html" style="text-decoration: none">XEGS</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="lynx.html" style="text-decoration: none">Lynx</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">&nbsp;<font face="Arial" size="2" color="#808080"><a href="jaguar.html" style="text-decoration: none">Jaguar</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;Arcade</font></td>
+            </tr>
+            <tr>
+              <td width="118" align="left" height="22" colspan="2">
+              <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font color="#9A05EB" face="Arial" size="2">Topic 
+              sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<font color="#008000">XE 
+              Cartridge List</font></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1"></td>
+              <td align="left" width="182" height="1">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,842 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885">
+      <a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-emulation8-bit.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><img border="0" src="menu-icons/pcs-on.gif" width="176" height="28"><a onmouseover="document['fpAnimswapImgFP5'].imgRolln=document['fpAnimswapImgFP5'].src;document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].lowsrc;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="19" align="left" height="22"></td>
+              <td align="left" width="183" height="22"></td>
+              <td align="left" width="554" height="22"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="11" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="computers.html" style="text-decoration: none">Computers
+                - Main Menu</a></font></td>
+              <td align="left" width="554" rowspan="34" valign="top" height="32">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" size="2">Personal Computers :: 8-Bit Range ::<font color="#008000">
+                </font><font color="#9A05EB">Emulation</font></font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber14" height="94">
+                    <tr>
+                      <td height="75" colspan="2" width="450">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">For those of you wishing to 
+                      revive those days of old, or if those days passed you by 
+                      completely, you can now emulate the Atari 8-Bit series on 
+                      your PC desktop.&nbsp; Simply download the emulator and 
+                      the ROM files (located on the side menu) and un-zip them to a location on your 
+                      hard drive.&nbsp; For further instructions on setting-up 
+                      the emulator and playing the games available here, please 
+                      consult the instructions provided with the emulator, or 
+                      click the Quick-Start icon below.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Also, on the side menu, we 
+                      have a number of &quot;History Files&quot; for some of the games.&nbsp; 
+                      Only our favourite games get this treatment, and you are 
+                      always welcome to contribute if you can.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td width="52">
+                      <p align="center">&nbsp;<font face="Arial" size="2">&nbsp; </font>
+                      <a href="emulation-8bitQS.html">
+                      <img border="0" src="images/QS-Logo.gif" width="32" height="33"></a></td>
+                      <td width="398">
+                      <font face="Arial" size="2">&nbsp;Click the 
+                      Quick Start logo for your 8-Bit Emulator Guide from AEX.</font></td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td width="96">
+                      <a href="files/ARKANOID.ATR">
+                      <img border="0" src="images/download-arkanoid.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">After the original Breakout by 
+                      Atari, &quot;bat and ball&quot; games took a break (out!) for a while.&nbsp; 
+                      It wasn't until Taito, the Japanese arcade company 
+                      launched Arkanoid in the mid eighties, that the craze 
+                      returned.&nbsp;&nbsp; Arkanoid was converted to all the 
+                      popular home computer formats, and at a time when the 
+                      Atari 8-Bit was going through a drought of mainstream 
+                      titles, Imagine decided there was room for an Atari 
+                      version - and a competent one at that.</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      &nbsp;<i><font color="#C0C0C0" face="Times New Roman">©</font><font color="#C0C0C0" face="Arial" size="2">1987 Imagine/Taito</font></i></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber2" height="60">
+                    <tr>
+                      <td width="96" height="50">
+                      <p align="left">
+                      <a href="files/Ball%20Blazer.atr">
+                      <img border="0" src="images/download-ballblazer.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top" height="50">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Atari initiated the first of a 
+                      series of game titles with Lucasfilm in the early 80's.&nbsp; 
+                      They were designed to push the Atari 400/800 as far as 
+                      possible, and design new original concepts in game design 
+                      through the imagination of the Lucasfilm company.&nbsp; 
+                      Ballblazer is one of the finest 2-Player games written for 
+                      the 8-Bit series, one of the few titles that has never 
+                      been successfully translated to any other platform, as the 
+                      Playstation version demonstrates.</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450" height="19">
+                      <p align="center">
+                      <i><font color="#C0C0C0" face="Times New Roman">©</font></i><font face="Arial" size="2" color="#C0C0C0"><i> 
+                      1984 Lucasfilm Games/Atari/Epyx </i> </font></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber3">
+                    <tr>
+                      <td width="96"> 
+                      <a href="files/DRUID.ATR"> 
+                      <img border="0" src="images/download-druid.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Druid was another title that 
+                      made it to the Atari 8-Bit series after its success on the 
+                      other major home computers of the mid to late 80's.&nbsp; 
+                      It is one of the few &quot;full-price&quot; titles from Firebird for 
+                      the Atari, as the majority of their products were launched 
+                      on budget labels.&nbsp; An enjoyable game with spells and 
+                      potions, and a slight &quot;Gauntlet&quot; theme.</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      <i><font color="#C0C0C0" face="Times New Roman">© </font>
+                      <font face="Arial" size="2"><font color="#C0C0C0">Firebird 
+                      Software (B.T. Carter original version)</font></font></i></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber4">
+                    <tr>
+                      <td width="96">
+                      <a href="files/DROPZONE.ATR">
+                      <img border="0" src="images/download-dropzone.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Dropzone by Archer Mclean 
+                      (International Karate etc)&nbsp; was launched under the US 
+                      Gold label in 1984.&nbsp; A &quot;defender-like&quot; game, it is a 
+                      fast and furious combination of rescue and blasting that 
+                      showed off the scrolling and colour capabilities of the 
+                      Atari 8-Bit, especially to your Commodore 64 friends!&nbsp; 
+                      The game was an instant hit, and played even better than 
+                      than the official computer port of Defender by Atari.</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      <i><font color="#C0C0C0" face="Times New Roman">©</font></i><font color="#C0C0C0" face="Arial" size="2"><i>1985 U.S. Gold (Archer Mclean)</i></font></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber5">
+                    <tr>
+                      <td width="96">
+                      <a href="files/Elektraglide.ATR">
+                      <img border="0" src="images/download-elektra.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">A driving game with a 
+                      difference, with various obstacles&nbsp; hindering&nbsp; 
+                      your progress to the next level.&nbsp; The graphics were 
+                      incredible and the game was very fast on the 1.79 MHz 
+                      Atari. This was a race against time, and the music 
+                      actually complimented this with super graphics, a 
+                      great soundtrack and another fine title from the English 
+                      Software Company.&nbsp; Adam Billyard who wrote this game, 
+                      also wrote the weird &quot;3D Pool&quot; title for the Atari ST.</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      <font face="Arial" size="2" color="#008000">
+                      &nbsp;</font><i><font color="#C0C0C0" face="Times New Roman">©</font></i><font color="#C0C0C0" face="Arial" size="2"><i>1986 English Software Company (Adam Billyard)</i></font></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber6">
+                    <tr>
+                      <td width="96">
+                      <a href="files/Encounter.atr">
+                      <img border="0" src="images/download-encounter.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Novagen software produced few 
+                      games, but when they did you knew it would be special.&nbsp; 
+                      From the makers of the classic Mercenary series, Encounter 
+                      is a great blaster, and so much better than the Commodore 
+                      64 version.&nbsp; This is one of the few games that 
+                      utilise the real speed of the Atari 8-Bit computer, and 
+                      compared to the pedestrian speed of its older brother 
+                      Battlezone (Atari), this version is a much more frantic 
+                      shoot 'em up.</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      &nbsp;<i><font color="#C0C0C0" face="Times New Roman">©</font></i><font color="#C0C0C0" face="Arial" size="2"><i>1984 Novagen (Paul Woakes)</i></font></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber7">
+                    <tr>
+                      <td width="96">
+                      <a href="files/Ghostbusters.ATR">
+                      <img border="0" src="images/download-ghostb.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">I remember waiting for this 
+                      one!&nbsp; A real classic computer version of the film and one of the few Atari 8-Bit games to include 
+                      speech that was actually recognisable!&nbsp; A catchy, if 
+                      simple soundtrack, but a great game!&nbsp; With the craze 
+                      and hype surrounded by the feature film, and the hit track 
+                      playing on the radio all year, Activision made a clever 
+                      move by picking up the home computer rights to this game.&nbsp; 
+                      Great gameplay and another Activision hit.</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      &nbsp;<i><font color="#C0C0C0" face="Times New Roman">©</font></i><font color="#C0C0C0" face="Arial" size="2"><i>1985 Activision (David Crane)</i></font></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber8">
+                    <tr>
+                      <td width="96"> 
+                      <a href="files/Head%20Over%20Heels.atr"> 
+                      <img border="0" src="images/download-hoh.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Just like so many games of the 
+                      time, Atari 8-Bit users were &quot;lucky&quot; to get this one!&nbsp; 
+                      Head Over Heels is a cute platform game using an isometric 
+                      viewpoint.&nbsp; A smash hit on the other home computer 
+                      platforms, it involves two cute characters which you 
+                      control through a series of brain teasing challenges.&nbsp; 
+                      This was at the height of the isometric craze, and similar 
+                      games on the Atari, such as Chimera and Molecule Man 
+                      shared the viewpoint.</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      &nbsp;<i><font color="#C0C0C0" face="Times New Roman">©</font></i><font color="#C0C0C0" face="Arial" size="2"><i> 
+                      1988 Ocean Software (Jon Ritman and Bernie Drummond)</i></font></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber9">
+                    <tr>
+                      <td width="96"> 
+                      <a href="files/JETBOOTJ.ATR"> 
+                      <img border="0" src="images/download-jbj.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">I could play this for hours!&nbsp; 
+                      Jet Boot Jack is simply a great platform game, simply collect all the musical notes to 
+                      clear the level...&nbsp; What makes this game so addictive 
+                      is that on first inspection the screens look so easy to 
+                      clear, but they clearly aren't!&nbsp; This gives the game, 
+                      which is such a beautifully simple concept, an incredible 
+                      &quot;just one more go&quot; quality that few games can claim.&nbsp; 
+                      Thanks to Jon Williams for giving this to us!</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      &nbsp;<i><font color="#C0C0C0" face="Times New Roman">©</font></i><font color="#C0C0C0" face="Arial" size="2"><i> 
+                      1983 English Software Company</i></font><font face="Arial" size="2"><font color="#C0C0C0"><i>&nbsp; 
+                      (Jon Williams)</i></font></font></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber10">
+                    <tr>
+                      <td width="96"> 
+                      <a href="files/MERCENRY.ATR"> 
+                      <img border="0" src="images/download-merc1.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Novagen made their name with 
+                      Mercenary.&nbsp; Author Paul Woakes stunned the world with 
+                      this title, and it has to be seen to be believed.&nbsp; 
+                      Super fast vector 3D graphics in a game-world with no 
+                      rules.&nbsp; Fly or drive around and take in the amazing 
+                      scenery, or, as is intended, become a mercenary!&nbsp; 
+                      Definitely the best 8-bit version available.&nbsp; If you 
+                      get stuck on this one, we have the entire map available in 
+                      the Mercenary History file.</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      &nbsp;<i><font color="#C0C0C0" face="Times New Roman">©
+                      </font></i><font color="#C0C0C0" face="Arial" size="2"><i>1985 Novagen (Paul Woakes)</i></font></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber11">
+                    <tr>
+                      <td width="96">
+                      <img border="0" src="images/download-pacman.gif" width="96" height="132"></td>
+                      <td width="354">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Pacman... I don't think this 
+                      game needs any introduction.&nbsp; A nice conversion to 
+                      the Atari home computer.</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      <i><font color="#C0C0C0" face="Times New Roman">©</font></i><font color="#C0C0C0" face="Arial" size="2"><i> 
+                      1982 Atari Inc. (Temporarily unavailable)</i></font></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber12">
+                    <tr>
+                      <td width="96"> 
+                      <a href="files/RescueOnFractulus.ATR"> 
+                      <img border="0" src="images/download-rof.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Another Atari/Lucasfilm game, 
+                      and one of my all time favourites.&nbsp; Pilot your 
+                      spaceship to the planet surface and rescue your fellow 
+                      pilots.&nbsp; Amazing fractal scenery, combined with night 
+                      flying and the odd Alien...&nbsp; Just don't let them into 
+                      the airlock!&nbsp; What makes this game unique (apart from 
+                      the amazing fractal scenery routines), is the actual 
+                      feeling you get when rescuing a downed pilot, once he 
+                      knocks on the airlock door, you heart begins to beat...</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      &nbsp;<i><font color="#C0C0C0" face="Times New Roman">©</font></i><font face="Arial" size="2" color="#C0C0C0"><i> 1984 Lucasfilm 
+                      Games/Atari/Epyx (David Fox) </i> </font></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber13">
+                    <tr>
+                      <td width="96">
+                      <a href="files/Starraid.atr">
+                      <img border="0" src="images/download-starraiders.gif" width="96" height="132"></a></td>
+                      <td width="354" valign="top">
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Possibly the best space game 
+                      ever on the Atari 8-bit, if you like to shoot things, with 
+                      a pinch of strategy, this is the game for you.&nbsp; When 
+                      I first got this game in 1985, all I did was shoot 
+                      asteroids for the first hour, and even that was fun!&nbsp; 
+                      This was the closest you could get to&nbsp; flying a real 
+                      spaceship and making a real difference in this solar 
+                      system, we call home ;-)</font></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" width="450">
+                      <p align="center">
+                      <i><font color="#C0C0C0" face="Times New Roman">©</font></i>
+                      <font face="Arial" size="2" color="#C0C0C0"><i>1983 Atari Inc. (Doug 
+                      Neubauer)</i></font></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font size="2" color="#FF0000"><font face="Arial">Notice:</font></font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber15">
+                    <tr>
+                      <td>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="1">The games available here are 
+                      provided for your enjoyment, and to preserve the 
+                      historical essence of the Atari platform.&nbsp; Trademarks 
+                      are respected.&nbsp; If you are the copyright/property 
+                      holder, and do not wish your game to be available here, 
+                      please contact us and we will remove the item(s) 
+                      immediately and without question.&nbsp; Alternatively, if 
+                      you would like to provide your title(s) for use, or would 
+                      like to provide any personal endorsement, we would 
+                      appreciate your involvement in keeping these products 
+                      available for the Atari community.</font></td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"><p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="400-800.html" style="text-decoration: none">400/800</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">
+              &nbsp;</font><font face="Arial" color="#808080" size="2"><a href="XL.html" style="text-decoration: none">XL 
+              Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="XE.html" style="text-decoration: none">XE
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="ST.html" style="text-decoration: none">ST
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="21">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="21">
+              <font size="2" color="#008000" face="Arial">&nbsp;</font><font face="Arial" color="#808080" size="2"><a href="TT.html" style="text-decoration: none">TT030</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="transputer.html" style="text-decoration: none">Transputer
+                Workstation</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stacy.html" style="text-decoration: none">STacy</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stbook.html" style="text-decoration: none">ST
+                Book</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="falcon.html" style="text-decoration: none">Falcon030</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="portfolio.html" style="text-decoration: none">Portfolio</a>
+                </font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="PC.html" style="text-decoration: none">IBM
+                PC Compatibles</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="computer-prototypes.html" style="text-decoration: none">Prototypes</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="22" colspan="2">
+                <p align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="8">
+              <img border="0" src="menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22"><font color="#008000">&nbsp;</font><font color="#9A05EB" face="Arial" size="2">Topic 
+              sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="23">
+              <img border="0" src="menu-icons/more-icon-offline.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2">Software 
+              highlights </font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2">Emulation</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/download-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="files/Atari800WinPLus31.zip" style="text-decoration: none">Atari 
+              800Win+ V3.1 (PC)</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/download-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;</font><font face="Arial" color="#808080" size="2"><a href="files/AtariRoms.zip" style="text-decoration: none">8-Bit 
+              ROM files</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;Ballblazer</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;Dropzone</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;Elektraglide</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;Encounter</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;Jet Boot Jack</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <img border="0" src="menu-icons/info-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;<a style="text-decoration: none" href="emulation-hf-mercenary8.html">Mercenary</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;Pacman</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;Rescue on Fractalus!</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;Star Raiders</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;TBD</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;TBD</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;TBD</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+                      <font face="Arial" size="2" color="#008000">
+                      <img border="0" src="menu-icons/info-icon-offline.gif" align="middle" width="19" height="20"></font></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;TBD</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go 
+              to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="1" colspan="2">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

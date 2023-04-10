@@ -1,0 +1,605 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="../menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="../menu-icons/AEX-Header-Articles.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="../index.html">
+      <img border="0" src="../menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="../menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="../information.html"><img border="0" src="../menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="../menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="../history/history.html"><img border="0" src="../menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="../menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="../videogames.html"><img border="0" src="../menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="../menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="../computers.html"><img border="0" src="../menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="../menu-icons/pcs-on.gif" width="176" height="28"></a><img border="0" src="../menu-icons/articles-on.gif" width="118" height="28"></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="183" height="22"></td>
+              <td align="left" width="701" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="../menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="../articles.html" style="text-decoration: none">Articles 
+              - Main Menu</a></font></td>
+              <td align="left" width="701" rowspan="12" valign="top" height="2790">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial">Electronic Sounds - Beautiful Music on the ST?</font></p>
+                <div align="center">
+                <center>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                <tr>
+                <td>
+                      <p class="MsoNormal" style="text-align: center; margin-left: 10; margin-right: 10">
+                      <img border="0" src="../images/music-quote.gif" width="321" height="121"></p>
+                      <p class="MsoNormal" style="text-align: center; margin-left: 10; margin-right: 10">
+                      <img border="0" src="../images/YM2149-Chip.gif" width="314" height="93"></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Whatever video game you may 
+                      have played, be it Pac Man or Mario Sunshine, I'm sure you 
+                      have enjoyed that experience.&nbsp; But how many of you 
+                      notice the music?&nbsp; It's an element of a computer game 
+                      that is either inconsequential to your experience (but 
+                      important never-the-less), or it is something you view as 
+                      integral to the gameplay and visuals.&nbsp; Just as music 
+                      plays an important role in the movies, being in some cases 
+                      as critical as the moving images, music in video games can 
+                      be as vital an element.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Music means different things 
+                      to different people, and music in games may not warrant 
+                      the appreciation that say, the music of Beethoven does.&nbsp; 
+                      Music created on the consoles of today is very different 
+                      to that produced on home computers and consoles of the 
+                      80's and early 90's, and I suspect many of you would 
+                      probably agree that its much better!&nbsp; Today's 
+                      consoles utilise highly advanced CD and DSP combinations 
+                      which produce studio quality reproductions, and game music 
+                      that is even good enough to receive a commercial release 
+                      of its own.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">In the early days, consoles 
+                      could only &quot;beep&quot;.&nbsp; Later, they produced different 
+                      levels of &quot;beeps&quot;, and soon, as transistor technology 
+                      moved on, companies such as General Instruments, Casio, 
+                      Yamaha and others, began producing silicon chips purely 
+                      for sound applications.&nbsp; These early chips, or 
+                      Programmable Sound Generators (PSG's) soon found their way 
+                      into arcade machines, home computers and video consoles.&nbsp; 
+                      In the late 70's and early 80s', companies such as Atari 
+                      and Commodore actually designed and manufactured their own 
+                      sound chips, sometimes with multiple purposes and not 
+                      purely for sound.&nbsp; Of these, the most famous are the 
+                      Commodore (MOS) 6581SID, and the Atari POKEY (Ports and 
+                      Keys, invented at Atari by Steven T. Mayer, Ronald E. 
+                      Milner).&nbsp; Sound from these dedicated sound chips was 
+                      above average, especially for the time.&nbsp; It took the 
+                      PC another 10 years from the early 80's to make any 
+                      noticeable sound other than a beep...</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">In the early days of computer 
+                      games, the music was an afterthought, if it was even 
+                      thought of at all.&nbsp; But soon, computer games began 
+                      having &quot;loading&quot; music, or a tune on the main menu.&nbsp; 
+                      People began to take notice of these tunes, and as time 
+                      went by, games reviewers also paid more attention to these 
+                      sound elements, spreading the word that yes, computers 
+                      could make music too.&nbsp; With the reviews, came an 
+                      innocent stardom for the early game &quot;musicians&quot;.&nbsp; 
+                      Names such as Rob Hubbard, Chris Abbott, Martin Galway, 
+                      David Whittacker, Wally Beben and Ben Daglish to name but 
+                      a few, became famous for their pioneering sound work.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">But was this &quot;real&quot; music?&nbsp; 
+                      Personally, I know very few people who enjoy these sounds, 
+                      as their opinion of music perhaps differs wildly to mine.&nbsp; 
+                      Those of you who enjoyed playing games in the early 80's 
+                      and 90's, is it possible you just didn't stop to 
+                      appreciate the music?&nbsp; Was the actual game more 
+                      important?&nbsp; Or, you just plain hated this so called 
+                      music?&nbsp; Its hard to gauge who enjoyed this music, but 
+                      certainly many people did, and still do.&nbsp;&nbsp; 
+                      Perhaps you can break it down to those who knew the skill 
+                      required to make such music and thus appreciated the sound 
+                      a lot more, and then there ware those who just enjoyed the 
+                      music for what it was, a catchy tune.&nbsp; Whatever the 
+                      reasons, music (or whatever you may call it) produced on 
+                      these pieces of silicon is an important part of computer 
+                      gaming history, and to many, it still sounds as good as 
+                      any &quot;tune&quot; knocked up by Beethoven... probably.</font></p>
+                      <p class="MsoNormal" style="text-align: center; margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="../images/YM2149-Diag.gif" width="370" height="267"></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">We will concentrate on the 
+                      Atari ST sound chip for this article, the famous (or 
+                      infamous) Yamaha YM-2149 SSG (Software-Controlled Sound 
+                      Generator).&nbsp; The chip also drives the Atari ST 
+                      Parallel port (in conjunction with the Multi Function 
+                      Peripheral (MFP) 68901).&nbsp; It is a 3-Voice (or 
+                      channel) sound processor, capable of 8 Octaves and has 
+                      other features such as a 5-bit envelope-generator and 
+                      5-Bit Digital-Audio convertor.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Having had the pleasure of 
+                      listening to the sounds produced on the Atari 8-Bit 
+                      computer (POKEY), I was looking forward to even better 
+                      sound on the ST range.&nbsp; Unfortunately, as I was 
+                      reading all about this new wonder machine from Atari, it 
+                      seemed sound wouldn't be its strong point.&nbsp; Those in 
+                      the know, were slating the sound chip Atari had placed 
+                      inside the ST, a Yamaha YM-2149.&nbsp; Technically, this 
+                      chip was used in part to reduce costs, and to aid the 
+                      Atari ST Parallel port device, in the end, Atari was 
+                      pushing the MIDI capability of the ST rather than the 
+                      internal sound abilities.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Of course, this meant nothing 
+                      to me.&nbsp; Until I saw a graphics demo in a store one 
+                      day.&nbsp; It was called &quot;The Little Sound Demo&quot;, and had 
+                      a graphic picture of Rob Hubbard, with the words &quot;wow&quot; 
+                      coming out of a speech bubble.&nbsp; I knew of Rob Hubbard 
+                      from the Commodore 64 games, and was a fan the very first 
+                      time I heard the music &quot;Warhawk&quot; on the 8-Bit Atari.&nbsp; 
+                      This demo, would be my first introduction to the sound of 
+                      the ST, and at the time, I thought it was fantastic, 
+                      little did I know that the new Amiga would have a sound 
+                      chip (called &quot;Paula&quot;) that would put the ST's YM-2149 to 
+                      shame.</font></p>
+                      <p class="MsoNormal" style="text-align: center; margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="../images/Rob-Hubbard.gif" width="300" height="201"></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">The Amiga had a sound chip 
+                      that not only produced 4-Channel stereo sound, but could 
+                      do so with higher clarity, with a wider array of voice 
+                      features and the ability to drive high quality sampled 
+                      sounds without hogging the main CPU.&nbsp; The Amiga won 
+                      hands down in the sound department, but was it really the 
+                      end for decent music on the ST?&nbsp; Its common knowledge 
+                      that the ST became the market leader for sound 
+                      applications through its on-board MIDI ports, but this was 
+                      academic when it came to game music or sounds.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">So what happened?&nbsp; Well, 
+                      without going into too much detail about the &quot;my computer 
+                      is better than yours&quot; saga, the Atari ST and Commodore 
+                      Amiga were to be the staging post for a long running 
+                      debate about each computers ultimate technical 
+                      capabilities.&nbsp; We're not talking about word 
+                      processors or spreadsheets here, were talking about how 
+                      many colours you could display at the same time, or how 
+                      many graphical objects you could move on the screen - 
+                      we're talking about real geeky stuff!</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">For fans of computer generated 
+                      music, these were great times.&nbsp; Commercial games were 
+                      not the place to hear ground breaking use of the ST sound 
+                      chip, no, you had to get the demos!&nbsp; Demos were, for 
+                      want of a better description, sound and graphic 
+                      demonstrations.&nbsp; A whole host of &quot;groups&quot; became 
+                      known for their work, and they competed to push each demo 
+                      to a higher technical plain.&nbsp; Initially, ST Demos 
+                      started out to prove what could be done on the Amiga could 
+                      be done on the ST, and it was argued that the level of 
+                      coding being produced on the ST was easily better 
+                      technically than anything been produced on the Amiga, 
+                      because the Amiga &quot;could already do these things&quot;...</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Both machines were capable of 
+                      effects never seen (or heard) before, and many were 
+                      probably not even conceived by the original hardware 
+                      designers.&nbsp; Unfortunately, the internal sound on the 
+                      ST was still its weak point.&nbsp; But these clever 
+                      &quot;coders&quot;, soon pushed even the original limits of the 
+                      YM-2149, and over the years, sound that was once thought 
+                      impossible soon began to radiate from the Yamaha silicon.&nbsp; 
+                      In the ST world, names like Jochen Hippel, Nic Alderton, 
+                      Frank Seemann, Gunnar Gaubatz, were (and some still are) 
+                      just a few of the top sound programmers on the YM-2149, 
+                      producing amazing musical arrangements for games and 
+                      demos.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">The ST sound chip was similar 
+                      to the AY-3-8910(12) from General Instruments (it was also 
+                      pin-compatible with the YM-2149), and this chip was used 
+                      in computers/consoles such as the Sega Master System, the 
+                      Sinclair ZX Spectrum 128, Amstrad CPC range, the Mattel 
+                      Intellivision and the BBC (Acorn) Microcomputer.&nbsp; 
+                      Other computers such as the MSX range, also used 
+                      derivatives of these chips.&nbsp; Their popularity was due 
+                      to their simplicity of design and integration with the 
+                      more popular CPU's of the time, they were also extremely 
+                      cost effective and negated the need to design a 
+                      proprietary sound processor.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Most of the early sound and 
+                      music was programmed in pure assembler, with the more 
+                      complicated sounds being created by the programmer who 
+                      accessed the sound chip directly.&nbsp;&nbsp; Eventually, 
+                      these sounds were available through dedicated sound 
+                      editors that provided graphical interfaces for easier 
+                      music composition.&nbsp; But you still needed to 
+                      understand the sound processor (and have a basic 
+                      understanding of sound theory) to produce anything above 
+                      average.&nbsp; The majority of the sound editors were 
+                      proprietary programs written by the sound programmers 
+                      themselves, and it wasn't until recently that some of 
+                      these programs became available through the internet.</font></p>
+                      <p class="MsoNormal" style="text-align: center; margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="../images/knucklebuster-band.gif" width="294" height="223"></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">ST sound progressed in the 
+                      late 80's to include more than the three flat voices and 
+                      noise effects it was basically capable of.&nbsp; Soon, 
+                      sampled sound was encoded through the YM-2149 to produce 
+                      what became known as &quot;digi-drum&quot; effects, a much more 
+                      believable range of drum and snare sounds which added 
+                      greatly to the overall music which was being created.&nbsp; 
+                      An even grater step was made in the early 90's, when a 
+                      form of SID voice was produced, a wave-form voice based on 
+                      the sound of the Commodore SID chip.&nbsp; New reply 
+                      routines were produced, and ST sound was coming of age, 
+                      and although more powerful &quot;sound cards&quot; were being 
+                      produced to enable PC's to produce much more advanced 
+                      sound, the authenticity and honesty of real &quot;chip&quot; music 
+                      couldn't be imitated.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">So, what is the essence of 
+                      this electronic sound? These are purely synthetic sounds, 
+                      a creation of the chip musicians themselves.&nbsp; The 
+                      chip is obviously a man-made device, like all the great 
+                      traditional instruments, but based on the advances of 
+                      silicon chips instead of wood, strings and ivory.&nbsp; A 
+                      great deal of skill and dedication is required to produce 
+                      music on these sound chips, and it is generally excepted 
+                      that the heady days of computer chip music is over, apart 
+                      from the last remaining devotes of the art.&nbsp; In the 
+                      last few years, a small renaissance has begun in the sound 
+                      chip community, with live shows playing to hundreds of 
+                      people reliving the retro-culture of synthetic sound, and 
+                      employing the still famous compositions of the early game 
+                      musicians.&nbsp; Demo coders of old are still playing host 
+                      to new productions on the once great home computers, and a 
+                      small &quot;scene&quot; still thrives at local coding &quot;conventions&quot; 
+                      all over the world, but particularly in Europe.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">People who have grown up with 
+                      the Playstation as their first foray into video games have 
+                      missed an era of experimentation in sound, a time when 
+                      everything was new, and when computer music was growing 
+                      up.&nbsp; Soundtracks today are composed in studios, or 
+                      through sequencers, with the end result recorded straight 
+                      onto the CD, real-world sounds that are as closer to 
+                      orchestral sessions and with no assembler required.&nbsp; 
+                      The internet allows those interested to hold an ear to the 
+                      past, and figure out if this sound is something they like 
+                      or dislike, but I would hazard a guess and assume they 
+                      don't really care, because Mario and Luigi have grown up 
+                      as well.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">So, what type of sound was it?&nbsp; 
+                      Its very hard to convey the sound that comes out of the ST 
+                      in words alone, so AEX has provided various example files, 
+                      plug-ins and players to download for your own enjoyment 
+                      (available from the side-bar menu).&nbsp; You can also get 
+                      a comparative example of a track produced on the YM-2149, 
+                      and it modern day equivalent, so you can compare a normal 
+                      sound-chip file with a &quot;digi version&quot;, and a &quot;SID&quot; based 
+                      version.&nbsp; You will need WinAmp to play the SC68 files 
+                      with the plug-in provided, but the sound quality from this 
+                      YM-2149 reply routine is the closest your going to get to 
+                      the real thing!&nbsp; ST Sound is another fine YM-2149 
+                      player, and we've also included sample files for this.&nbsp; 
+                      Just unzip and play.&nbsp; If you haven't listened to 
+                      music like this before, I urge you to give it a try (as 
+                      Jochen Hippel once said!).&nbsp; No disrespect was meant 
+                      to Beethoven during the writing of this article ;-)</font></p>
+                      <p class="MsoNormal" style="text-align: center; margin-left: 10; margin-right: 10">
+        <font face="Arial" size="1">Copyright 2003 KM/AEX - Do not reprint 
+        without permission.</font></p>
+                      <p>&nbsp;</td>
+                </tr>
+                <tr>
+                <td>
+                <p align="center">
+                <a href="#top"><img border="0" src="../menu-icons/top.gif" width="31" height="13"></a></td>
+                </tr>
+                </table>
+                </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/link-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a style="text-decoration: none" target="_blank" href="http://www.dhs.nu">DHS 
+              (ST Scene) website</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/link-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2" color="#808080">
+				<a style="text-decoration: none" target="_blank" href="http://asma.atari.org/main.html">&nbsp;ASMA 
+              (Pokey) website</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/link-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2" color="#808080">
+				<a target="_blank" style="text-decoration: none" href="http://sc68.atari.org/developers_technicals.html">&nbsp;</a></font><font face="Arial" size="2"><a target="_blank" style="text-decoration: none" href="http://sc68.atari.org/developers_technicals.html">SC68 
+              (YM-2149) website</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/link-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              &nbsp;<font face="Arial" size="2"><a target="_blank" href="http://leonard.oxg.free.fr" style="text-decoration: none">ST Sound (YM-2149) website</a></font></td>
+            </tr>
+            <tr>
+              <td width="24" align="left" height="1">
+              <img border="0" src="../menu-icons/link-icon.gif" width="19" height="20"></td>
+              <td width="164" align="left" height="22">
+              <a href="http://preromanbritain.com/maxymiser/">
+				<span style="text-decoration: none">&nbsp;</span><font face="Arial" size="2"><span style="text-decoration: none">maxYMiser 
+				Chip Editor</span></font></a></td>
+            </tr>
+            <tr>
+              <td width="184" align="left" height="22" colspan="2">
+              <p align="center">
+              <img border="0" src="../menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/sound-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="../files/ST-Sound-and-Files.ZIP" style="text-decoration: none">ST Sound and YM 
+              Files (PC)</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/sound-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="../files/sc68installer.exe" style="text-decoration: none">SC68 
+              WinAmp Plug-in (PC)</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/sound-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="../files/SC68-Files.zip" style="text-decoration: none">SC68 Music Files</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <p>
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              </td>
+              <td align="left" width="183" height="1">
+              &nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</td>
+            </tr>
+            </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

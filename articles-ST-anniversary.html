@@ -1,0 +1,281 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-Articles.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="computers.html"><img border="0" src="menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="menu-icons/pcs-on.gif" width="176" height="28"></a><img border="0" src="menu-icons/articles-on.gif" width="118" height="28"></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="181" height="22"></td>
+              <td align="left" width="639" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="181" height="22" valign="top">&nbsp;<font face="Arial" size="2"><a href="articles.html" style="text-decoration: none">Articles 
+              - Main Menu</a></font></td>
+              <td align="left" width="639" rowspan="5" valign="top" height="276">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial">Atari ST - 15th Anniversary</font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+                      <p style="margin-left: 15; margin-right:15" align="justify">
+                      <font face="Arial" size="2">It has come and gone, but I 
+                      didn't want the year 2000 passing  by without some 
+                      formal tribute to the Atari ST range.&nbsp; From its debut 
+                      in January 1985 at the Comdex show in Las Vegas, Nevada, 
+                      the Atari ST was a stunning new computer system at the 
+                      time.</font><p style="margin-left: 15; margin-right:15" align="justify">
+                      <font face="Arial" size="2">After
+        only owning Atari since the 2nd of July 1984, Jack Tramiel and his team
+        needed a next generation computer to catapult the beleaguered Atari into
+        the good times again.&nbsp; legal wrangling with his former company
+        Commodore, and the loss of Amiga Technologies to them as well had
+        certainly made the new Atari's task to design, build, test and
+        manufacture working models of a totally new computer system a tough challenge.</font><p style="margin-left: 15; margin-right:15" align="justify">
+                      <font face="Arial" size="2">The
+        main architect of the original Atari ST was Vice President of research
+        and development, Shiraz Shivji.&nbsp; Under his leadership, a team at
+        Atari designed a new computer system.&nbsp; Design work was started in
+        July 1984 and completed (including all custom I.C's) in December of the
+        same year.&nbsp; Most of the initial bug testing was complete and
+        Atari's team based at Sunnyvale and at the Digital Research HQ were
+        working flat out to ensure a fully working OS was fine tuned for the
+        forthcoming Comdex show in January 1985, the maiden public flight of the
+        new Atari computer.</font><p style="margin-left: 15; margin-right:15" align="center">
+                      <img border="0" GALLERYIMG="no" src="images/ac-sign3.gif" width="305" height="204"><p style="margin-left: 15; margin-right:15" align="center">
+                      <img border="0" GALLERYIMG="no" src="images/ac-sign1.gif" width="234" height="166"><p style="margin-left: 15; margin-right:15" align="center">
+                      <img border="0" GALLERYIMG="no" src="images/ac-sign2.gif" width="254" height="171"><p style="margin-left: 15; margin-right:15" align="justify">
+                      <font size="2" face="Arial"><b>Pictures
+        above:</b> shows Billboards in Vegas on route to Comdex, 1985.&nbsp;
+        Courtesy of Hans-Martin Krober.</font><p style="margin-left: 15; margin-right:15" align="justify">
+                      <font face="Arial" size="2">The
+        show was a success.&nbsp; The Atari ST was launched with much praise,
+        and it became one of the most popular computers in Germany during the
+        mid-late eighties, something a lot of American PC manufacturers have
+        still failed to do.&nbsp; In fact, Europe was Atari's most
+        successful&nbsp; market, in contrast to the U.S. market with its tougher
+        competition, was always a strain on Atari, its dealers and ultimately
+        its end users.</font><p style="margin-left: 15; margin-right:15" align="justify">
+                      <font face="Arial" size="2">But
+        the ST did change the face of computing, although it gets little
+        recognition for that today.&nbsp; Atari did a lot of things right, and
+        had&nbsp; its fair share of &quot;challenges&quot; along the way,
+        including a global recession, competition especially from MS Windows,
+        FCC problems, a late entry back into the video game business and a lack
+        of strong advertising and support to its dealer network.</font><p style="margin-left: 15; margin-right:15" align="justify">
+                      <font face="Arial" size="2">The
+        Atari ST was particularly strong in the music industry, with the
+        inclusion of MIDI ports being one of the clever design aspects of the
+        machine. Atari also paved a niche into the DTP market with its low cost
+        laser printer and high end DTP software.&nbsp; Unfortunately, these were
+        never sustained markets for varying reasons and the ST became a
+        &quot;niche computer&quot; and a popular games machine in Europe.</font><p style="margin-left: 15; margin-right:15" align="justify">
+                      <font face="Arial" size="2">The
+        ST also suffered from a lack of continued development, the Mega ST which
+        followed the standard &quot;all-in-one&quot; product, was nothing more
+        than a redesigned box with the famous &quot;blitter&quot; graphics chip and a 
+                      separate keyboard.&nbsp; The STE (Enhanced) that followed 
+                      2 years later was a minor upgrade that increased the 
+                      colour palette, reduced chip count and included stereo 
+                      sound, among the more noticeable but lacklustre enhancements.</font><p style="margin-left: 15; margin-right:15" align="justify">
+                      <font face="Arial" size="2">When
+        the MegaSTE was released in 1990, it was another step forward for the
+        range, introducing a new case design &quot;borrowed&quot; from its
+        bigger brother, the Atari TT, it had a 16Mhz 68000 and a built-in hard
+        drive.&nbsp; But this would be the last development of the ST, a
+        computer that served thousands in its Seven year life-span. (Estimated
+        world-wide installed base was approx. 1.6 Million).</font><p style="margin-left: 15; margin-right:15" align="justify">
+                      <font face="Arial" size="2">The
+        ST brought true &quot;Power without the price&quot;, but it didn't
+        deliver this to the business market.&nbsp; It was a popular
+        &quot;home&quot; computer, although accepted as a more respectable
+        machine in Germany. Ultimately, the PC would kill off these advanced
+        machines, along with the exciting &quot;home&quot; market.&nbsp; The
+        battle between Commodore, Atari and Apple would result in one winner in
+        the dedicated non-wintel market place, and although Apple had just
+        scraped through, it managed to survive.&nbsp; Atari left the computer
+        market in 1993 and tried its hand at video gaming one more time...</font><p style="margin-left: 15; margin-right:15" align="justify">
+                      <font face="Arial" size="2">Although
+        its all over, we should be thankful&nbsp; that the ST was developed and
+        released - it changed computing in the 80's, and introduced new and
+        exciting possibilities for the consumer.&nbsp; The Atari ST is a piece
+        of computing history, just as ground-breaking as any Apple or IBM PC of
+        the era and one of the many historic products of Atari Corporation.</font><font size="2">
+                      </font>
+                      <p style="margin-left: 15; margin-right:15" align="justify">
+                      &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;</font><font face="Arial" size="2" color="#008000">Atari ST 
+              Anniversary</font></td>
+            </tr>
+            <tr>
+              <td width="117" align="left" height="22" colspan="2">
+              <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              </td>
+              <td align="left" width="181" height="1">
+              &nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td>
+            </tr>
+            </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

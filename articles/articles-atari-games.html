@@ -1,0 +1,784 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="../menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="../menu-icons/AEX-Header-Articles.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="../index.html">
+      <img border="0" src="../menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="../menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="../information.html"><img border="0" src="../menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="../menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="../history/history.html"><img border="0" src="../menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="../menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="../videogames.html"><img border="0" src="../menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="../menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="../computers.html"><img border="0" src="../menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="../menu-icons/pcs-on.gif" width="176" height="28"></a><img border="0" src="../menu-icons/articles-on.gif" width="118" height="28"></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="200" height="22"></td>
+              <td align="left" width="659" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="../menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="200" height="22" valign="top">&nbsp;<font face="Arial" size="2"><a href="../articles.html" style="text-decoration: none">Articles 
+              - Main Menu</a></font></td>
+              <td align="left" width="659" rowspan="7" valign="top" height="300">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial">Inside Atari Games (From &quot;The One&quot; Magazine 
+                1990)</font></p>
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <img border="0" GALLERYIMG="no" src="../images/atari-games-sign.gif" width="189" height="226"></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+                      <p class="MsoNormal" align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">The video game celebrates its 
+                      18th birthday this year, and Atari Games, the company that 
+                      started it all with Pong, is still going strong.&nbsp; His 
+                      pockets bulging with quarters, Gary Whitta takes a look 
+                      inside the video game industry's greatest innovator.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">It's said that the Japanese 
+                      take everyone else's ideas and do them smaller, better and 
+                      cheaper.&nbsp; But when it comes to arcade games, it's everyone 
+                      else who follows in their footsteps. These days you can't 
+                      go into an arcade without overdosing on games from the 
+                      land of the rising coin slot, with giants like Sega, 
+                      Taito, CapCom, SNK, and Konami all household names to the 
+                      arcade aficionado.</font></p>
+                      <p class="MsoBodyText" align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial"><span lang="EN-GB"><font size="2">But 
+                      while the Japanese seemingly continue their domination of 
+                      the coin&#8209;op industry, and (almost) all others are crushed 
+                      in their attempts to stop them in their tracks, there is 
+                      one American company that not only manages to hold its own 
+                      against the great oriental steamroller, but also carries 
+                      on as one of the arcade industry's great innovators</font></span><font size="2">&nbsp;&nbsp; 
+                      That company is Atari Games.</font></font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">While the name Atari might 
+                      suggest a company of Japanese origins, it prefers hot dogs 
+                      and Mom's apple pie to sushi and Mama&#8209;Sans' lychees any 
+                      day of the week.&nbsp; Founded by electronics wizard and 
+                      visionary Nolan Bushnell in the early 70s, Atari takes its 
+                      name from the classic Japanese board game Go.&nbsp; Anyone 
+                      who's played the game will know that an Atari is the Go 
+                      equivalent of check in Chess. The well&#8209;known logo is a 
+                      representation on Japan's famous volcano Mount Fuji &#8209; 
+                      Bushnell chose it because he was a great fan of the 
+                      Japanese genericism, and wanted to give his firm an 
+                      oriental flavour.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Atari erupted in 1972 with the 
+                      bat 'n' ball classic Pong.&nbsp; What is generally accepted as 
+                      the world's first video game was designed by Bushnell 
+                      himself, and was a runaway success &#8209; for the simple reason 
+                      that nobody had ever seen anything quite like it before.&nbsp; 
+                      Since then, Atari's enjoyed massive success with games 
+                      like Breakout (1976), Asteroids (1979), Missile Command 
+                      (1980), Centipede (1981), Pole Position (1982), Star Wars 
+                      (1983), Marble Madness (1984), Paperboy and Gauntlet (both 
+                      1985), Super Sprint (1986), and Hard Drivin' (1989) &#8209; all 
+                      of which served to ensure that Bushnell's baby was no 
+                      one&#8209;game wonder.&nbsp; But even so, the company served up its 
+                      fair share of obscurities in its time &#8209; ever heard of 
+                      Cloak &amp; Dagger, Arabian, Canyon Bomber or Smokey Joe? No?&nbsp; 
+                      We thought not.&nbsp; (AEX – Most of the “obscure” games 
+                      mentioned were not widely available in Europe).</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Before long, Atari moved out 
+                      of the arcades and into the homes with the launch of the 
+                      VCS 2600 console and, later, its first home computers in 
+                      the form of the 400 and 800 range.&nbsp; Since then Atari's 
+                      been responsible for the forgettable XL/XE machines and of 
+                      course the more memorable ST range.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">(AEX – We apologise for the 
+                      use of the word “forgettable” with reference to the XL and 
+                      XE computers by the author!)</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Unfortunately, these days 
+                      Atari isn't the one big happy family you might think &#8209; in 
+                      fact it's practically divorced from itself.&nbsp; Bushnell sold 
+                      Atari to movie giant Warner Communications in the late 
+                      70s, and it wasn't until the early 80's that ex&#8209;Commodore 
+                      boss Jack Tramiel arrived on the scene to buy it back but 
+                      only half of it.&nbsp; The story goes that Tramiel was only 
+                      interested in the home computing side of Atari, as he was 
+                      hoping to buy the Amiga from its developers and release it 
+                      as an Atari machine.&nbsp; For this reason, he only bought the 
+                      computing arm of the company (known as Atari Corporation), 
+                      leaving Atari Games as a separate company. </font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Today, Atari Games and Atari 
+                      Corporation rarely interact &#8209;they are even based in 
+                      completely different offices, and in a sense they are 
+                      actually in competition.&nbsp; When Atari Games decided to move 
+                      into the expanding home market by producing software, 
+                      Atari Corporation stepped in to tell its 'sister' that it 
+                      wasn't allowed to use the name Atari in the home computer 
+                      market. For this reason, Atari Games came up with its own 
+                      publishing label - Tengen, which again comes from the 
+                      board game Go.&nbsp; The Tengen is the name given to the centre 
+                      of the board. And as Domark's General Manager John 
+                      Kavanagh explains, that's why you won't find the Atari 
+                      Games name or logo on any of Domark's long line of Atari 
+                      coin&#8209;op conversions &#8209; Tramiel bought the rights to use the 
+                      Atari name on consumer products as part of the terms of 
+                      the sale - Atari Games, therefore, has to market its 
+                      software under a different name.&nbsp; (AEX – Domark were a UK 
+                      software publisher and marketed practically all the Atari 
+                      Game home computer conversions under the Tengen name).</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">That, however, hasn't put 
+                      Atari Games off in the least.&nbsp; With over 140 (count 'em) 
+                      coin&#8209;ops under its belt, a string of its own arcades in 
+                      the USA and over 400 people employed worldwide, Atari is 
+                      one of the most prolific games manufacturers in the world 
+                      today &#8209; and one of the wealthiest, with the company 
+                      expecting to rake in over 100 million dollars this year 
+                      alone!</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">It's at Atari Games' 
+                      headquarters in Milpitas, California, that the games are 
+                      conceived, developed and produced. You name it &#8209; Star 
+                      Wars, Paperboy, Gauntlet, Super Sprint, Hard Drivin'… they 
+                      are all the work of the development personnel based there.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">One member of that team is the 
+                      man behind some of the company's biggest successes over 
+                      the last few years &#8209; 31&#8209;year old Mark Stephen Pierce, one 
+                      of Atari's principal games designers, who comes from a 
+                      rather unlikely background: he was an artist long before 
+                      he ever went near a computer.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Mark's career as a binary 
+                      Boticelli began while studying at the School Of Arts 
+                      Institute in Chicago. It was here that the two vocations 
+                      he currently excels in came together... &quot; In my final year 
+                      the school got a ZGrass computer which I started playing 
+                      around with, drawing and animating with it.&nbsp; I did some 
+                      animations of talking faces, which were seen by the guy 
+                      who invented the machine.&nbsp; He asked me to come and work 
+                      for him, so I did, writing animation demos for trade 
+                      shows, like the Consumer Electronics Show.&nbsp; I was just 
+                      making characters run around on screen to show off the 
+                      capabilities of the Astrocade machines.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">&quot;I also co&#8209;wrote a game in 
+                      1982 called Professor Pac Man, which was basically a 
+                      multiple choice questions and answers game with animated 
+                      sequences. The Astrocade was very similar to the hardware 
+                      inside the Bally coin&#8209;ops of the time.&nbsp; Professor Pac Man 
+                      sold about a thousand copies, and after that, in 1984, I 
+                      started a company called Macromind, writing productivity 
+                      tools, basically music and art utilities, for a while, and 
+                      then I sold out my share in the company, and then wrote 
+                      the platform game Dark Castle for the Macintosh.”</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="../images/dave-and-mark.gif" width="444" height="156"></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">The move to Atari Games came 
+                      about in 1986 when Mark moved to California: &quot;I knew that 
+                      there are more computers per square mile there than 
+                      anywhere else in the country.&quot; California is the home&#8209;base 
+                      of just about every major developer and publishing company 
+                      in the States, including Cinemaware, Lucasfilm, Epyx, 
+                      Spectrum HoloByte, Electronic Arts, Activision, hardware 
+                      manufacturer Apple &#8209; and of course Atari.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Atari has earned itself a 
+                      reputation for originality since its inception, with 
+                      innovative wares such as Lunar Lander, I Robot, Marble 
+                      Madness, Gauntlet, and Cyberball all breaking new ground 
+                      and inspiring many &#8209; including Mark: &quot;I joined Atari 
+                      because I wanted to produce something different something 
+                      more challenging.&nbsp; There are so many shooting and fighting 
+                      games in the arcades, and that just wasn't the thing I 
+                      wanted to get into.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Mark's first project for Atari 
+                      was the ageing race&#8209;and&#8209;destroy classic RoadBlasters, for 
+                      which he produced the graphics and co&#8209;designed with 
+                      programmers Bonnie Smithson and Richard Moore over the 
+                      course of a year.&nbsp; &quot;I still play RoadBlasters,&quot; Mark 
+                      confesses. &quot;I think it's a great game because it's so 
+                      simple. I really like the combination of driving and 
+                      shooting.&nbsp; Ever since we did RoadBlasters I've been really 
+                      into race games, but only in the arcades. I think racing 
+                      games at home lose the feel because of the lack of a 
+                      steering wheel.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">After RoadBlasters, Mark set 
+                      about with RoadBlasters programmer Bonnie Smithson 
+                      producing his biggest and most time&#8209;consuming project to 
+                      date &#8209; Escape From The Planet Of The Robot Monsters 
+                      (which, for the record, boasts the longest game title in 
+                      coin&#8209;op history). From conception to completion, Mark and 
+                      his team spent over two years on Escape.&nbsp; But the 
+                      inspiration for such an escapist concept has been around 
+                      for even longer &#8209; since Mark's childhood in fact.</font></p>
+                      <p class="MsoNormal" style="text-align: center; margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="../images/EFTPOTRM-Pics.gif" width="294" height="231"></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">&quot;My Dad sells comic books for 
+                      a living, and has done since I was a boy, so I grew up 
+                      with them.&nbsp;&nbsp; I've always been fascinated by them, and in 
+                      particular the concept of an interactive comic book 
+                      something where you could actually influence the story 
+                      rather than just following along with it.&nbsp; That's what I 
+                      was trying to do with Escape &#8209; it's not perfect, but I 
+                      think it's getting close to the idea. </font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">As for the scenario, I was 
+                      influenced mainly by the 60's Science Fiction B&#8209;movies 
+                      like Plan 9 From Outer Space, The Day The Earth Stood 
+                      Still and all those other really terrible movies.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">While Escape doesn't offer 
+                      anything radically different in the gameplay stakes &#8209; it's 
+                      just a matter of shooting the robots and rescuing the 
+                      prisoners Mark believes the presentation sets it apart: 
+                      &quot;The isometric viewpoint is perfect &#8209; it works so well 
+                      because by looking down into a room from the corner you 
+                      can see just about everything there is to see.&nbsp; It worked 
+                      in Zaxxon, 720° and Populous and I think it works here 
+                      too. It was easier for us to do as well &#8209; we just took the 
+                      old Isometric Playfield Generator that was written for and 
+                      used in Marble Madness and put it to work here &#8209; the basic 
+                      routines that run Escape and Marble Madness are one and 
+                      the same.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">After working on Escape for 
+                      over two years (which Mark puts down to the sheer size of 
+                      the game), he's now a little tired of the project and was 
+                      glad to see it completed. </font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Even so, he still feels 
+                      there's room for improvement: &quot;Looking back on Escape, I'm 
+                      pleased with it.&nbsp; But if I was starting again on it now, 
+                      I'd like to do things a bit differently.&nbsp; For a start I'd 
+                      want more flare and more action to make the whole thing 
+                      more hectic. At the moment it's not as pacey as I'd have 
+                      liked.&nbsp; And I would have liked to have given the player 
+                      more control over Jake and Duke by giving them more 
+                      combat&#8209;like moves, rather than just shooting away.&nbsp; I like 
+                      the games where you've got a whole array of fighting 
+                      moves, and that would have worked and added atmosphere to 
+                      Escape.&quot; The chance of a second attempt seems unlikely: 
+                      &quot;It took over two years to put together &#8209; there's no way I 
+                      want to go through all that again just to produce one 
+                      game. All I wanted to do next was produce something 
+                      playable, compact and relatively quick to develop.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">So he did. The result was the 
+                      comparatively serene Klax, aimed at the same market as the 
+                      classic mental agility test Tetris.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Our Marketing people saw that 
+                      Tetris had created a niche in the market, and I could see 
+                      the same thing by watching people play it in the arcades.&nbsp; 
+                      What I noticed most was that it was attracting older 
+                      players &#8209; probably because it's more of a thinking game.&nbsp; 
+                      And I could see that people were getting satisfaction out 
+                      of playing it. Tetris has a strange appeal &#8209; it's simple, 
+                      and the gameplay is well balanced between the tension of 
+                      building something up and the relief of removing lines.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">With the seed implanted, Mark 
+                      set about producing ideas for gameplay &#8209; by which time 
+                      clones wore already appearing.&nbsp; They were mostly just the 
+                      same game presented differently and any twists in the 
+                      gameplay failed to generate the same kind of tension as 
+                      the original &#8209; let alone improve on it: &quot;With Klax I 
+                      wanted to produce something along the same lines, and so 
+                      create a similar sort of appeal, while giving it a 
+                      gameplay style all of its own.”&nbsp; No easy task.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">&quot;I knew that to create a game 
+                      similar in style to Tetris, the rules had to be simple, 
+                      but I wanted to do something with, a little extra to ft as 
+                      well.&quot;&nbsp; That little extra manifests itself in the shape of 
+                      gravity.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">With Tetris, blocks fall when 
+                      fines disappear, but only by a single line &#8209; there's no 
+                      real gravity, and so it's impossible to set up 'chain 
+                      reactions'.&nbsp; With Klax however, Mark did Newton proud by 
+                      incorporating a true sense of gravity.&nbsp; The tiles are 
+                      supposed to be stacked as they would for real, so when you 
+                      take some away, the tiles above fall down until they land 
+                      on another, this allows the player to create a Klax that 
+                      in turn creates another by the very act of the relevant 
+                      blocks disappearing and causing others to fall.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">The idea of making lines of 
+                      three or more came from Tic&#8209;Tac&#8209;Toe, which is why Atari is 
+                      calling Klax the 'Tic&#8209;Tac&#8209;Tile' game.&nbsp; &quot;I think it's got 
+                      enough original elements of its own to not be called just 
+                      another Tetris clone.&nbsp; One thing I really like about Klax 
+                      is that it's a video game only &#8209; there's no way it could 
+                      be done in any other format.&quot;&nbsp; (AEX – We think the Atari 
+                      Lynx conversion is probably the best, but we could be a 
+                      little biased in that opinion!).</font></p>
+                      <p class="MsoNormal" style="text-align: center; margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="../images/Klax1.gif" width="170" height="219"></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">It probably won't come as any 
+                      great surprise to learn that even though Mark is pleased 
+                      with the way Klax has turned out, he still feels that 
+                      there's room for improvement. &quot;When we came to giving Klax 
+                      a name, I wanted to call it something that reflected its 
+                      simplicity &#8209; something short, and in complete contrast to 
+                      Escape.&nbsp; So I sat down with Dave Akers and said: 'Okay, 
+                      we've got five minutes to come up with a title.'&nbsp; Dave 
+                      just came out with Klax, and we liked it because it was 
+                      short and it also sounded like the klack&#8209;klack sound of 
+                      the tiles as they roll down the screen.&nbsp; Looking back, I 
+                      think that's an idea that could have been taken further.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">From the amount of knowledge 
+                      we have of how arcade machines are developed, we might as 
+                      well just assume that Mr Atari comes along, sprinkles his 
+                      magic pixie dust on an empty cabinet and presto! A new 
+                      game…&nbsp; No such luck &#8209; putting together a coin&#8209;op is much 
+                      the same as putting together a home computer game... but 
+                      on a grander scale, as Mark reveals: &quot;When we're thinking 
+                      about designing a new game, we have to listen to our 
+                      Marketing people, who inform us of what's popular and 
+                      what's likely to make money in the arcades, which is what 
+                      happened with Klax.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">But that's not to say that 
+                      Mark and his team don't have freedom when deciding what to 
+                      do, and if they want to create something totally off the 
+                      wall they can &#8209; look at Escape From The Planet Of The 
+                      Robot Monsters.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">With a game concept 'invented' 
+                      a Project Leader has to assemble an interested party of 
+                      half a dozen or so people, comprising a programmer, 
+                      graphic artist, animator, musician, and hardware engineer. 
+                      The PL gives them all an idea of what has got to be done.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">&quot;The first thing that's done 
+                      is that the project is sketched out in rough &#8209; game type, 
+                      objectives and so on, and a schedule is made up for the 
+                      team to work to, as it's vital they have the game finished 
+                      by a certain time.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">This might sound like the 
+                      Project Leader has an easy time of it, but Mark is quick 
+                      to prove otherwise: &quot;A Project Leader oversees all the 
+                      work on the game, but he often also contributes to it in 
+                      his own way.&nbsp; I was Project Leader on Escape and Klax, but 
+                      I also designed both games and did the graphics. And 
+                      believe me, you have to take care of everything from 
+                      making sure the work goes according to schedule to 
+                      checking that the heating duct above the programmers is 
+                      running at the correct temperature!&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Now that the idea has become a 
+                      real game design, the team can start work actually writing 
+                      it.&nbsp; Even during the technical stages there's not a great 
+                      deal to differentiate between coin&#8209;op and home computer 
+                      game development...</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">&quot;All Atari coin&#8209;ops today are 
+                      written in C &#8209; that's the most popular language with the 
+                      programmers here, I guess. The actual programming work is 
+                      carried out on standard terminals, and then transferred 
+                      into our VAX machines where it's compiled and compressed.&nbsp; 
+                      Finally it's downloaded from there through an EPROM burner 
+                      and onto the hardware for the game that the engineer has 
+                      put together. Every coin&#8209;op's hardware is different partly 
+                      because each game is different, and partly as a form of 
+                      copy protection.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Mark's graphics are produced 
+                      on a PC &#8209; but using Atari's own specially written utility: 
+                      RAD (Rendering and Animation Design). &quot;It's basically a 
+                      standard paint tool with some animation facilities. I 
+                      design and draw on the PC before uploading everything to 
+                      the VAX to be compressed.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">An Atari game takes, on 
+                      average, around a year to produce &#8209; but then an average 
+                      can come from two extremes, which is certainly in Mark's 
+                      case - Escape took over two years to put together, whereas 
+                      Klax was written in just four months!</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Mark feels that game design is 
+                      the most difficult and time&#8209;consuming, and yet most 
+                      rewarding task: &quot;With an arcade game you have to be very 
+                      careful with the design. What you're trying to do is 
+                      create something that people will want to play and keep 
+                      playing.&nbsp; If you go to see a movie, you pay your six 
+                      dollars and go in &#8209; if you decide halfway through that you 
+                      don't like it, there's not a lot you can do about it as 
+                      you've already paid to see it.&nbsp; If you buy a piece of 
+                      software, you pay your 30 dollars then take it home, and 
+                      again, if you don't like it, it's too late you've already 
+                      paid.&nbsp; But with an arcade game you only have to put in a 
+                      quarter, and if you decide in your first game 'Urgh, this 
+                      sucks', you can leave it and you've only spent 25 cents.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">So if an arcade game is to 
+                      recoup its investment it's got to hook people from the 
+                      very beginning and hold on tight. &quot;You have to keep the 
+                      task simple, so that the potential player will look at it 
+                      and say &quot;I can do that', while graphically it has to look 
+                      sexy and inviting. That's really all you need to get 
+                      somebody playing, but keeping them playing is the hard 
+                      part.&nbsp; It's vital that you get the level of difficulty 
+                      right &#8209; if a game's too tough, the player will give up, 
+                      and if it's too easy you could have one person playing all 
+                      day on just one quarter.&nbsp; The ideal level of difficulty is 
+                      one that makes a quarter last about a minute and a half.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">But unlike appearances, the 
+                      level of difficulty is a much more demanding deception, as 
+                      arcade players vary greatly in their levels of skill and 
+                      patience. So before a game is released it's played 
+                      extensively by the teams at Atari and then put on 'field 
+                      test', where a few prototype machines are placed in 
+                      arcades around the country and the reaction to them is 
+                      graded.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">&quot;You can normally tell at the 
+                      very start if a coin&#8209;op's going to sell &#8209; we always keep 
+                      one test machine running in the lab, and if it's rarely 
+                      played by the people here, it's probably not going to do 
+                      well in the arcades either.&nbsp; Fortunately Klax, which has 
+                      just been released, has always got a queue of people 
+                      waiting to play it here, so we have a pretty good feeling 
+                      about it!&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Only when a machine goes on 
+                      field test can the public's response be gauged, so 
+                      naturally Atari makes the best use it can of the time that 
+                      the machine's 'out on trial'.&nbsp; The prototype machines used 
+                      are equipped with special video recorders that videotape 
+                      the games played on it.&nbsp; When the machines are recalled 
+                      the tape is played back so that the team can see if 
+                      players are exploiting any potentially disastrous bugs or 
+                      unexpected design flaws and iron them out before the 
+                      machines go on release. In addition, a computer printout 
+                      provides pages of statistics that are dissected to find 
+                      out just how good people are at playing the game.</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">But at the end of the day, all 
+                      that counts is the amount of money a machine takes &#8209; or 
+                      'coindrops' as Mark refers to them. &quot;A machine has to make 
+                      money within its first six weeks or it's not going to be 
+                      successful.&nbsp; If an arcade owner orders a few machines, and 
+                      they don't start making money quickly, he won't order any 
+                      more &#8209; and he could well tell his arcade owner friends who 
+                      won't order any at all.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">So just how 'big' does a 
+                      coin&#8209;op have to be to be classified as a success?&nbsp; &quot;These 
+                      days, anything that sells over 10,000 units is fantastic,&quot; 
+                      Mark reveals. &quot;Although back in the early days of the 
+                      industry, machines could be expected to do a lot more than 
+                      that. Tempest, for example, took over 30,000 orders in its 
+                      first DAY on release! Williams' Defender has sold over 
+                      50,000, and Ms Pac Man 123,000!</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">So why the slump?&nbsp; &quot;I think 
+                      because when this business first started, we were dealing 
+                      with a brand new technology, so there was a lot of 
+                      excitement and a certain amount of novelty value.&nbsp; And 
+                      also at the time, the people who played arcade games were 
+                      a lot older &#8209; around 18 to 25, and so they had more money 
+                      to spend than the average 14 year&#8209;old arcade player of 
+                      today. Now the big novelty is gone, but I think at least 
+                      the business is much more sane now.&nbsp; And there's still the 
+                      occasional massive hit, Gauntlet is probably one of the 
+                      biggest sellers that Atari has ever had.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Mark admits to being a great 
+                      fan of the classic coin&#8209;ops of yesteryear. Defender, 
+                      Tempest and Galaga rank amongst his favourites, but what 
+                      does he think of the machines commonly found in today's 
+                      arcades?&nbsp; &quot;Most of the games over here are either 
+                      horizontally&#8209;scrolling blasters or sideways scrolling 
+                      combat games, which I think is a shame.&nbsp; I think that 
+                      while they're not at all original, they'll always be a 
+                      market for them, so the companies will just keep on making 
+                      them.&nbsp; It's like rock 'n' roll, most of the popular music 
+                      in the charts today isn't too good, but they'll keep 
+                      cranking it out because that's what is in demand.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">&quot;I'm not sure about the 
+                      Operation Thunderbolt style gun games. I don't believe 
+                      that playing those games is going to turn anyone into a 
+                      killer or anything like that, but even so I don't think 
+                      it's a good idea to make people feel comfortable about the 
+                      idea of having a gun in your hand and shooting things.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">At home, Mark's recently been 
+                      up to his elbows in SimCity. &quot;I like it &#8209; you get a 
+                      certain kind of satisfaction out of playing it.&nbsp; It's kind 
+                      of like tending a garden.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">And the future?&nbsp; What kind of 
+                      technology is going to be eating coins in years to come?&nbsp; 
+                      &quot;I'm not sure, but I do have a few ideas about the kind of 
+                      thing I'd like to see.&nbsp; I'd like to expand what's playable 
+                      in the arcades by moving away from shoot 'em ups and the 
+                      like and do something else.&nbsp; One idea that might work 
+                      would be an RPG coin&#8209;op &#8209; each player would buy a card 
+                      that would be inserted into the machine to start the game. 
+                      That card would have the player's character stored on it &#8209; 
+                      all the information about strengths, skills, objects 
+                      carried &#8209; and the machine would read from and write to the 
+                      card accordingly.&nbsp; With that system you could carry your 
+                      character around in your back pocket and carry on your 
+                      game whenever you see a machine.&quot;&nbsp; </font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Sadly, we aren't likely to see 
+                      anything like that for a while yet, and for the moment, 
+                      Mark prefers to look more to the immediate future. &quot;Klax 
+                      has just started to ship, and from what we've heard so 
+                      far, it's already doing well. One machine in Manhattan is 
+                      taking 400 dollars a week! I don't want to jinx anything 
+                      by saying that Klax is going to be as big as Tetris, but I 
+                      certainly hope that it will.&quot;</font></p>
+                      <p class="MsoNormal" style="text-align: justify; margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">So what's next?&nbsp; &quot;I'm really 
+                      not sure. After Klax I think I'd like to do a bit more of 
+                      an action game.&quot; Beyond that, Mark doesn't really know &#8209; 
+                      but it's a sure&#8209;fire bet it's worth waiting for… Even it 
+                      he spends two years writing it!</font></p>
+                      <p align="center">
+                <a href="#top"><img border="0" src="../images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="200" height="22"><font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2">Inside 
+              Atari Games </font></td>
+            </tr>
+            <tr>
+              <td width="97" align="left" height="1" colspan="2">
+              <img border="0" src="../menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="20" align="left" height="22">
+              <img border="0" src="../menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td width="200" height="22">
+              &nbsp;<font color="#9A05EB" face="Arial" size="2">Topic 
+              sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="200" height="22">
+              &nbsp;<font face="Arial" size="2"><a href="articles-atari-music.html" style="text-decoration: none">Music by Atari Games</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="200" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              </td>
+              <td align="left" width="200" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td>
+            </tr>
+            </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

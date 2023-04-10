@@ -1,0 +1,171 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+</head> <script language="JavaScript">
+<!-- Begin
+function getCookie(name){
+var cname = name + "=";               
+var dc = document.cookie;             
+if (dc.length > 0) {              
+begin = dc.indexOf(cname);       
+if (begin != -1) {           
+begin += cname.length;       
+end = dc.indexOf(";", begin);
+if (end == -1) end = dc.length;
+return unescape(dc.substring(begin, end));
+   } 
+}
+return null;
+}
+function setCookie(name, value, expires) {
+document.cookie = name + "=" + escape(value) + 
+((expires != null) ? "; expires=" + expires.toGMTString() : "")
++ "; path=/";
+}
+function setName() {
+var expdate = new Date ();
+expdate.setTime (expdate.getTime() + (24 * 60 * 60 * 1000 * 365));
+var prompt=i = document.Mail.name.value;
+setCookie("name", i, expdate);
+}
+function getName() {
+if(getCookie("name") !=null ) {
+document.Mail.Name.value = getCookie("emailname");
+   }
+}
+function getInfo() {
+var now= new Date();
+document.Mail.Info.value = "Browser: " + navigator.userAgent;
+document.Mail.Info.value += "Date:" + now;
+}
+function checkMultiple() {
+if (getCookie("emailsent") == 'true') return true;
+else return false;
+}
+function process() {
+setCookie("emailsent", "true");
+with (document.Mail) {
+if (Subject.selectedIndex == 1) action = "mailto:karl@atari-explorer.com?subject=General Query";
+else if (Subject.selectedIndex == 2) action = "mailto:karl@atari-explorer.com?subject=Media Query";
+else if (Subject.selectedIndex == 3) action = "mailto:karl@atari-explorer.com?subject=Donations";
+else if (Subject.selectedIndex == 4) action = "mailto:karl@atari-explorer.com?subject=Support";
+   }
+}
+function formCheck() {
+var passed = false;
+with (document.Mail) {
+if (Subject.selectedIndex == 0) { 
+alert("Please pick a subject.");
+Subject.focus();
+}
+else if (Name.value == "") {
+alert("Please inlcude your name.");
+Name.focus();
+}
+else if (checkMultiple()) {
+if (confirm("You just sent an e-mail from this form, are you sure you want to send another?")) {
+process();
+passed = true;
+   }
+}
+else {
+process();
+passed = true;
+   }
+}
+return passed;
+}
+// End -->
+</SCRIPT>
+
+<body topmargin="0" leftmargin="0" bgcolor="#FFFFFF">
+
+<p>&nbsp;</p>
+
+<div align="center">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+<tr>
+<td>
+<p align="center">
+<img border="0" src="../images/aex-contact.gif" width="431" height="66"></td>
+</tr>
+<tr>
+<td>
+<p align="center">&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p align="center"><font size="2" face="Arial" color="#808080">Thank you for your 
+time.&nbsp; We will try and answer all e-mails within 72 hours.</font></td>
+</tr>
+<tr>
+<td width="450" height="1">
+        <CENTER>
+<FORM NAME = "Mail" ACTION = "mailto:karl@atari-explorer.com?subject=AEX Contact Form" METHOD = "POST" ENCTYPE = "text/plain" onSubmit="return formCheck();">
+<TABLE BORDER = 0 CELLPADDING = 10 CELLSPACING = 0 width="442" height="210">
+<TR><TD width="334" height="14">
+<FONT face = "Arial">
+<i><font color="#808080" size="2">Your Name:</font></i></FONT><font color="#808080" face="Arial" SIZE="3">
+<INPUT TYPE = "text" NAME = "Name" onChange = "setName()" size="20"> </font>
+</TD></center><TD ALIGN = RIGHT width="264" height="14" >
+<p align="left">
+<font color="#808080" size="2" face="Arial">
+<i>Your Subject</i>:&nbsp;</font><font color="#808080" face="Arial" SIZE="3"><SELECT NAME = "Subject">
+<OPTION SELECT>Please select a subject</OPTION>
+<OPTION>1. General Query</OPTION>
+<OPTION>2. Media Query</OPTION>
+<OPTION>3. Donations</OPTION>
+<OPTION>4. Support</OPTION>
+</SELECT> </font>
+</p>
+</TD></TR>
+
+        <CENTER>
+
+<TR>
+<TD COLSPAN = 2 width="420" height="156">
+<i><font face="Arial" size="2" color="#808080">Please type in additional information about your selected subject topic:</font></i><font color="#808080">
+</font>
+<FONT face = "Arial"  SIZE = 3>
+<BR><BR>
+<TEXTAREA NAME = "Additional information:" COLS = 47 ROWS = 6>
+</TEXTAREA></FONT>
+</TD>
+</TR>
+</TABLE>
+
+        </center>
+<FONT FACE = "Times"  SIZE = 3>
+<TABLE>
+<TR>
+<TD align=center>
+<p align="left">&nbsp;&nbsp;&nbsp; &nbsp;
+<INPUT TYPE = "submit" VALUE = "Send">
+</p>
+</TD>
+</TR>
+</TABLE>
+</FONT>
+</td>
+</tr>
+<tr>
+<td width="450" height="16">
+<p align="center"><font color="#808080">&nbsp;<font size="1" face="Arial">Your privacy is respected by 
+AEX</font></font></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</center>
+</div>
+
+</body>
+
+</html>

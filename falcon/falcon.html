@@ -1,0 +1,431 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="../menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="Top"></a>
+      <img border="0" src="../menu-icons/AEX-Header-Comp.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="../index.html">
+      <img border="0" src="../menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="../menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="../information.html"><img border="0" src="../menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="../menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="../history/history.html"><img border="0" src="../menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="../menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="../videogames.html"><img border="0" src="../menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="../menu-icons/vgs-on.gif" width="182" height="28"></a><img border="0" src="../menu-icons/pcs-on.gif" width="176" height="28"><a onmouseover="document['fpAnimswapImgFP5'].imgRolln=document['fpAnimswapImgFP5'].src;document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].lowsrc;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="../articles.html"><img border="0" src="../menu-icons/articles-off.gif" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="../menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="19" align="left" height="22"></td>
+              <td align="left" width="183" height="22"></td>
+              <td align="left" width="554" height="22"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="11" valign="top">
+              <img border="0" src="../menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="../computers.html" style="text-decoration: none">Computers
+                - Main Menu</a></font></td>
+              <td align="left" width="554" rowspan="21" valign="top" height="4">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" size="2">Personal Computers :: </font>
+                <font face="Arial" size="2" color="#008000">Falcon030</font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" GALLERYIMG="no" src="../images/falcon-title.gif" alt="The Atari Falcon030" width="388" height="289"></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font color="#808080" size="2"><font face="Arial">The</font></font><font face="Arial" color="#808080" size="2"> 
+        Atari Falcon was the last Atari personal computer released, but not the 
+        last computer system Atari were designing, and still planning to 
+        release.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">Utilising
+        the powerful Motorola 68030, this Atari system was the most powerful in
+        terms of technology &quot;under the hood&quot;.&nbsp; Although the Atari
+        TT 030 was the fastest in terms of processing speed, the Falcon had a
+        number of unique features that made it a desktop system which wiped the
+        floor with PC's of the day.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <span lang="en-us"><font face="Arial" size="2">The Atari Falcon030 was 
+        originally conceived at the Atari Dallas R&amp;D facility.&nbsp; In its 
+        early incarnation, it was test board which was inserted into a standard 
+        1040STE via the PLC holder of the 68000 CPU.&nbsp; The initial idea was 
+        to test the ST with a higher powered processor system which utilised the 
+        new Motorola DSP.&nbsp; A test version of TOS was used named 2.07 (2.06 
+        was the current release in production models), and enabled engineers to 
+        access the DSP, FPU and 16MHz 68030.</font></span></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" GALLERYIMG="no" src="../images/aexsparrowcard.gif" alt="Atari Sparrow card" width="384" height="282"></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">The
+        name Falcon was used at Atari under Warner management, as it was the
+        codename for the AtariTel phone system, unfortunately, never released
+        back in 1984.&nbsp; The Falcon computer released in 1992 was talked
+        about for years before it's launch.&nbsp; Many rumours about the system
+        had been accurate, although it was never the system it should have been.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" src="../images/FX-1-Logo.gif" alt="FX-1 Badge" width="290" height="35"></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">The Falcon had been demonstrated to 
+        developers in early 1992, and around 150 pre-production models had been 
+        made available to European developers by the middle of the same year.&nbsp; 
+        The machine was going to be named FX-1<span lang="en-us"> commercially</span>, and some developer machines 
+        displayed this badge.&nbsp; Atari had processed a number of Trademarks, 
+        which included &quot;Sparrow&quot;, and this was also used as the name for  developer systems at the time. (Other bird names registered as 
+        Trademarks included &quot;Owl&quot;, &quot;Wren&quot;, &quot;Robin&quot; and &quot;Bluebird&quot; - Serial 
+        numbers 74147946, 7414909, 7414945, 74147946 US Patent and Trademark 
+        Office).</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" GALLERYIMG="no" src="../images/Falcon-Launch.gif" alt="Atari Falcon Launch, 23rd August 1991, Germany" width="391" height="396"></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">The
+        launch was low-key.&nbsp; Production was delayed for 6 months at the
+        manufacturing facility in the far-east because engineers thought there
+        was a serious motherboard issue that apparently never surfaced in
+        reality.&nbsp; When units became available, the only noticeable
+        advertising was obscure and the marketing spend was nominal - it is to
+        be noted that senior management were being told at this time that
+        computer operations were to be &quot;wound down&quot; in order to pull
+        all available company resources into a new gaming system named Jaguar.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">It
+        is important to note also, that many in the computer division of Atari
+        were trying to keep the axe from falling on the Falcon project, and the
+        computer division as an entity, unfortunately the writing had been on
+        the wall after Jack Tramiel personally ended the Unix project 30 days
+        after the &quot;official&quot; release date of Unix V was announced in
+        Germany that year (Summer 1992).</font></p>
+        <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber2">
+        <tr>
+        <td>
+        <p align="center">
+                            <a onClick="window.open('RSC5-2.htm','src','scrollbars=yes,width=630,height=500,left=50,screenX=40,top=50,screenY=40')" href="falcon.html">
+                            <img border="0" src="../images/RSC5-2Pic-icon.gif" alt="Click here to view..." width="119" height="162"></td>
+        </tr>
+        <tr>
+        <td>
+        <p align="center">
+        <font face="Arial" color="#808080" size="1">(This issue of RSC announces 
+        the official arrival of the Falcon030)</font></td>
+        </tr>
+        <tr>
+        <td>
+        <p align="center"><a href="../files/RSC5_2.zip">
+        <img border="0" src="../images/RSC5_2DL-icon.gif" alt="Click here to download..." width="119" height="18"></a></td>
+        </tr>
+        <tr>
+        <td>
+        <p align="center"><font face="Arial" color="#808080" size="1">(The zip 
+        file contains all 20 pages of Atari RSC 5.2 in GIF Format)</font></td>
+        </tr>
+        </table>
+        </center>
+        </div>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">Before
+        the Falcon 030 was even announced, developers had been expressing
+        interest in Atari's official Falcon announcement, the 
+        <a href="../protos/protos-falcon040.html">Falcon 040</a>.&nbsp;
+        This was the TT's big brother, and it was hoped that Atari would
+        demonstrate the system with the new Unix platform at the Atari Fair in
+        Germany 1991.&nbsp; To many peoples surprise (and disappointment), Atari
+        demonstrated the Falcon 030 at CeBit in 1992.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">The
+        Falcon 040 had been all but completed, and the case design was ready to
+        go.&nbsp; The Atari Falcon 030 was the only &quot;taste&quot; the public
+        got of the possible 040 product that may have been very close to
+        completion.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" GALLERYIMG="no" src="../images/falcon-flyer-small.gif" alt="Atari Falcon flyer" width="200" height="272"></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#808080" size="2">The Falcon030 had many 
+        unique features for a computer system of the day.&nbsp; Built-in SCSI 2, 
+        LAN port (apple-talk protocol/connector), Microphone input, Direct DSP 
+        connection, true colour graphics with 3D shaded GUI multi-tasking OS 
+        among many advanced features.&nbsp; </font></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center"><a href="tos404.html">
+                      <img border="0" src="../images/tos404-icon.gif" alt="Tos 4.04 Source Page..." width="145" height="55"></a></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">Atari Computer had pushed the 
+                      desktop computer to new heights, but poor marketing and 
+                      the internal pressure to continue computer manufacturing 
+                      in the face of MS Windows/PC dominance forced the Falcon 
+                      to be Atari's last desktop computer towards the end of 
+                      1993.&nbsp; We never saw the Falcon 040, with its 3 X 
+                      internal sots and sleek new design, although nearing 
+                      manufacturing readiness with tooling complete, it was the 
+                      Atari Jaguar that pounced on all future computer plans 
+                      unfortunately.</font></td>
+                    </tr>
+                    <tr>
+                      <td><p align="justify">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center"><a href="#Top">
+                      <img border="0" src="../menu-icons/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="../8bit/400-800.html" style="text-decoration: none">400/800</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="../8bit/XL.html" style="text-decoration: none">XL
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="../8bit/XE.html" style="text-decoration: none">XE
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="../16bit/ST.html" style="text-decoration: none">ST
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="21">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="21">
+              <font size="2" color="#008000" face="Arial">&nbsp;</font><font face="Arial" color="#808080" size="2"><a href="../16bit/TT.html" style="text-decoration: none">TT030</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="../16bit/transputer.html" style="text-decoration: none">Transputer
+                Workstation</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="../16bit/stacy.html" style="text-decoration: none">STacy</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="../16bit/stbook.html" style="text-decoration: none">ST
+                Book</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2">Falcon030</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="../16bit/portfolio.html" style="text-decoration: none">Portfolio</a>
+                </font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="../16bit/PC.html" style="text-decoration: none">IBM
+                PC Compatibles</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="../protos/computer-prototypes.html" style="text-decoration: none">Prototypes</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="22" colspan="2">
+                <p align="center">
+                <img border="0" src="../menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="8">
+              <img border="0" src="../menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22"><font color="#008000">&nbsp;</font><font color="#9A05EB" face="Arial" size="2">Topic 
+              sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="falcon-design.html" style="text-decoration: none">Falcon design 
+              overview</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="../menu-icons/info-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="falcon.html" onClick="window.open('falcon-byte1.htm','NewTextWindowName','width=275,height=116,left=50,screenX=40,top=50,screenY=40')" style="text-decoration: none">Falcon 
+              info-byte</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="../menu-icons/download-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              &nbsp;<font face="Arial" color="#808080" size="2"><a style="text-decoration: none" onclick="window.open('falcon-byte1.htm','NewTextWindowName','width=275,height=116,left=50,screenX=40,top=50,screenY=40')" href="tos404.html">Falcon 
+				4.04 Source Code</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="../menu-icons/download-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2">&nbsp;<span lang="en-us"><a style="text-decoration: none" href="../files/systemdisks.html">Falcon 
+              system disks</a></span></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="../menu-icons/forums-icon.gif" width="19" height="20"> </td>
+              <td align="left" width="183" height="1"><font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go 
+              to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1"></td>
+              <td align="left" width="183" height="1">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

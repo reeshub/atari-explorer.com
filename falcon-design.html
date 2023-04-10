@@ -1,0 +1,456 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-Comp.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><img border="0" src="menu-icons/pcs-on.gif" width="176" height="28"><a onmouseover="document['fpAnimswapImgFP5'].imgRolln=document['fpAnimswapImgFP5'].src;document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].lowsrc;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="19" align="left" height="22"></td>
+              <td align="left" width="183" height="22"></td>
+              <td align="left" width="554" height="22"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="11" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="computers.html" style="text-decoration: none">Computers
+                - Main Menu</a></font></td>
+              <td align="left" width="554" rowspan="19" valign="top" height="2">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" size="2">Personal Computers :: Falcon030 ::<font color="#008000"> 
+                Falcon design overview</font></font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" color="#0279D4" size="2">1992</font><font face="Arial" color="#808080" size="2"> 
+        - The design of the Atari Falcon is based loosely on the ST range of 
+        systems.&nbsp; Software wise, the most obvious feature being the GEM 
+        interface, was improved aesthetically to include 3D shading of windows 
+        and icons, and upgraded to ensure the new features of the machine could 
+        be accessed through GEM and TOS.&nbsp; Improvements were also made to </font>
+        <font face="Arial" size="2">the desktop commands and range of available 
+        options.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">MultiTos was finally released to bring the 
+        Atari computer range pre-emptive multi-tasking for the first time.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">From a hardware point-of-view, the machine 
+        was a huge technical advancement from the ST and TT range.&nbsp; Atari 
+        had now increased the standard colour palette of the new VIDEL Video 
+        processor to over&nbsp; 244,000 colours, and provided VGA screen 
+        resolutions with up to 65,000 on screen.&nbsp; It was also decided to 
+        add a degree of backward compatibility with the ST by adding the older 
+        screen resolution options.&nbsp; Memory capacity was increased to a 
+        maximum of 16Mb (14.2Mb working), compared to the theoretical 4Mb 
+        maximum capacity of the ST/E.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">Sound was important to the Atari range, but 
+        suffered in the past from a low-cost, low-featured sound generator based 
+        on the infamous YM-2149, which was seen as pretty basic even when the ST 
+        first launched.&nbsp; Although the addition of MIDI ports on the ST/TT 
+        put Atari in the driving seat as far as remote sound control was 
+        concerned, internal sound features were always criticised.&nbsp; This 
+        was rectified to a degree with the addition of PCM (Pulse Code 
+        Modulation) sound features in the STE/TT, but it was still lacklustre in 
+        comparison to the Amiga &quot;Paula&quot; or the newer sound systems emerging for 
+        the PC.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">A radical rethink to the internal sound gave 
+        the Falcon not only the YM-2149 (mostly for compatibility reasons), but 
+        additional DAC/ADC chips enabling 8 track, 16bit DMA (Direct memory 
+        Access) with sampling rates up to 50 KHz.&nbsp; If you consider a CD 
+        produces sound at up to 44Khz, this was a sound system with real 
+        potential for professional musicians.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">Of course, the real trick inside the Falcon 
+        is the Motorola DSP (56001).&nbsp; The Digital Signal Processor was 
+        designed primarily for sound manipulation, but it also could be used to 
+        process complex instructions for use in voice communication and speech 
+        synthesis.&nbsp; This particular chip had a clock speed of 32Mhz, in 
+        addition to the Falcon's 16Mhz 68030 CPU.&nbsp; The Falcon also had a 
+        direct connector port to talk directly to external devices via the DSP.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">An internal direct connector slot was placed 
+        on the motherboard to allow either a i286, i386 or i486 (or compatible) 
+        CPU to be connected for direct DOS compatibility.&nbsp; This was never 
+        really exploited commercially.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">With an array of ports, including AppleTalk 
+        LAN, SCSI 2 and the trademark MIDI ports, all for under $1000.00.&nbsp; 
+        The Falcon seemed to secure the future of Atari's computer division, but 
+        unfortunately, the Falcon never really got the support from its parent 
+        company.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" GALLERYIMG="no" src="images/Microbox1.gif" width="355" height="263"></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">The Falcon was also slightly flawed by the 
+        choice to use a 16Mhz CPU, and additionally, by the 16-Bit data bus.&nbsp; 
+        This was all going to be rectified by a new Falcon030, called the 
+        Microbox.&nbsp; It would use a similar sized motherboard with a 32-Bit 
+        bus, and possibly a 32Mhz 68030.&nbsp; There was also talk of expansion 
+        slots as seen on the latest 486 systems of the day.&nbsp; But they would 
+        be for the Falcon040, which only got to the prototype stages before the 
+        axe fell on the computer division.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2"><font color="#FF0000">Update</font> - 
+        December 2003: There are two versions of the Microbox, one having a 
+        Floppy Disk Drive on the front-right of the system (above) which was for 
+        the 030 Falcon, and a CD-ROM version (below) for the 040 version.&nbsp; </font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" src="images/microbox-2.gif" width="422" height="423"></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">Even the Sony design centre took some 
+        inspiration from the Falcon Microbox design, as the reference makes 
+        clear in the Patent application filed on December 21st, 1999...</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+                            <a onClick="window.open('sonyps2.htm','src','scrollbars=yes,width=600,height=500,left=50,screenX=40,top=50,screenY=40')" href="falcon-design.html">
+                            <img border="0" src="images/ps2-Icon1.gif" width="119" height="162"></a></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">The Falcon was released in the same style 
+        chassis as the older ST/E range, and this did little to impress users, 
+        and along-side an ST/E in a store, people couldn't tell the difference 
+        because they looked so similar.&nbsp; Perhaps the computer division were 
+        having trouble with budgets during this time, and the only way to get 
+        the Falcon030 out the door was to use existing components/suppliers, or 
+        they were given a chance to see how the system would sell before 
+        committing to new computer projects, we just don't know the answer.</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" src="images/ST-Top.gif" width="261" height="161"></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">Whatever the reasons, the Atari Falcon had a 
+        tough job convincing people it was bigger and better, especially as it 
+        looked the same as its big brother (by some 5 years).&nbsp; Technically, 
+        the Falcon030 is a powerhouse for its time, and it would have certainly 
+        faired much better with its new case design and technical upgrades - 
+        today, they are a valuable commodity for musicians, hobbyists and 
+        collectors alike.&nbsp; The Atari Falcon was cancelled in 1993, and we 
+        can only estimate that the production run was about 60,000 units 
+        worldwide based on European sales (estimated by an Atari UK source at 
+        40,000).</font></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="center">
+        <img border="0" src="images/c-lab-falcon.gif" width="283" height="119"></p>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; padding-left: 1px; margin-right:10" align="justify">
+        <font face="Arial" size="2">At the beginning of 1995, a German company 
+        called C-Lab agreed licensing terms with Atari to produce the Falcon 030 
+        once again.&nbsp; Improving the sound system and utilising the same 
+        motherboard manufacturer as Atari, C-Lab released the Falcon MK.II.&nbsp; 
+        It was still the same specification except for the tweaks made to the 
+        audio circuitry, and the increased capacity of the internal hard-drive 
+        from the Atari standard 80Mb to a more respective 512Mb which was needed 
+        for digital sound work.&nbsp; It cost nearly $3,000.00 for a MK.II, so 
+        sales were always going to be limited to the professional musicians.&nbsp; 
+        In 1996 a second version was launched called the MK.X, but this unit 
+        soon disappeared, and with it all traces of the mighty Falcon.</font></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="400-800.html" style="text-decoration: none">400/800</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="XL.html" style="text-decoration: none">XL
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="XE.html" style="text-decoration: none">XE
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="ST.html" style="text-decoration: none">ST
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="21">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="21">
+              <font size="2" color="#008000" face="Arial">&nbsp;</font><font face="Arial" color="#808080" size="2"><a href="TT.html" style="text-decoration: none">TT030</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="transputer.html" style="text-decoration: none">Transputer
+                Workstation</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stacy.html" style="text-decoration: none">STacy</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stbook.html" style="text-decoration: none">ST
+                Book</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="falcon.html" style="text-decoration: none">Falcon030</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="portfolio.html" style="text-decoration: none">Portfolio</a>
+                </font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="PC.html" style="text-decoration: none">IBM
+                PC Compatibles</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="computer-prototypes.html" style="text-decoration: none">Prototypes</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="22" colspan="2">
+                <p align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="8">
+              <img border="0" src="menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22"><font color="#008000">&nbsp;</font><font color="#9A05EB" face="Arial" size="2">Topic 
+              sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2">Falcon 
+              design overview</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/view-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a onClick="window.open('falcon-ports.htm','NewTextWindowName','width=615,height=600,left=50,screenX=40,top=50,screenY=40')" style="text-decoration: none" href="falcon-design.html">Ports 
+              and Connectors</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go 
+              to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="63" colspan="2">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              </td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1"></td>
+              <td align="left" width="183" height="1"></td>
+              <td align="left" width="554" valign="top" height="1">
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

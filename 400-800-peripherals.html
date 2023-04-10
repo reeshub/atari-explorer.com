@@ -1,0 +1,641 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-Comp.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><img border="0" src="menu-icons/pcs-on.gif" width="176" height="28"><a onmouseover="document['fpAnimswapImgFP5'].imgRolln=document['fpAnimswapImgFP5'].src;document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].lowsrc;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="19" align="left" height="22"></td>
+              <td align="left" width="183" height="22"></td>
+              <td align="left" width="554" height="22"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="11" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="computers.html" style="text-decoration: none">Computers
+                - Main Menu</a></font></td>
+              <td align="left" width="554" rowspan="21" valign="top" height="2">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" size="2">Personal Computers :: </font>
+                <font face="Arial" size="2" color="#008000">Atari 400 and 800 Computers 
+                :: </font>
+                <font face="Arial" size="2" color="#800080">Peripherals</font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+        <p align="center">
+        <img border="0" GALLERYIMG="no" src="images/8-bit-peripherals1.gif" width="362" height="325"></p>
+        <div align="center">
+          <center>
+          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber2">
+            <tr>
+              <td width="161">
+              <img border="0" src="images/Peripheral-410Sml.gif" width="164" height="157"></td>
+              <td width="289" valign="top">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">The Atari 410 came in two variations, 
+              but both had identical specifications.&nbsp; Atari cassette drives 
+              had a unique double-track feature, enabling sound and data to be 
+              recorded and transmitted.&nbsp; This was used in such programs as 
+              the Atari language modules and Invitation to programming series, 
+              utilising a narrator while the program ran on screen.&nbsp; The 
+              Atari 410 used the advanced Serial I/O interface (SIO), enabling 
+              easy connection to the computer.&nbsp; Originally designed 
+              specifically for the 410, it was decided to use it on all Atari 
+              8-Bit peripherals.</font></td>
+            </tr>
+            <tr>
+              <td width="161">&nbsp;</td>
+              <td width="289">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="161">
+              <img border="0" src="images/Peripheral-810Sml.gif" width="164" height="157"></td>
+              <td width="289">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">Atari's first disk drive product, the 
+              810 provided fast and efficient storage and data retrieval for the 
+              new 8-Bit line of computers.&nbsp; The unit is large (also 
+              including a disk-drive controller inside), but not unusually so 
+              for the time.&nbsp; The single sided device enabled up to 88K of 
+              data storage on each side of a single 5.25&quot; floppy disk.&nbsp; Up 
+              to 4 810's could be daisy-chained via the SIO system.</font></td>
+            </tr>
+            <tr>
+              <td width="450" colspan="2">
+              <p align="center">
+              <img border="0" GALLERYIMG="no" src="images/serial-dc1.gif" width="401" height="132"></td>
+            </tr>
+            <tr>
+              <td width="161">
+              <img border="0" src="images/Peripheral-815Sml.gif" width="164" height="157"></td>
+              <td width="289">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">The Atari 815 was Atari's first true 
+              double density disk drive.&nbsp; It was also the largest drive 
+              system produced, and would only see a very limited commercial 
+              release.&nbsp; Supporting two drive mechanisms, ach unit cost 
+              approx. $1,500.00!</font></td>
+            </tr>
+            <tr>
+              <td width="161">&nbsp;</td>
+              <td width="289">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="161">
+              <img border="0" src="images/Peripheral-820Sml.gif" width="164" height="157"></td>
+              <td width="289">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">A quick and easy solution to printing, 
+              the 820 plugged directly into a 400 or 800 via the SIO without the 
+              need for any drivers or printer controllers. It produced a 40 
+              column output.&nbsp; A typically&nbsp; large device for the time, 
+              there was no mistaking the unit was working, as that's about all 
+              you could hear while it printed!</font></td>
+            </tr>
+            <tr>
+              <td width="161">&nbsp;</td>
+              <td width="289">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="161">
+              <img border="0" src="images/Peripheral-822Sml.gif" width="164" height="157"></td>
+              <td width="289">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">A small and versatile thermal printer, 
+              the 822 from Atari was very popular.&nbsp; A 40 column printer 
+              with a retail price of Approx. $449.00</font></td>
+            </tr>
+            <tr>
+              <td width="161">&nbsp;</td>
+              <td width="289">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="161">
+              <img border="0" src="images/Peripheral-825Sml.gif" width="164" height="157"></td>
+              <td width="289">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">A rebranded Centronics 737, the Atari 
+              822 was a small and competent 9-Pin dot-matrix 80 column printer.&nbsp; 
+              Unlike its smaller brother, the 820, the 825 required the 850 
+              interface for use with the Atari 400 or 800 computer because it 
+              uses the Centronics printer port, and not the Atari SIO system.</font></td>
+            </tr>
+            <tr>
+              <td width="161">&nbsp;</td>
+              <td width="289">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="161">
+              <img border="0" src="images/Peripheral-830Sml.gif" width="164" height="157"></td>
+              <td width="289">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">Atari's first modem product, this 300 
+              baud unit was based on the commonly used &quot;Acoustic coupler&quot; 
+              design, whereby the phone receiver is physically placed inside the 
+              modem via 2 rubber holders, or couplers.&nbsp; This unit required 
+              the 850 interface to communicate to the computer.</font></td>
+            </tr>
+            <tr>
+              <td width="161">&nbsp;</td>
+              <td width="289">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="161">
+              <img border="0" src="images/Peripheral-835Sml.gif" width="164" height="157"></td>
+              <td width="289">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">Although the 830 was functional, the 
+              acoustic coupler design had many flaws.&nbsp; It wasn't long until 
+              a self-contained modem device was available, and the Atari version 
+              was the 835 direct connect modem.&nbsp; Again, a 300 baud device, 
+              it was more efficient and didn't require the 850 interface.</font></td>
+            </tr>
+            <tr>
+              <td width="161">&nbsp;</td>
+              <td width="289">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="161">
+              <p align="center">
+              <img border="0" src="images/Peripheral-850Sml.gif" width="164" height="157"></td>
+              <td width="289">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">The Atari 850 served as the middle-man 
+              for any device that couldn't directly connect to the Atari 400 or 
+              800 computer.&nbsp; It had 4 x serial ports (RS-232C) and 1 x 
+              Centronics (8-Bit Parallel) port.&nbsp; Although a &quot;must-have&quot; 
+              product for any serious user, Atari decided to use the female DB-9 
+              serial port and the female DB-15 Centronics ports on the 850.&nbsp; 
+              Both ports chosen by Atari were not adopted as the industry 
+              standard, with the male DB-9 used for Serial and the male DB-25 
+              Centronics used for Parallel, even to this day!</font></td>
+            </tr>
+            <tr>
+              <td width="161">&nbsp;</td>
+              <td width="289">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="161">
+              <p align="center">
+              <img border="0" src="images/Peripheral-CX40Sml.gif" width="164" height="157"></td>
+              <td width="289">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">Probably the closest and most 
+              recognisable symbol next to the Fuji, the CX-40 became the 
+              standard choice for gamers in the late 70's and 80's.&nbsp; With 
+              possibly over 30 million produced, the CX-40 was the first 
+              commercially successful joystick design, and you 
+              could even buy an officially made repair kit if you played too 
+              many hours of Star Raiders!</font></td>
+            </tr>
+            <tr>
+              <td width="161">&nbsp;</td>
+              <td width="289">&nbsp;</td>
+            </tr>
+          </table>
+          </center>
+        </div>
+        <p align="center">
+        <img border="0" GALLERYIMG="no" src="images/system-packs.gif" width="260" height="227"><div align="center">
+          <center>
+          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber3">
+            <tr>
+              <td width="164">
+              <p align="center">
+              <img border="0" src="images/sp-communicator1.gif" width="144" height="140"></td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">The Communicator - Came with Telelink 
+              One manual and program cartridge, 830 Modem and 850 Interface.</font></td>
+            </tr>
+            <tr>
+              <td width="164">&nbsp;</td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="164">
+              <p align="center">
+              <img border="0" src="images/sp-communicator2.gif" width="144" height="140"></td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">The Communicator II - with the direct 
+              connect 835 modem and Telelink II program cartridge.</font></td>
+            </tr>
+            <tr>
+              <td width="164">&nbsp;</td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="164">
+              <p align="center"><img border="0" src="images/sp-programmer.gif" width="144" height="140"></td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">The Programmer -with the basic 
+              programming guide, reference book and Atari Basic program 
+              cartridge.</font></td>
+            </tr>
+            <tr>
+              <td width="164">&nbsp;</td>
+              <td width="286">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="164">
+              <p align="center">
+              <img border="0" src="images/sp-home-manager.gif" width="144" height="140"></td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">The Home Manager - with Home Filing 
+              Manager, Family Finances and Timewise programs.</font></td>
+            </tr>
+            <tr>
+              <td width="164">&nbsp;</td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="164">
+              <p align="center"><img border="0" src="images/sp-educator.gif" width="144" height="140"></td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">The Educator - with Atari 410 program 
+              recorder, Atari Basic and the States and Capital program on 
+              cassette.</font></td>
+            </tr>
+            <tr>
+              <td width="164">&nbsp;</td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="164">
+              <p align="center"><img border="0" src="images/sp-entertainer.gif" width="144" height="140"></td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">The Entertainer - with 2 x CX-40 
+              joysticks, Pac-Man, and the award winning Star Raiders game 
+              cartridges.</font></td>
+            </tr>
+            <tr>
+              <td width="164">&nbsp;</td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="164">
+              <p align="center"><img border="0" src="images/sp-pilot.gif" width="144" height="140"></td>
+              <td width="286">
+              <p align="justify" style="margin-left: 10; margin-right: 10">
+              <font size="2" face="Arial">Pilot - Atari produced many fine 
+              programs for the 400 and 800 range of computers.&nbsp; Many were 
+              geared for education, and among these were the Pilot series, which 
+              came in a full &quot;Educator&quot; package for the classroom, and a 
+              consumer version for the home.&nbsp; Many of the earlier Atari 
+              programs were produced to an incredible high quality, with plastic 
+              binders, audio tapes and easy to read manuals and reference 
+              guides.</font></td>
+            </tr>
+          </table>
+          </center>
+        </div>
+        <p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2"><a href="400-800.html" style="text-decoration: none">400/800</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="XL.html" style="text-decoration: none">XL
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="XE.html" style="text-decoration: none">XE
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="ST.html" style="text-decoration: none">ST
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="21">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="21">
+              <font size="2" color="#008000" face="Arial">&nbsp;</font><font face="Arial" color="#808080" size="2"><a href="TT.html" style="text-decoration: none">TT030</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="transputer.html" style="text-decoration: none">Transputer
+                Workstation</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stacy.html" style="text-decoration: none">STacy</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stbook.html" style="text-decoration: none">ST
+                Book</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="falcon.html" style="text-decoration: none">Falcon030</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="portfolio.html" style="text-decoration: none">Portfolio</a>
+                </font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="PC.html" style="text-decoration: none">IBM
+                PC Compatibles</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="computer-prototypes.html" style="text-decoration: none">Prototypes</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="22" colspan="2">
+                <p align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="8">
+              <img border="0" src="menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22"><font color="#008000">&nbsp;</font><font color="#9A05EB" face="Arial" size="2">Topic 
+              sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon-offline.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" size="2">Design 
+              variations</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2">Peripherals</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="23">
+              <img border="0" src="menu-icons/more-icon-offline.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;Software 
+              highlights </font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="emulation-8bit.html" style="text-decoration: none">Emulation</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" style="text-decoration: none" href="http://talk.atari-explorer.com">Go 
+              to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="63" colspan="2">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              </td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1"></td>
+              <td align="left" width="183" height="1"></td>
+              <td align="left" width="554" valign="top" height="1">
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

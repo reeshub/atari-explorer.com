@@ -1,0 +1,533 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-Main.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><img border="0" src="menu-icons/information-on.gif" width="111" height="28"><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history/history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="computers.html"><img border="0" src="menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="menu-icons/pcs-on.gif" width="176" height="28"></a><a onmouseover="document['fpAnimswapImgFP5'].imgRolln=document['fpAnimswapImgFP5'].src;document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].lowsrc;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="24">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="215" height="22"></td>
+              <td align="left" width="603" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="menu-icons/page-select-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4">Information
+                - Main Menu</font></td>
+              <td align="left" width="603" rowspan="15" valign="top" height="622">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" color="#0279D4">Information </font></p>
+                <div align="center">
+                  <table border="0" cellpadding="0" cellspacing="0" width="450" height="498">
+                    <tr>
+                      <td height="479"><p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font color="#0279D4">:: </font>
+                      <font face="Arial" size="2" color="#0279D4">Foreword</font><font color="#0279D4"> 
+                      ::</font></p>
+                        <p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">Thank you 
+                        for visiting Atari Explorer.&nbsp; A lot of work has 
+                        gone into this project so far, and a lot more is planned 
+                        for the future.&nbsp; I hope you enjoy every part of the 
+                        site.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">When I 
+                        launched the </font>
+                        <font face="Arial" size="2" color="#008000">Atari Time 
+                        Machine</font><font face="Arial" size="2" color="#808080"> 
+                        just before the end of 1997, I had always envisaged a 
+                        website that incorporated all the most important Atari 
+                        history and information.&nbsp; Little did I realise how 
+                        big such a project would be to accomplish.&nbsp; After a 
+                        few years updating and revising ATM, I decided to 
+                        finally register a domain and develop a more exciting 
+                        Atari website, where you could find out anything you 
+                        wanted to about Atari.&nbsp; Again, another great idea 
+                        in theory, but executing such a project on your own is 
+                        no simple task.&nbsp; <span lang="en-us">Thanks again go 
+                        to Curt Vendel of the Atari Museum for his help and 
+                        friendship over the years and to all those of you who 
+                        have helped in making this site what it is today.&nbsp;
+                        </span>Ultimately, it is preserving the 
+                        history of Atari that this site is dedicated.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">&nbsp;Enjoy 
+                        AEX, and help out if you can, there is a lot more to 
+                        come...</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">&nbsp;Very 
+                        best,</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">&nbsp;Karl</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        &nbsp;<p align="justify" style="margin-left: 10; margin-right: 10">
+                        &nbsp;<p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">
+                        <a name="help2"></a></font>
+                        <font face="Arial" size="2" color="#0279D4">:: Can we 
+                        help you? ::</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font size="2" color="#808080"><font face="Arial">We 
+                        don't admit to being experts, but if we can help you we 
+                        will.&nbsp; If you have a query, try the AHS forums 
+                        first.&nbsp; If you can't get an answer there, we will 
+                        always try and reply to your e-mails - but we do get a 
+                        lot of them, so please be patient for a direct response.&nbsp; 
+                        Please note, we will not reply to ROM requests.</font></font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        &nbsp;<p align="justify" style="margin-left: 10; margin-right: 10">
+                        &nbsp;<p align="justify" style="margin-left: 10; margin-right: 10">
+                        <a name="media"></a><font color="#0279D4">:: </font>
+                        <font face="Arial" size="2" color="#0279D4">Media 
+                        Support</font><font color="#0279D4"> ::</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font size="2" color="#808080"><font face="Arial">If you 
+                        are looking for research information, or 
+                        content/collateral for a media project, please get in 
+                        touch.&nbsp; There is a nominal fee for hardware loans 
+                        and research, which is used to support the AHS museum.&nbsp; 
+                        The Atari Historical Society does have a media policy 
+                        which is available on request.&nbsp; The AHS has 
+                        provided media support for a number of projects, 
+                        including organisations such as HBO, BBC, Le Monde, and 
+                        many others.</font></font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        &nbsp;<p align="justify" style="margin-left: 10; margin-right: 10">
+                        &nbsp;<p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">
+                        <a name="wanted"></a></font>
+                        <font face="Arial" size="2" color="#0279D4">:: Items 
+                        wanted ::</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font size="2" color="#808080"><font face="Arial">This 
+                        could be a long list!&nbsp; AHS is always looking to get 
+                        in contact with former Atari employees, or those who had 
+                        an indirect relationship with the company.&nbsp; So far, 
+                        over 70 ex-employees have helped with donations and 
+                        research.&nbsp; in addition, we have had Atari owners 
+                        from the four corners of the globe who have been 
+                        extremely helpful to our project.</font></font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font size="2" color="#808080"><font face="Arial">We are 
+                        always on the look out for internal paperwork, 
+                        schematics, photos, prototype information - in fact 
+                        anything you think you can contribute to the project as 
+                        a whole is very welcome.&nbsp; We will always help out 
+                        with postage costs if required, and return items that 
+                        <span lang="en-us">can be loaned and not</span> donated.</font></font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        &nbsp;<p align="justify" style="margin-left: 10; margin-right: 10">
+                        &nbsp;<p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">
+                        <a name="submissions"></a></font>
+                        <font face="Arial" size="2" color="#0279D4">:: 
+                        Submissions and donations ::</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font size="2" color="#808080"><font face="Arial">We 
+                        welcome submissions which are in keeping with the topics 
+                        covered throughout our websites.&nbsp; Hardware, 
+                        software, magazines etc are always welcome.&nbsp; Please 
+                        get in touch and let us know if there is anything you 
+                        would like to share with the museum or the websites, and 
+                        we'll have a chat first.</font></font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        &nbsp;<p align="justify" style="margin-left: 10; margin-right: 10">
+                        &nbsp;<p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">
+                        <a name="credits"></a></font>
+                        <font face="Arial" size="2" color="#0279D4">:: Credits 
+                        ::</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font size="2" color="#808080"><font face="Arial">There 
+                        has been so many people who have helped me over the 
+                        years, especially when I asked for help out of the blue!&nbsp; 
+                        There are some very kind people in the Atari community, 
+                        and I would like to thank everyone who has helped, 
+                        especially those of you who I have lost contact with.</font></font><div align="center">
+                        <center>
+                        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1" height="434">
+                          <tr>
+                            <td colspan="2" width="450" height="19">
+                            <p align="center">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="19">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Curt Vendel</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="19">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Stephane Hilbold</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="19">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Alex Pustan</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="19">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Ian Richardson</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="19">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Bob Garner</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="3">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="3">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Bill Brougham (Please get in touch!)</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="19">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Clint Thompson</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="18">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="18">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Darryl Still</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="19">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Jon Dean</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="19">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Gareth Knight (I still owe you some scans!)</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="19">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Iain Laskey</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="1">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="1">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            John R Sanderson</font></td>
+                          </tr>
+                          <tr>
+                            <td align="right" width="77" height="19">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td align="left" width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Klaus Wichmann</font></td>
+                          </tr>
+                          <tr>
+                            <td width="77" height="19" align="right">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Matthew Bacon</font></td>
+                          </tr>
+                          <tr>
+                            <td width="77" height="19" align="right">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Mike Duncan</font></td>
+                          </tr>
+                          <tr>
+                            <td width="77" height="19" align="right">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Nick Harlow (I will be in touch)</font></td>
+                          </tr>
+                          <tr>
+                            <td width="77" height="19" align="right">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            David @ Old-Mags</font></td>
+                          </tr>
+                          <tr>
+                            <td width="77" height="19" align="right">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Dirk Schmauser</font></td>
+                          </tr>
+                          <tr>
+                            <td width="77" height="19" align="right">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td width="373" height="19">
+                            &nbsp; <font size="2" color="#808080">
+                            <font face="Arial">Bruce Eng</font></font></td>
+                          </tr>
+                          <tr>
+                            <td width="77" height="19" align="right">
+              <img border="0" src="menu-icons/blank-dot-icon.gif" width="19" height="20"></td>
+                            <td width="373" height="19">
+                            <font face="Arial" size="2" color="#808080">&nbsp; 
+                            Randy Femrite</font></td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" width="450" height="19">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" width="450" height="19">
+                            <p align="center"><i>
+                            <font size="2" face="Arial" color="#808080">And 
+                            anybody that I have forgot to mention... Thank you.</font></i></td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" width="450" height="19">&nbsp;<p>&nbsp;</p>
+                        <p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">
+                        <a name="privacy"></a></font>
+                        <font face="Arial" size="2" color="#0279D4">:: Privacy 
+                        policy ::</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">We respect 
+                        the privacy of our contributors and friends.&nbsp; No 
+                        personal information is provided to any third-party 
+                        companies.&nbsp; AHS/AEX is not a commercial site.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                        <font face="Arial" size="2" color="#808080">All images, 
+                        design and copy are the work of the AEX staff (unless 
+                        noted) - Please ask permission to use material on this 
+                        site.</font></td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" width="450" height="19">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td colspan="2" width="450" height="19">
+                            <p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                          </tr>
+                        </table>
+                        </center>
+                      </div>
+                      </td>
+                    </tr>
+                    </table>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="information/info-AHS.html" style="text-decoration: none">The
+                Atari Historical Society</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a style="text-decoration: none" href="information/siteupdates.html">Site
+                updates</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a style="text-decoration: none" href="information/info-helpaex.html">Can
+                you help us?</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="#help2" style="text-decoration: none">Can
+                we help you?</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="21">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="21">&nbsp;<font face="Arial" color="#808080" size="2"><a href="#media" style="text-decoration: none">Media
+                support</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="information/info-sale.html" style="text-decoration: none">Items
+                for sale</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="#submissions" style="text-decoration: none">Submissions 
+              &amp; donations</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="#credits" style="text-decoration: none">Credits</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="#privacy" style="text-decoration: none">Privacy
+                policy</a> </font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/off-line-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22">&nbsp;<font face="Arial" color="#808080" size="2">Atari 
+              website links</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22">&nbsp;<a href="information/info-navigation.html" style="text-decoration: none"><font face="Arial" size="2">Help!&nbsp; 
+              How to navigate AEX</font></a></td>
+            </tr>
+            <tr>
+              <td width="20" align="left" height="22">
+                <p>
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td width="133" align="left" height="22">
+                &nbsp;<font face="Arial" color="#808080" size="2"><a href="information.html" onClick="window.open('information/aex-contact.htm','NewTextWindowName','width=450,height=450,left=50,screenX=40,top=50,screenY=40')" style="text-decoration: none">Contact AEX </a></font></td>
+                
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/info-icon.gif" width="19" height="20"></td>
+              <td align="left" width="215" height="22">&nbsp;<a href="information/info-FAQ.html" style="text-decoration: none"><font face="Arial" size="2">F</font><font face="Arial" color="#808080" size="2">requently
+                </font><font face="Arial" size="2">A</font><font face="Arial" color="#808080" size="2">sked
+                </font><font face="Arial" size="2">Q</font><font face="Arial" color="#808080" size="2">uestions</font></a></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="215" height="22">&nbsp;
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

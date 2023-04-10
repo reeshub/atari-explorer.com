@@ -1,0 +1,609 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-emulation.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><img border="0" src="menu-icons/pcs-on.gif" width="176" height="28"><a onmouseover="document['fpAnimswapImgFP5'].imgRolln=document['fpAnimswapImgFP5'].src;document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].lowsrc;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="articles.html"><img border="0" src="menu-icons/articles-off.gif" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="180" height="22"></td>
+              <td align="left" width="638" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="11" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="180" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="computers.html" style="text-decoration: none">Computers
+                - Main Menu</a></font></td>
+              <td align="left" width="638" rowspan="21" valign="top" height="192">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" size="2">Personal Computers :: 16-Bit 
+                Emulation ::<font color="#008000">
+                </font><font color="#9A05EB">Quick Start Guide</font></font></p>
+                <div align="center">
+                <center>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1" height="4935">
+                <tr>
+                <td colspan="2" width="450" height="5029">
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-qs-title.gif" width="419" height="281"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">This Quick Start guide is 
+                      aimed at the very beginner, and is designed to get your <i>
+                      STeem Emulator</i> up and running 
+                      quickly.&nbsp; We recommend you read the included HELP 
+                      files further for more in depth information, and to get the 
+                      most from the program.</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-unzip.gif" width="287" height="102"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Lets go!&nbsp; Assuming you 
+                      have already downloaded the two most important 
+                      files (the emulator and the 16-Bit ROMs), you should create 
+                      a new directory on your hard drive using Windows Explorer.&nbsp; 
+                      This can be called anything you want, but a good idea is 
+                      to keep folder names appropriate and simple.&nbsp; Once this is done, 
+                      &quot;unzip&quot; the 2 downloaded files to the new folder.&nbsp; If 
+                      you haven't got a copy of WinZip, go 
+                      <a target="_blank" href="http://www.winzip.com">here</a>...</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <b>
+                      <font face="Arial" size="2" color="#FF0000">! Important </font></b>
+                      <font face="Arial" size="2">- STeem requires Direct-X 7.0 
+                      or higher to run at its best, please ensure your OS has 
+                      this driver installed.&nbsp; If in doubt, get the latest 
+                      version from the Microsoft website.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Once the files have been 
+                      extracted (un-zipped) to your new folder, you will see an 
+                      icon similar to the one above, its an Atari Fuji logo.&nbsp; This is the .EXE file for 
+                      STeem 2.4.&nbsp; Double click on this icon to start the 
+                      program.</font><p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">When you install STeem for the 
+                      very first time, it will ask you a number of questions, 
+                      including the location of your 16-Bit ST ROMS (which we 
+                      extracted earlier, just point the program to the 
+                      respective folder on your computer).&nbsp; These questions 
+                      are all straight forward, and don't worry if you make a 
+                      mistake here, as you can always change the settings once 
+                      the program has loaded.</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-desktop.gif" width="241" height="203"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">If the program has loaded 
+                      correctly, you should be presented with a screen similar 
+                      to the one above, the famous green ST Gem desktop.</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" src="images/steem-button-key.gif" width="415" height="77"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Lets take a quick tour around 
+                      the STeem window.&nbsp; On the top, you will see a row of 
+                      icons, these represent the main function areas of the 
+                      emulator.&nbsp; The most commonly used icons are &quot;Run&quot;, 
+                      &quot;Reset&quot;, &quot;ST Configuration&quot; and &quot;Disk Manager&quot;.&nbsp; 
+                      Note, that the first Five icons have double settings, and 
+                      Right-Mouse clicking will provide a different option.&nbsp; 
+                      If in doubt, just hover over each button to discover the 
+                      option types.</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Before we load an actual ST 
+                      program, you will notice that we are going to configure 
+                      the ST type within the emulator.&nbsp; Sometimes you will 
+                      try a program and it will &quot;crash&quot; the ST, or in other 
+                      words, the program will fail to load properly.&nbsp; This 
+                      can be due to a number of reasons, such as the memory 
+                      type, TOS ROM revision or perhaps, a bad program image.&nbsp; 
+                      Again, just because a program doesn't load first time 
+                      around, it pays to play around with the settings here.</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2" color="#FF0000"><b>! </b></font>
+                      <font face="Arial" size="2">STeem will not run unless it 
+                      can see the ST ROMS.&nbsp; These are the ST Operating 
+                      System ROMS that contain the essential data to make the ST 
+                      operate properly.&nbsp; Unless you have pointed STeem to 
+                      the ROMs on your computer, your emulator cannot function.</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-STconfig.gif" width="281" height="264"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">We are going to set up our 
+                      STeem emulator to play a game of Buggy Boy, which is 
+                      included in the files you extracted earlier.&nbsp; Click 
+                      on the &quot;ST Configuration&quot; icon (the third icon from the 
+                      right), a menu will appear like the one above.&nbsp; The 
+                      settings we are going to choose are TOS 1.62 with 1MB RAM 
+                      (although other setting may also work for this particular 
+                      program).</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-Joyconfig.gif" width="380" height="298"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">When we have set up our ST 
+                      Configuration, we will ensure we can play the game using 
+                      the PC keyboard.&nbsp; STeem will allow you to set-up many 
+                      different input options, including a Joystick, but for 
+                      this introduction, we'll use the keyboard.&nbsp; Click on 
+                      the &quot;Joystick Configuration&quot; icon (the second icon from 
+                      the right), a menu will appear like the one above.&nbsp; 
+                      The original ST computer had 2 joystick ports, port 0 was 
+                      for the mouse, and port 1 was for the joystick.&nbsp; 
+                      Alternatively, 2 joysticks could be used for 2 player 
+                      games.</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">We have set up the Joystick 
+                      Configuration to use the mouse when the SCROLL LOCK button 
+                      is ON, and to use a joystick when the NUM LOCK is OFF.&nbsp; 
+                      This way we can use the GEM desktop with the mouse when we 
+                      need to, and switch to the Joystick mode (using the 
+                      keyboard in this case) when we want to play a game.</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-diskmanager.gif" width="282" height="171"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">OK, now let us load the game 
+                      Buggy Boy into the emulator.&nbsp; Original ST Disks have 
+                      been copied into &quot;images&quot; for use on the emulator, and we 
+                      use the &quot;Disk Manager&quot; to load them.&nbsp; Click on the 
+                      &quot;Disk Manager&quot;&nbsp; icon (the first icon from the right), 
+                      a menu will appear like the one above.</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">Depending on where you told 
+                      STeem the location of your ST Images, you should use the 
+                      Disk Manager to find the game &quot;Buggy.st&quot;.&nbsp; If the 
+                      default location doesn't show this file, locate it on your 
+                      hard drive using the folder direction buttons - the game 
+                      will be in the folder you created earlier.</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-on-screen.gif" width="247" height="203"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">To load any game or other ST 
+                      Image, you can either drag the respective icon to the &quot;A&quot; 
+                      drive (Floppy Disk), or double click on it to run.&nbsp; 
+                      If you drag the disk to the &quot;A&quot; drive, you will need to go 
+                      back to the main STeem window and press the Green &quot;Run&quot; 
+                      icon (first icon on the left).&nbsp; When an ST Image 
+                      begins to load in STeem, you will see STeem display &quot;on 
+                      screen&quot; information, just like the picture above...</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <b>
+                      <font face="Arial" size="2" color="#FF0000">! </font>
+                      </b><font face="Arial" size="2">STeem can unzip ST disk 
+                      images on its own, so there is no need to unzip ST disk 
+                      images.</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-buggyboy1.gif" width="338" height="204"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">You will also see the disk 
+                      drive activity light activate when a program is loading.&nbsp; 
+                      Some games take a few seconds to load, while others can 
+                      take longer.&nbsp; STeem has the ability to speed up this 
+                      process by clicking on the &quot;Fast Forward&quot; icon (second 
+                      icon on the left), but not all programs may like this, and 
+                      could crash.&nbsp; Once the game has loaded, your ready to 
+                      play!&nbsp; </font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">As we have set up the PC 
+                      Keyboard to emulate an ST Joystick, use the Right Control 
+                      Key for &quot;Fire&quot;, and the Keypad Arrows to move 
+                      respectively.&nbsp; In this game, the Space Key will 
+                      change your gears from Hi to Low, and the Up and Down 
+                      arrows will change your speed.</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-options.gif" width="293" height="270"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">You can also resize your STeem 
+                      window by dragging a corner of the window to any size 
+                      (this may slow the program down, depending on you PC 
+                      configuration).&nbsp; STeem will also run in Full Screen 
+                      mode, which you can set-up in the &quot;Options&quot; menu, but 
+                      before making any adjustments there, take note of your 
+                      current set-up, so you can always reset it back if things 
+                      don't work out properly.&nbsp; Experiment with your set-up 
+                      only when you are more familiar with STeem, and use the 
+                      &quot;General Info&quot; menu to learn more about these options.</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-buggyboy2.gif" width="242" height="204"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">So, you've been playing a 
+                      genuine ST game, and isn't it great!&nbsp; Buggy Boy is a 
+                      definite classic.&nbsp; The ST has thousands of programs, 
+                      and STeem can emulate most of them perfectly, as you can 
+                      see below, even ST applications will work fine under 
+                      STeem...</font></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-dpaint.gif" width="241" height="202"></p>
+                      <p align="center" style="margin-left: 10; margin-right: 10">
+                      <img border="0" GALLERYIMG="no" src="images/Steem-highres.gif" width="251" height="202"></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2">STeem has many more features 
+                      for you to explore, its a fantastic program which will 
+                      give you years of pleasure, have fun, and always read the 
+                      manual ;-)</font></p>
+                      <p align="justify" style="margin-left: 10; margin-right: 10">
+                      <font face="Arial" size="2"><font color="#FF0000">Please 
+                      note:</font> AEX is not responsible for the use of this 
+                      program on your computer.&nbsp; Do not ask AEX or AHS to 
+                      provide programs for these emulators.&nbsp; Questions relating to the 
+                      emulator should be asked on the AHS Forums, or via the 
+                      Forums at
+                      <a target="_blank" href="http://www.atariage.com">www.atariage.com.</a></font></p>
+                      </td>
+                </tr>
+                <tr>
+                <td colspan="2" height="1" width="450">
+                <p align="center"></td>
+                </tr>
+                <tr>
+                <td width="90" height="37">
+                <p align="center"><img border="0" src="images/update-icon.gif" width="38" height="37"></td>
+                <td width="360" height="37"><font face="Arial" size="2">STeem 
+                version 2.5 released (July 03) - Go to the STeem website for the 
+                latest information and downloads.</font></td>
+                </tr>
+                <tr>
+                <td colspan="2" width="450" height="19">&nbsp;</td>
+                </tr>
+                <tr>
+                <td colspan="2" width="450" height="19">
+                <p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                </tr>
+                </table>
+                </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="400-800.html" style="text-decoration: none">400/800</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22"><font face="Arial" color="#808080" size="2">
+              &nbsp;</font><font face="Arial" color="#808080" size="2"><a href="XL.html" style="text-decoration: none">XL 
+              Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="XE.html" style="text-decoration: none">XE
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="ST.html" style="text-decoration: none">ST
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="21">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="21">
+              <font size="2" color="#008000" face="Arial">&nbsp;</font><font face="Arial" color="#808080" size="2"><a href="TT.html" style="text-decoration: none">TT030</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="transputer.html" style="text-decoration: none">Transputer
+                Workstation</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stacy.html" style="text-decoration: none">STacy</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stbook.html" style="text-decoration: none">ST
+                Book</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="falcon.html" style="text-decoration: none">Falcon030</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="portfolio.html" style="text-decoration: none">Portfolio</a>
+                </font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="PC.html" style="text-decoration: none">IBM
+                PC Compatibles</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="computer-prototypes.html" style="text-decoration: none">Prototypes</a></font></td>
+            </tr>
+            <tr>
+              <td width="118" align="left" height="22" colspan="2">
+                <p align="center">
+                <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="8">
+              <img border="0" src="menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="180" height="22"><font color="#008000">&nbsp;</font><font color="#9A05EB" face="Arial" size="2">Topic 
+              sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="180" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2"><a href="emulation-16bit.html" style="text-decoration: none">Emulation</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/download-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="files/steem_v2_4.zip" style="text-decoration: none">STeem 
+              V2.4 (PC)</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/download-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22">
+              <font face="Arial" size="2">&nbsp;<a href="files/TOSRoms.zip" style="text-decoration: none">16</a></font><a href="files/TOSRoms.zip" style="text-decoration: none"><font face="Arial" color="#808080" size="2">-Bit 
+              ROM files</font></a></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/link-icon.gif" width="19" height="20"></td>
+              <td align="left" width="180" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://www.blimey.strayduck.com" style="text-decoration: none">STeem 
+              official homepage</a></font></td>
+            </tr>
+            <tr>
+              <td width="20" align="left" height="3">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td width="180" align="left" height="22"><font face="Arial" color="#808080" size="2"><a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go 
+              to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="118" align="left" height="3" colspan="2">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

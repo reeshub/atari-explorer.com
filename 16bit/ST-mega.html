@@ -1,0 +1,450 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The Atari MEGA ST</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="../menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="../menu-icons/AEX-Header-Comp.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="../index.html">
+      <img border="0" src="../menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="../menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="../information.html"><img border="0" src="../menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="../menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="../history/history.html"><img border="0" src="../menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="../menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="../videogames.html"><img border="0" src="../menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="../menu-icons/vgs-on.gif" width="182" height="28"></a><img border="0" src="../menu-icons/pcs-on.gif" width="176" height="28"><a onmouseover="document['fpAnimswapImgFP5'].imgRolln=document['fpAnimswapImgFP5'].src;document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].lowsrc;" onmouseout="document['fpAnimswapImgFP5'].src=document['fpAnimswapImgFP5'].imgRolln" href="../articles.html"><img border="0" src="../menu-icons/articles-off.gif" id="fpAnimswapImgFP5" name="fpAnimswapImgFP5" dynamicanimation="fpAnimswapImgFP5" lowsrc="../menu-icons/articles-on.gif" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="19" align="left" height="22"></td>
+              <td align="left" width="183" height="22"></td>
+              <td align="left" width="554" height="22"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="11" valign="top">
+              <img border="0" src="../menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a href="../computers.html" style="text-decoration: none">Computers
+                - Main Menu</a></font></td>
+              <td align="left" width="554" rowspan="23" valign="top" height="2">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font size="2" face="Arial">Personal Computers :: ST Range ::
+                <span lang="en-us"><font color="#9A05EB">Mega ST</font></span> 
+                :: </font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+        <p align="center">
+        <img border="0" GALLERYIMG="no" src="../images/mst-title2.gif" alt="Mega ST Title" width="402" height="240"></td>
+                    </tr>
+                    <tr>
+                      <td>
+        <p align="center">&nbsp;</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font color="#808080" size="2"><font face="Arial">With the 
+                      520 and 1040 ST line well established<span lang="en-us"> 
+                      by 1987</span>, it was time for Atari to develop the ST in 
+                      favour of more lucrative markets.&nbsp; Most all-in-one 
+                      computer system designs still had an air of &quot;home 
+                      computing&quot; about them, and Atari needed to enhance the ST 
+                      to appear more appealing to the business market, although 
+                      mostly cosmetic, the Mega ST was the result. </font>
+                      </font></td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <span lang="en-us"><font face="Arial" size="2">At Comdex 
+                      on November the 10th 1986, a group of selected Atari 
+                      partners were shown the new ST1.&nbsp; This was the first 
+                      demonstrable unit to be shown and the feedback was very 
+                      positive.&nbsp; In conjunction with the new ST1, Atari 
+                      also previewed its new Laser printer.&nbsp; Atari was 
+                      about to launch the most cost effective business computer 
+                      package available in 1987.</font></span></td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">Renamed the &quot;Mega&quot;, Atari 
+                      launched a 2MB and 4MB model.&nbsp; Not only did the new 
+                      Mega systems have more RAM than the stock 520/1040 
+                      machines, but they had plenty more to shout about.&nbsp; 
+                      The Mega was housed in a new square chassis design 
+                      (nicknamed the &quot;slab&quot; by some) and a fully detached 
+                      keyboard, it boasted an on board clock, optional Floating 
+                      Point Co-processor (FPU)<span lang="en-us">, Blitter 
+                      graphics processor</span> and the ability to utilise 
+                      future internal upgrades or adapters through the internal 
+                      expansion connector.&nbsp; The Mega was a beautifully 
+                      designed upgrade to the ST line.</font></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="center">
+                      <img border="0" GALLERYIMG="no" src="../images/mega-dtp.gif" alt="Mega ST DTP System" width="302" height="332"></td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="justify" style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px">
+                      <font face="Arial" size="2">What really made the Mega line 
+                      an attractive business option was the new Atari DTP (Desk 
+                      Top Publishing) package.&nbsp; This combined either a Mega 
+                      2 or 4 system with the new Atari SLM804 Laser printer and 
+                      Atari's &quot;DeskSet&quot; publishing software (with an optional 
+                      20, 30 or 60MB hard drive).&nbsp; At under $3,000.00, 
+                      Atari was able to provide an extremely affordable DTP 
+                      solution which not only rivalled Apple systems, but was 
+                      cheaper than most Laser printers at the time.</font></td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">The Mega line also introduced 
+                      the Atari &quot;Megafile&quot; hard drives which were of the same 
+                      design as the Mega computer, thus sitting neatly under the 
+                      main CPU.&nbsp; Theses came in 20, 30 or 60MB capacities.&nbsp; 
+                      Note:&nbsp; The first hard drive for the mega was actually 
+                      a 20MB version using the older &quot;SH&quot; designation (ST Hard 
+                      Drive), the SH-205.&nbsp; Before it was reborn in the Mega 
+                      design, the SH-205 was available as a simple but 
+                      functional external box for the 520 and 1040.</font></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="center">
+                      <img border="0" GALLERYIMG="no" src="../images/megawhd.gif" alt="Mega ST with and without Hard Drive" width="386" height="251"></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">Another Mega designed 
+                      peripheral was the Megafile 44, a 44MB removable disk 
+                      product.&nbsp; In 1989, Atari launched the Mega 1, which 
+                      was a 1MB version of the Mega computer (less the internal 
+                      fan).&nbsp; The Last Mega systems were produced 
+                      towards the end of 1990, and <span lang="en-us">official
+                      </span>stocks had all but been 
+                      depleted by the middle of 1991 to make way for the Mega 
+                      STE line.</font></td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center">
+                <a href="#top"><img border="0" src="../menu-icons/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="../8bit/400-800.html" style="text-decoration: none">400/800</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="../8bit/XL.html" style="text-decoration: none">XL
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="../8bit/XE.html" style="text-decoration: none">XE
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#008000" size="2"><a href="ST.html" style="text-decoration: none">ST
+                Range</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="21">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="21">
+              <font size="2" color="#008000" face="Arial">&nbsp;</font><a href="TT.html" style="text-decoration: none"><font face="Arial" color="#808080" size="2">TT030</font></a></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a href="transputer.html" style="text-decoration: none">Transputer
+                Workstation</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stacy.html" style="text-decoration: none">STacy</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="stbook.html" style="text-decoration: none">ST
+                Book</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="../falcon/falcon.html" style="text-decoration: none">Falcon030</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="portfolio.html" style="text-decoration: none">Portfolio
+              </a>
+                </font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="PC.html" style="text-decoration: none">IBM
+                PC Compatibles</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="22">
+              <img border="0" src="../menu-icons/page-off-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">&nbsp;<font face="Arial" color="#808080" size="2"><a href="../protos/computer-prototypes.html" style="text-decoration: none">Prototypes</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="22" colspan="2">
+                <p align="center">
+                <img border="0" src="../menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="8">
+              <img border="0" src="../menu-icons/sub-menu-arrow.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22"><font color="#008000">&nbsp;</font><font color="#9A05EB" face="Arial" size="2">Topic 
+              sub-menu</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2"><a href="ST-design.html" style="text-decoration: none">ST 
+              design variations</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="../menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#008000" size="2">Mega 
+              ST</font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="7">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" size="2" color="#808080">&nbsp;<a href="ST-megaste.html" style="text-decoration: none">Mega STE</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="../menu-icons/more-icon.gif" width="20" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="ST-peripherals.html" style="text-decoration: none">Peripherals</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="14">
+              <img border="0" src="../menu-icons/info-icon-offline.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a href="ST-mega.html" onClick="window.open('../specs/Spec-Mega.htm','NewTextWindowName','scrollbars=yes,width=520,height=620,left=50,screenX=40,top=50,screenY=40')" style="text-decoration: none">Specifications</a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="../menu-icons/view-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;</font><font face="Arial" color="#808080" size="2"><a onClick="window.open('../specs/MEGAST-ports.htm','NewTextWindowName','width=615,height=635,left=50,screenX=40,top=50,screenY=40')" style="text-decoration: none" href="ST-mega.html">Ports 
+              and Connector<span lang="en-us">s</span></a></font></td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1">
+              <img border="0" src="../menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="183" height="22"><font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go 
+              to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="202" align="left" height="63" colspan="2">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              </td>
+            </tr>
+            <tr>
+              <td width="19" align="left" height="1"></td>
+              <td align="left" width="183" height="1"></td>
+              <td align="left" width="554" valign="top" height="1">
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

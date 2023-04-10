@@ -1,0 +1,423 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="menu-icons/AEX-Header-Articles.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="index.html">
+      <img border="0" src="menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="menu-icons/home-on.gif" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="information.html"><img border="0" src="menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="menu-icons/information-on.gif" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="history.html"><img border="0" src="menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="menu-icons/history-on.gif" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP3'].imgRolln=document['fpAnimswapImgFP3'].src;document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].lowsrc;" onmouseout="document['fpAnimswapImgFP3'].src=document['fpAnimswapImgFP3'].imgRolln" href="videogames.html"><img border="0" src="menu-icons/vgs-off.gif" id="fpAnimswapImgFP3" name="fpAnimswapImgFP3" dynamicanimation="fpAnimswapImgFP3" lowsrc="menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="computers.html"><img border="0" src="menu-icons/pcs-off.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="menu-icons/pcs-on.gif" width="176" height="28"></a><img border="0" src="menu-icons/articles-on.gif" width="118" height="28"></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="181" height="22"></td>
+              <td align="left" width="639" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="181" height="22" valign="top">&nbsp;<font face="Arial" size="2"><a href="articles.html" style="text-decoration: none">Articles 
+              - Main Menu</a></font></td>
+              <td align="left" width="639" rowspan="5" valign="top" height="276">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial">Jack Tramiel</font></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+        <p align="center"><em style="font-style: normal">
+        <strong style="font-weight: 400"><font face="Arial" size="3">Everything in
+        History Was Against Them</font></strong></em></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Only
+        10 when the Nazis marched into his city of Lodz, Poland, in 1939, Jack
+        Tramiel (then named Idek Tramielski) initially had a kid's thrilled
+        reaction to the sheer spectacle of the scene: weapons glinting in the
+        sun, soldiers goose-stepping, planes overhead. &quot;It was a fantastic
+        thing,&quot; he remembers.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Reality
+        crashed down after that. Lodz's Jews--one-third of the city's 600,000
+        people--were ordered out of their homes and into a crowded ghetto. For
+        nearly five years Jack (an only child) and his parents lived there in
+        one room, scavenged for food, and worked--his father at shoemaking, Jack
+        in a pants factory. The faces that the Tramiels saw in the ghetto
+        changed constantly: Jews left, new Jews came in, often from other
+        countries. Later Tramiel learned that the Jewish leader of the ghetto
+        was parcelling out its residents to the Germans, believing that the
+        community would be left in relative peace as long as he periodically
+        delivered up a contingent of its residents for deportation--and no doubt
+        extermination.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">In
+        August 1944 the Tramiels themselves were herded into railroad cars, told
+        they were going to Germany to better themselves, and instead shipped to
+        Auschwitz. Jack's most vivid memory of the three-day trip is that each
+        person received a whole loaf of bread as a ration--a feast beyond his
+        imagination. At journey's end, the men were separated from the women (at
+        which point Jack lost track of his mother) and then themselves split
+        into two groups, one permitted for the time being to live, the other
+        sent to Auschwitz's gas chambers. Jack and his father were thumbed into
+        the group that survived.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">A
+        few weeks later, Jack and his father were &quot;examined&quot; by the
+        notorious Dr. Josef Mengele and thumbed again into a survivors line.
+        &quot;What do you mean--examined?&quot; Tramiel is asked. &quot;He
+        touched my testicles. He judged whether we were strong enough to
+        work.&quot; Having passed, Tramiel and his father were transported to a
+        spot just outside Hanover, Germany, and there set to building a
+        concentration camp into whose barracks they themselves moved. In weather
+        that was often bitter cold, they worked in thin, pyjama-like garments,
+        and they grew increasingly emaciated on a deprivation diet: watery
+        &quot;soup&quot; and bread in the morning, and a potato, bread, and more
+        &quot;soup&quot; at night.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">By
+        December 1944 the Tramiels were assigned to different work crews and
+        seeing each other only occasionally. At one of their meetings the father
+        told the son that many young people in the camp were managing to smuggle
+        food to their elders--and why hadn't Jack done that for his father?
+        Stung, Jack studied for days how to deal with an electric fence that
+        stood between him and an SS kitchen and finally succeeded in burrowing
+        his thin frame under it to steal food--one potato and some peels. But
+        when he got the food to his father, malnutrition had gripped the older
+        man and grossly swollen his body. He could not eat. Soon after, he died
+        in the camp's infirmary. Later, Jack learned that the death was directly
+        caused by an injection of gasoline into his father's veins.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">As
+        the winter stretched into the spring of 1945, Jack Tramiel himself grew
+        increasingly fatalistic. But then a strange end-of-the-war tableau
+        unfolded. First, the Germans vanished from the camp; second, the Red
+        Cross moved in briefly, overfed the prisoners to the point that some
+        died, and then left; third, the Germans returned and then vanished
+        again. On their heels came two American soldiers--&quot;20-foot-tall
+        black men, the first blacks I'd ever seen,&quot; says Tramiel--who
+        loomed in a barracks door, peered at the prisoners hiding beneath the
+        straw of their bunks, said something in English that one Jew gleaned as
+        &quot;More Americans will be coming,&quot; and left. Next a tank rolled
+        up. In it stood a Jewish chaplain in dress uniform, who declared in
+        Yiddish: &quot;You are free,&quot; and told the tank to move on. These
+        were troops of the advancing American Army, the month was April 1945,
+        and Tramiel was 16.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Tramiel,
+        today 69 and a fireplug in build, stayed in Europe for more than two
+        years after his liberation, and many of his recollections of those days
+        concern food: how he tricked his way into a sanatorium to a rich, and
+        shamefully fattening, diet; how he gorged happily while working in an
+        American Army kitchen; how he did other odd jobs for &quot;money or
+        food.&quot; But he also learned during this time that his mother was
+        alive and back again in Lodz. He saw her there but then left, resolved
+        by that time to marry a concentration-camp survivor he'd met, Helen
+        Goldgrub, and go with her to the U.S.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">The
+        two wed in Germany in July 1947. They got to the U.S. separately,
+        though--he first, in November of that year. His confidence, strengthened
+        by what he'd survived, bordered on hubris: &quot;I figured I could
+        handle just about anything,&quot; he says. He started out living at a
+        Jewish agency, HIAS, in New York City; got a job as a handyman at a
+        Fifth Avenue lamp store; learned English from American movies; and at
+        their end pigged out on chocolate instead of eating regular dinners.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Then,
+        in early 1948, he did the improbable, joining the U.S. Army. By the time
+        he left it four years later, he'd been reunited with his wife and
+        fathered a son (the first of three). The Army had also pointed him to a
+        career by putting him in charge of repairing office equipment in the New
+        York City area.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">When
+        Tramiel checked back into civilian life, he entered a long period of
+        close encounters with machines that typed words and manipulated numbers.
+        He first worked, at $50 a week, for a struggling typewriter-repair shop.
+        Using his Army connections, Tramiel got the owner a contract to service
+        several thousand machines. &quot;The guy flipped,&quot; says Tramiel,
+        but did not give his enterprising employee a raise. &quot;I have no
+        intention of working for people who have no brains,&quot; said Tramiel
+        to the owner, and quit.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Tramiel
+        then bought a typewriter shop in the Bronx. He did repair work for
+        Fordham University and, when he once got a chance to buy scads of used
+        typewriters, rebuilt and resold them. He next prepared to import
+        machines from Italy but found he could get the import exclusivity he
+        wanted only by moving to Canada. It was in Toronto, in 1955, that he
+        founded a company he called Commodore, an importer and eventually a
+        manufacturer of both typewriters and adding machines. Why Commodore?
+        Because Tramiel wanted a name with a military ring and because higher
+        ranks, such as General and Admiral, were already taken.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Commodore
+        went public in 1962 at a Canadian bargain-basement price of $2.50 a
+        share--a deal that raised funds Tramiel needed to pay off big loans he'd
+        gotten from a Canadian financier named C. Powell Morgan, head of
+        Atlantic Acceptance. Deep trouble erupted in the mid-1960s when
+        Atlantic, to which Commodore was almost joined at the hip, went
+        bankrupt, amid charges of fraudulent financial statements, dummy
+        companies, and propped stock prices. Tramiel was never charged with
+        illegalities, but an investigative commission concluded that he was
+        probably not blameless. In any case, the Canadian financial
+        establishment ostracized him. Struggling to keep Commodore itself out of
+        bankruptcy, he was forced in 1966 to give partial control of the company
+        to Canadian investor Irving Gould.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Commodore's
+        line then was still typewriters and adding machines, but the electronics
+        revolution was under way and setting up shop in Silicon Valley. Tramiel
+        himself moved there in the late 1960s and soon, displaying a
+        speed-to-market talent that has characterized his whole life, had
+        Commodore pumping out electronic calculators. In time, one product, a
+        hand-held calculator, grew so popular that it was self-destructive: The
+        company that supplied Commodore with semiconductor chips, Texas
+        instruments, decided to produce calculators itself--selling them at
+        prices that Commodore couldn't match.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">With
+        Commodore again reeling, Tramiel vowed never again to be at the mercy of
+        a vital supplier. In 1976 he made a momentous acquisition: MOS
+        Technology, a Pennsylvania chip manufacturer that also turned out to be
+        extravagantly nurturing about 200 different R&amp;D projects. Tramiel, a
+        slash-and-burn, early-day Al Dunlap in management style, killed most of
+        the projects immediately. But he listened hard when an engineer named
+        Chuck Peddle told him the company had a chip that was effectively a
+        microcomputer. And small computers, said Peddle, &quot;are going to be
+        the future of the world.&quot;</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Willing
+        to take a limited gamble, Tramiel told Peddle that he and Tramiel's
+        second son, Leonard, then getting a Columbia University astrophysics
+        degree, had six months to come up with a computer Commodore could
+        display at an upcoming Comdex electronics show. They made the deadline.
+        &quot;And everyone loved the product,&quot; says Tramiel, relishingly
+        rolling out its name, PET, for Personal Electronic Transactor.
+        Unfortunately, this was potentially an expensive pet, carrying a lot of
+        risk--and demanding, says Tramiel, &quot;a lot of money I still did not
+        have.&quot; So he determined to gauge demand by running newspaper ads
+        that offered six-week delivery on a computer priced at $599, a seductive
+        figure on which Tramiel thought he could still make a profit. The ads
+        appeared, and a hugely encouraging $3 million in checks came back.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Commodore
+        got to the market with its computer in 1977, the same year that Apple
+        and Tandy put their micros on sale. In the next few years, Tramiel drove
+        those competitors and others wild by combatively pushing prices down and
+        down, to levels like $200. He also became famous for rough treatment of
+        suppliers, customers, and executives--and about it all was fiercely
+        unrepentant. &quot;Business is war,&quot; he said. &quot;I don't believe
+        in compromising. I believe in winning.&quot;</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Which
+        is what he did in those early years for computers, leading Commodore to
+        $700 million in sales in fiscal 1983 and $88 million in profits. At its
+        peak price in those days, the stock that Tramiel had sold in 1962 at a
+        price of $2.50 a share was up to $1,200, and his 6.5% slice of the
+        company was worth $120 million.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">But
+        then, in early 1984, just as annual sales were climbing above $1
+        billion, Tramiel clashed with a Commodore stockholder mightier than he,
+        Irving Gould--and when the smoke had cleared, Tramiel was out. The
+        nature of their quarrel was never publicly disclosed. Today, however,
+        Tramiel says he wanted to &quot;grow&quot; the company, and Gould
+        didn't.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Commodore
+        was really Tramiel's last hurrah. True, he surfaced again quickly in the
+        computer industry, agreeing later in 1984 to take over--for a
+        pittance--Warner Communications' floundering Atari operation. But in a
+        business changing convulsively as IBM brought out its PC and the clones
+        marched in, Atari was a loser and ultimately a venture into which
+        Tramiel was unwilling to sink big money. Eventually he folded Atari into
+        a Silicon Valley disk-drive manufacturer, JTS, in which he has a major
+        interest but plays no operational role.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Today
+        Tramiel is basically retired and managing his money. From four
+        residences, he's cut down to one, a palatial house atop a foothill in
+        Monte Sereno, California. In its garage are two Rolls-Royces, a type of
+        luxury to which Tramiel has long been addicted.</font></p>
+        <p style="margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Naturally,
+        charity fundraisers look Tramiel up. When those for the Holocaust
+        Memorial Museum appeared, he at first thought of it as just one more
+        philanthropic cause to be supported. But his wife, Helen, 69, who spent
+        her concentration camp days at Bergen-Belsen, is intensely aware that
+        both she and her husband survived what millions of other Jews did not.
+        &quot;No,&quot; she said adamantly, &quot;for this one we have to go all
+        out.&quot;</font></p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center">
+                      &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <p align="center">
+                <a href="#top"><img border="0" src="images/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">&nbsp;<font face="Arial" size="2" color="#008000">Jack 
+              Tramiel</font></td>
+            </tr>
+            <tr>
+              <td width="117" align="left" height="22" colspan="2">
+              <img border="0" src="menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="181" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              </td>
+              <td align="left" width="181" height="1">
+              &nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;</td>
+            </tr>
+            </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>

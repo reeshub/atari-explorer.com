@@ -1,0 +1,352 @@
+<html>
+
+<head>
+<meta name="content" content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+<meta name="description" content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>AEX - The most comprehensive exploration of Atari online</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="../../animate.js">
+</script>
+</head> <script language="JavaScript">
+<!--
+var popup="Please ask permission to use these images.\n\n      Copyright ©2002 Atari Explorer";
+function noway(go) {
+if (document.all) {
+if (event.button == 2) {
+alert(popup);
+return false;
+}
+}
+if (document.layers) {
+if (go.which == 3) {
+alert(popup);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=noway;
+// --> </script>
+
+<script language=javaScript>
+function setVariables(){
+if (navigator.appName == "Netscape") {
+v=".top=";h=".left=";dS="document.";sD="";
+y="window.pageYOffset";x="window.pageXOffset";iW="window.innerWidth";iH="window.innerHeight"
+
+}
+
+else {h=".pixelLeft=";v=".pixelTop=";dS="";sD=".style";
+y="document.body.scrollTop";x="document.body.scrollLeft";iW="document.body.clientWidth";iH="document.body.clientHeight"
+
+}
+
+
+object="logo";
+checkLocationA()
+}
+movex=0,movey=0,xdiff=0,ydiff=0,ystart=0,xstart=0
+function checkLocation(){
+ innerX=eval(iW)-60 // place to the right
+// innerX=20 // controls the horizontal from the left side of the page
+
+ innerY=eval(iH)-25 // place at the bottom
+// innerY=20 // controls the verticle from the top of the page
+if (document.layers){innerY-=10;innerX-=10}
+yy=eval(y);
+xx=eval(x);
+ydiff=ystart-yy;
+xdiff=xstart-xx;
+if ((ydiff<(-1))||(ydiff>(1))) movey=Math.round(ydiff/10),ystart-=movey
+if ((xdiff<(-1))||(xdiff>(1))) movex=Math.round(xdiff/10),xstart-=movex
+
+
+N=(document.layers)?1:0
+V=(N) ? 4:5
+if (V==4){
+eval(dS+object+sD+v+(ystart+innerY));
+eval(dS+object+sD+h+(xstart+innerX));
+//eval(dS + objectX + sD + v + y);
+}
+else{
+object=document.getElementById('logo')
+object.style.top=ystart+innerY-10
+object.style.left=xstart+innerX-10
+}
+
+
+
+
+setTimeout("checkLocation()",10)}
+
+function checkLocationA(){ystart=eval(y);xstart=eval(x);}
+
+
+
+</script>
+
+<body onload="dynAnimation();setVariables();checkLocation()" bgcolor="#FFFFFF" link="#808080" vlink="#808080" text="#808080">
+
+<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+<IMG SRC="../menu-icons/brand.gif" border=0 width="60" height="28">
+</div>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" width="674">
+    <tr>
+      <td width="885"><a name="top"></a>
+      <img border="0" src="../menu-icons/AEX-Header-Comp.gif" width="763" height="89"></td>
+    </tr>
+    <tr>
+      <td width="885">
+      <a onmouseover="document['fpAnimswapImgFP6'].imgRolln=document['fpAnimswapImgFP6'].src;document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].lowsrc;" onmouseout="document['fpAnimswapImgFP6'].src=document['fpAnimswapImgFP6'].imgRolln" href="../index.html">
+      <img border="0" src="../menu-icons/home-off.gif" id="fpAnimswapImgFP6" name="fpAnimswapImgFP6" dynamicanimation="fpAnimswapImgFP6" lowsrc="../menu-icons/home-on.gif" alt="Home" width="68" height="28"></a><a onmouseover="document['fpAnimswapImgFP1'].imgRolln=document['fpAnimswapImgFP1'].src;document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].lowsrc;" onmouseout="document['fpAnimswapImgFP1'].src=document['fpAnimswapImgFP1'].imgRolln" href="../information.html"><img border="0" src="../menu-icons/information-off.gif" id="fpAnimswapImgFP1" name="fpAnimswapImgFP1" dynamicanimation="fpAnimswapImgFP1" lowsrc="../menu-icons/information-on.gif" alt="AEX Information" width="111" height="28"></a><a onmouseover="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onmouseout="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="../history/history.html"><img border="0" src="../menu-icons/history-off.gif" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="../menu-icons/history-on.gif" alt="History" width="106" height="28"></a><a onmouseover="document['fpAnimswapImgFP10'].imgRolln=document['fpAnimswapImgFP10'].src;document['fpAnimswapImgFP10'].src=document['fpAnimswapImgFP10'].lowsrc;" onmouseout="document['fpAnimswapImgFP10'].src=document['fpAnimswapImgFP10'].imgRolln" href="../videogames.html"><img border="0" src="../menu-icons/vgs-off.gif" alt="Consoles" id="fpAnimswapImgFP10" name="fpAnimswapImgFP10" dynamicanimation="fpAnimswapImgFP10" lowsrc="../menu-icons/vgs-on.gif" width="182" height="28"></a><a onmouseover="document['fpAnimswapImgFP8'].imgRolln=document['fpAnimswapImgFP8'].src;document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].lowsrc;" onmouseout="document['fpAnimswapImgFP8'].src=document['fpAnimswapImgFP8'].imgRolln" href="../computers.html"><img border="0" src="../menu-icons/pcs-on.gif" id="fpAnimswapImgFP8" name="fpAnimswapImgFP8" dynamicanimation="fpAnimswapImgFP8" lowsrc="../menu-icons/pcs-on.gif" alt="Computers" width="176" height="28"></a><a onmouseover="document['fpAnimswapImgFP9'].imgRolln=document['fpAnimswapImgFP9'].src;document['fpAnimswapImgFP9'].src=document['fpAnimswapImgFP9'].lowsrc;" onmouseout="document['fpAnimswapImgFP9'].src=document['fpAnimswapImgFP9'].imgRolln" href="../articles.html"><img border="0" src="../menu-icons/articles-off.gif" id="fpAnimswapImgFP9" name="fpAnimswapImgFP9" dynamicanimation="fpAnimswapImgFP9" lowsrc="../menu-icons/articles-on.gif" alt="Articles" width="118" height="28"></a></td>
+    </tr>
+    <tr>
+      <td width="885">
+        <div align="left">
+          <table border="0" cellpadding="0" cellspacing="0" width="762" height="1">
+            <tr>
+              <td width="1" align="left" height="22"></td>
+              <td align="left" width="182" height="22"></td>
+              <td align="left" width="638" height="22"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22" valign="top">
+              <img border="0" src="../menu-icons/back-menu-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22" valign="top">&nbsp;<font face="Arial" size="2" color="#0279D4"><a style="text-decoration: none" href="../computers.html"><span lang="en-us">Computers</span> 
+              - Main Menu</a></font></td>
+              <td align="left" width="638" rowspan="6" valign="top" height="202">
+                <p style="margin-left: 15; margin-right: 15" align="center">
+                <font face="Arial" size="2">Personal Computers :: Falcon030 ::<font color="#008000"> </font></font>
+                <span lang="en-us"><font face="Arial" size="2" color="#008000">
+                TOS 4.04</font></span></p>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber3" height="269">
+                    <tr>
+                      <td height="19">
+                      <p align="center">
+                      <img border="0" GALLERYIMG="no" src="../images/tos404.gif" alt="The TOS/GEM Desktop" width="295" height="248"></td>
+                    </tr>
+                    <tr>
+                      <td height="19">
+        &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="19">
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Direct from the Atari Historical Society's 
+        archives comes another priceless find.&nbsp; We have been able to copy 
+        the original sources for TOS 4.04 as released on the Atari Falcon030.&nbsp; 
+        It is available to download below in ZIP format.</font></td>
+                    </tr>
+                    <tr>
+                      <td height="19">
+        <p align="center"><a href="../files/TOS404.zip">
+        <img border="0" src="../images/zipdownload.gif" width="80" height="53"></a></td>
+                    </tr>
+                    <tr>
+                      <td height="19">
+        <p align="center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="19">
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <span lang="en-us"><font face="Arial" size="2">While we have endeavoured 
+        to copy all available data from the source disks some of the files were 
+        too spurious to convert.&nbsp; All </font></span>
+        <font face="Arial" size="2">of the sources that could be migrated are
+        <span lang="en-us">included in the file provided.</span>
+        <span lang="en-us">T</span>here is wealth of inside information on AES, 
+        CP/M, NVDI and TOS in general in the ZIP file, many programmers will
+        <span lang="en-us">now </span>get a lot of answers to questions on TOS<span lang="en-us"> 
+        previously un</span>known, so even though there is a<span lang="en-us">
+        </span>small chunk missing, the greater amount is priceless.<span lang="en-us">&nbsp; 
+        We hope it proves useful to future TOS/GEM projects.</span></font></td>
+                    </tr>
+                    <tr>
+                      <td height="19">
+        &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="126">
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2"><span lang="en-us">
+                      <font color="#FF0000">Brief History:</font> </span>Atari 
+                      made a huge leap forward with the design of the Falcon, 
+                      and with it a new version of The Operating System (TOS).&nbsp; 
+                      Utilising GEM as the standard interface, this had also 
+                      been reborn with constant revisions <span lang="en-us">
+                      ever </span>since the <span lang="en-us">original </span>
+                      team responsible for porting the original code to the 
+                      68000 platform <span lang="en-us">for </span>Atari headed 
+                      to Digital Research in 1984.&nbsp; That team had only 
+                      months to rewrite existing code and translate a working 
+                      version of GEM for TOS <span lang="en-us">for</span> the 
+                      new ST<span lang="en-us"> project</span>, which was going 
+                      to be shown for the first time at Comdex in January 1985.</font></td>
+                    </tr>
+                    <tr>
+                      <td height="19">
+                      &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="19">
+                      <p align="center">
+                      <img border="0" GALLERYIMG="no" src="../images/montereygroup.gif" alt="The Atari Monterey Group" width="378" height="267"></td>
+                    </tr>
+                    <tr>
+                      <td height="19">
+                      &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="48">
+                      <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+                      <font face="Arial" size="2">Atari sent most of its top 
+                      software engineers to the Digital Research facility in 
+                      Monterey, California, where they translated the PC based 
+                      Intel code into working 68000 code<span lang="en-us"> (It 
+                      is rumoured that Digital Research kept the Atari owned Vax 
+                      mini computer when the project was finished...).&nbsp; 
+                      Although Atari finally decided to use the GEM product from 
+                      DRI, other products were discussed and most note worthy of 
+                      these was a possible implementation of the new Microsoft 
+                      Windows but unfortunately(?) for Microsoft, they could not 
+                      develop a version for Atari within the timeframe required 
+                      (so &quot;upset&quot; with this decision, Microsoft even threatened 
+                      Atari that no MS products would be developed for the ST - 
+                      Microsoft did release MS Write (1.0) for the ST, a very 
+                      poor implementation, perhaps done so on purpose!).</span></font></td>
+                    </tr>
+                    <tr>
+                      <td height="19">
+                      &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td height="19">
+                      <p align="center">
+                      <img border="0" GALLERYIMG="no" src="../images/dri-monterey.gif" alt="Digital Research Building Monterey" width="370" height="303"></td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="450" id="AutoNumber1">
+                    <tr>
+                      <td>
+        &nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">
+        <font face="Arial" size="2">Atari continued to develop TOS/GEM from 1985 
+        until 1993 when all computer projects were cancelled at the company.&nbsp; 
+        The last official version of TOS/GEM was version 4.04 for the Falcon0<span lang="en-us">3</span>0, 
+        although version 4.92 was leaked out, this was a beta developer version 
+        which was going to integrate the multitasking software called 
+        &quot;MultiTos&quot;.</font></td>
+                    </tr>
+                    <tr>
+                      <td>
+        <p style="border-left: medium none rgb(255,255,255); margin-left: 10px; margin-right: 10; padding-left: 1px" align="justify">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>
+        <p align="center">
+                <a href="#top"><img border="0" src="../menu-icons/top.gif" width="31" height="13"></a></td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/page-on-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22"><font face="Arial" color="#808080" size="2">&nbsp;</font><span lang="en-us"><font face="Arial" color="#008000" size="2">TOS 
+              4.04</font></span></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="22">
+              <img border="0" src="../menu-icons/back-icon.gif" width="20" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#008000" size="2">&nbsp;</font><font face="Arial" color="#808080" size="2"><a style="text-decoration: none" href="falcon.html">Falcon<span lang="en-us">030</span></a></font></td>
+            </tr>
+            <tr>
+              <td width="118" align="left" height="22" colspan="2">
+              <img border="0" src="../menu-icons/menu-break.gif" width="199" height="17"></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1">
+              <img border="0" src="../menu-icons/forums-icon.gif" width="19" height="20"></td>
+              <td align="left" width="182" height="22">
+              <font face="Arial" color="#808080" size="2">&nbsp;<a target="_blank" href="http://talk.atari-explorer.com" style="text-decoration: none">Go to the Forums</a></font></td>
+            </tr>
+            <tr>
+              <td width="1" align="left" height="1"></td>
+              <td align="left" width="182" height="1">&nbsp;<p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+
+</body>
+
+</html>
