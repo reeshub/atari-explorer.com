@@ -1,0 +1,138 @@
+<html>
+
+<head>
+	<meta name="content"
+		content="Atari, ST, ST Book, STE, TT, Falcon, 400, 800, XL, XE, Arcade, Pinball, Computers, Video Games, Sam Tramiel, Jack Tramiel, Nolan Bushnell, Emulation, 2600, 7800, 5200, Lynx, Jaguar">
+	<meta name="description"
+		content="Atari Explorer - The most comprehensive exploration of Atari and its history (Member of the Atari Historical Society - www.atarimuseum.com)">
+	<meta http-equiv="Content-Language" content="en-ie">
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Welcome to Atari Explorer - Your guide to all things Atari!</title>
+</head>
+<script language="JavaScript">
+	< !-
+	var popup = "Please ask permission to use these images.\n\n      Copyright �2005 Atari Explorer";
+	function noway(go) {
+		if (document.all) {
+			if (event.button == 2) {
+				alert(popup);
+				return false;
+			}
+		}
+		if (document.layers) {
+			if (go.which == 3) {
+				alert(popup);
+				return false;
+			}
+		}
+	}
+	if (document.layers) {
+		document.captureEvents(Event.MOUSEDOWN);
+	}
+	document.onmousedown = noway;
+	// --></script>
+
+<script language=javaScript>
+	function setVariables() {
+		if (navigator.appName == "Netscape") {
+			v = ".top="; h = ".left="; dS = "document."; sD = "";
+			y = "window.pageYOffset"; x = "window.pageXOffset"; iW = "window.innerWidth"; iH = "window.innerHeight"
+
+		}
+
+		else {
+			h = ".pixelLeft="; v = ".pixelTop="; dS = ""; sD = ".style";
+			y = "document.body.scrollTop"; x = "document.body.scrollLeft"; iW = "document.body.clientWidth"; iH = "document.body.clientHeight"
+
+		}
+
+
+		object = "logo";
+		checkLocationA()
+	}
+	movex = 0, movey = 0, xdiff = 0, ydiff = 0, ystart = 0, xstart = 0
+	function checkLocation() {
+		innerX = eval(iW) - 60 // place to the right
+		// innerX=20 // controls the horizontal from the left side of the page
+
+		innerY = eval(iH) - 25 // place at the bottom
+		// innerY=20 // controls the verticle from the top of the page
+		if (document.layers) { innerY -= 10; innerX -= 10 }
+		yy = eval(y);
+		xx = eval(x);
+		ydiff = ystart - yy;
+		xdiff = xstart - xx;
+		if ((ydiff < (-1)) || (ydiff > (1))) movey = Math.round(ydiff / 10), ystart -= movey
+		if ((xdiff < (-1)) || (xdiff > (1))) movex = Math.round(xdiff / 10), xstart -= movex
+
+
+		N = (document.layers) ? 1 : 0
+		V = (N) ? 4 : 5
+		if (V == 4) {
+			eval(dS + object + sD + v + (ystart + innerY));
+			eval(dS + object + sD + h + (xstart + innerX));
+			//eval(dS + objectX + sD + v + y);
+		}
+		else {
+			object = document.getElementById('logo')
+			object.style.top = ystart + innerY - 10
+			object.style.left = xstart + innerX - 10
+		}
+
+
+
+
+		setTimeout("checkLocation()", 10)
+	}
+
+	function checkLocationA() { ystart = eval(y); xstart = eval(x); }
+
+</SCRIPT>
+<div align="center">
+	<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#FFFFFF"
+		id="AutoNumber1">
+
+		<body onload="setVariables();checkLocation()" topmargin="0" leftmargin="0" bgcolor="#FFFFFF" link="#808080"
+			vlink="#808080">
+			<div id="logo" style="position:absolute; visibility:show; left:0px; top:-200px; z-index:2">
+				<IMG SRC="/menu-icons/brand.gif" border=0 width="60" height="28">
+
+			</div>
+			<tr>
+				<td width="830">
+					<img border="0" src="menu-icons/newtitle05.gif" width="830" height="188"
+						alt="Welcome to Atari Explorer">
+				</td>
+			</tr>
+	</table>
+
+</div>
+<div align="center">
+	<table border="0" width="830" id="table1" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					<font face="Arial" color="#808080">Atari Explorer was created in 1997 by Atari Historical Society
+						co-founder Karl Morris, and ran until late 2007. An all-new redesign of the site is currently in
+						the works, but until then I have mirrored this incredibly useful historical resource here with
+						Karl's blessing. If you're into this kind of thing, I highly recommend you check out his
+						excellent work in his new company <a href="https://zafinnbooks.com/" target="_blank">Zafinn
+						Books</a>, where he writes all about - you guessed it! Atari history.
+					</font>
+				</p>
+				<p>
+					<font face="Arial" color="#808080">The sister site to this one, Curt Vendel's Atari Museum site
+						- is also available as a mirror <a href="http://atarimuseum.ctrl-alt-rees.com"
+							target="_blank">here</a>.</font>
+				</p>
+			</td>
+		</tr>
+	</table>
+</div>
+
+</body>
+
+</html>
